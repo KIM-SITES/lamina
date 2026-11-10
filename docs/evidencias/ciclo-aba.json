@@ -1,0 +1,13 @@
+{
+  "hidden": false,
+  "diagnostics": {
+    "mode": "webgl",
+    "frames": 19,
+    "active": true,
+    "quality": 1,
+    "renderMs": 3.231578947289994,
+    "calibration": "moderada",
+    "width": 1280,
+    "height": 720
+  }
+}

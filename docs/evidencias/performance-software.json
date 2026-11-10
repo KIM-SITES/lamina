@@ -1,0 +1,340 @@
+{
+  "environment": {
+    "os": "win32",
+    "node": "v24.19.0",
+    "baseURL": "http://127.0.0.1:4322",
+    "browser": "158.0.8127.18"
+  },
+  "assets": {
+    "scripts": [
+      {
+        "path": "dist/_astro/gsap.C2W12wA9.js",
+        "bytes": 70358,
+        "gzip": 27340
+      },
+      {
+        "path": "dist/_astro/index.astro_astro_type_script_index_0_lang.CIHk-RTk.js",
+        "bytes": 7646,
+        "gzip": 3320
+      },
+      {
+        "path": "dist/_astro/ScrollTrigger.Dg2oAicK.js",
+        "bytes": 42839,
+        "gzip": 17444
+      },
+      {
+        "path": "dist/_astro/SurfaceRenderer.vOd-WiTa.js",
+        "bytes": 60338,
+        "gzip": 17488
+      }
+    ],
+    "javascriptGzip": 65592,
+    "css": [
+      {
+        "path": "dist/_astro/index.B33OX6tK.css",
+        "bytes": 16463,
+        "gzip": 4274
+      }
+    ],
+    "images": [
+      {
+        "path": "public/images/agua-detalhe.webp",
+        "bytes": 113006,
+        "gzip": 113059
+      },
+      {
+        "path": "public/images/patio-1440.webp",
+        "bytes": 315980,
+        "gzip": 316098
+      },
+      {
+        "path": "public/images/patio-1920.webp",
+        "bytes": 402494,
+        "gzip": 402637
+      },
+      {
+        "path": "public/images/patio-640.webp",
+        "bytes": 76394,
+        "gzip": 76437
+      },
+      {
+        "path": "public/images/patio-960.webp",
+        "bytes": 160728,
+        "gzip": 160796
+      },
+      {
+        "path": "public/images/superficie-1440.webp",
+        "bytes": 287672,
+        "gzip": 287780
+      },
+      {
+        "path": "public/images/superficie-1920.webp",
+        "bytes": 360032,
+        "gzip": 360160
+      },
+      {
+        "path": "public/images/superficie-640.webp",
+        "bytes": 71712,
+        "gzip": 71755
+      },
+      {
+        "path": "public/images/superficie-960.webp",
+        "bytes": 148530,
+        "gzip": 148598
+      },
+      {
+        "path": "public/images/superficie-vertical.webp",
+        "bytes": 194050,
+        "gzip": 194128
+      }
+    ],
+    "fonts": [
+      {
+        "path": "public/fonts/instrument-sans.woff2",
+        "bytes": 30092,
+        "gzip": 30120
+      },
+      {
+        "path": "public/fonts/syne.woff2",
+        "bytes": 34608,
+        "gzip": 34599
+      }
+    ],
+    "fontsBytes": 64700
+  },
+  "runs": [
+    {
+      "lcp": 1064,
+      "cls": 0,
+      "longTasks": 2,
+      "fcp": 1064,
+      "navigation": [
+        {
+          "domContentLoaded": 544.1000000014901,
+          "load": 2250.89999999851,
+          "bytes": 3316
+        }
+      ],
+      "resources": [
+        {
+          "name": "syne.woff2",
+          "bytes": 34908,
+          "duration": 885
+        },
+        {
+          "name": "instrument-sans.woff2",
+          "bytes": 30392,
+          "duration": 807.1999999992549
+        },
+        {
+          "name": "index.B33OX6tK.css",
+          "bytes": 4574,
+          "duration": 327.0999999977648
+        },
+        {
+          "name": "superficie-vertical.webp",
+          "bytes": 194350,
+          "duration": 2046
+        },
+        {
+          "name": "agua-detalhe.webp",
+          "bytes": 113306,
+          "duration": 1658.2000000029802
+        },
+        {
+          "name": "index.astro_astro_type_script_index_0_lang.CIHk-RTk.js",
+          "bytes": 3620,
+          "duration": 294.29999999701977
+        },
+        {
+          "name": "gsap.C2W12wA9.js",
+          "bytes": 27640,
+          "duration": 396.5
+        },
+        {
+          "name": "ScrollTrigger.Dg2oAicK.js",
+          "bytes": 17744,
+          "duration": 333.69999999925494
+        },
+        {
+          "name": "SurfaceRenderer.vOd-WiTa.js",
+          "bytes": 17788,
+          "duration": 251
+        }
+      ],
+      "diagnostics": {
+        "mode": "webgl",
+        "frames": 51,
+        "active": false,
+        "quality": 1,
+        "renderMs": 4.4823529409135086,
+        "calibration": "moderada",
+        "width": 487,
+        "height": 1055
+      }
+    },
+    {
+      "lcp": 976,
+      "cls": 0,
+      "longTasks": 2,
+      "fcp": 976,
+      "navigation": [
+        {
+          "domContentLoaded": 518.5,
+          "load": 2257.300000000745,
+          "bytes": 3316
+        }
+      ],
+      "resources": [
+        {
+          "name": "syne.woff2",
+          "bytes": 34908,
+          "duration": 848.5999999977648
+        },
+        {
+          "name": "instrument-sans.woff2",
+          "bytes": 30392,
+          "duration": 816.7999999970198
+        },
+        {
+          "name": "index.B33OX6tK.css",
+          "bytes": 4574,
+          "duration": 304.19999999925494
+        },
+        {
+          "name": "superficie-vertical.webp",
+          "bytes": 194350,
+          "duration": 2052.5
+        },
+        {
+          "name": "agua-detalhe.webp",
+          "bytes": 113306,
+          "duration": 1649.2000000029802
+        },
+        {
+          "name": "index.astro_astro_type_script_index_0_lang.CIHk-RTk.js",
+          "bytes": 3620,
+          "duration": 285.5
+        },
+        {
+          "name": "gsap.C2W12wA9.js",
+          "bytes": 27640,
+          "duration": 396
+        },
+        {
+          "name": "ScrollTrigger.Dg2oAicK.js",
+          "bytes": 17744,
+          "duration": 333.0999999977648
+        },
+        {
+          "name": "SurfaceRenderer.vOd-WiTa.js",
+          "bytes": 17788,
+          "duration": 251.69999999925494
+        }
+      ],
+      "diagnostics": {
+        "mode": "webgl",
+        "frames": 52,
+        "active": false,
+        "quality": 1,
+        "renderMs": 4.159615384772993,
+        "calibration": "moderada",
+        "width": 487,
+        "height": 1055
+      }
+    },
+    {
+      "lcp": 964,
+      "cls": 0,
+      "longTasks": 2,
+      "fcp": 964,
+      "navigation": [
+        {
+          "domContentLoaded": 544.4000000022352,
+          "load": 2260,
+          "bytes": 3316
+        }
+      ],
+      "resources": [
+        {
+          "name": "syne.woff2",
+          "bytes": 34908,
+          "duration": 891.3000000007451
+        },
+        {
+          "name": "instrument-sans.woff2",
+          "bytes": 30392,
+          "duration": 828.6999999992549
+        },
+        {
+          "name": "index.B33OX6tK.css",
+          "bytes": 4574,
+          "duration": 332.4000000022352
+        },
+        {
+          "name": "superficie-vertical.webp",
+          "bytes": 194350,
+          "duration": 2050.800000000745
+        },
+        {
+          "name": "agua-detalhe.webp",
+          "bytes": 113306,
+          "duration": 1662.0999999977648
+        },
+        {
+          "name": "index.astro_astro_type_script_index_0_lang.CIHk-RTk.js",
+          "bytes": 3620,
+          "duration": 300.0999999977648
+        },
+        {
+          "name": "gsap.C2W12wA9.js",
+          "bytes": 27640,
+          "duration": 395.80000000074506
+        },
+        {
+          "name": "ScrollTrigger.Dg2oAicK.js",
+          "bytes": 17744,
+          "duration": 332.8999999985099
+        },
+        {
+          "name": "SurfaceRenderer.vOd-WiTa.js",
+          "bytes": 17788,
+          "duration": 256.9000000022352
+        }
+      ],
+      "diagnostics": {
+        "mode": "webgl",
+        "frames": 51,
+        "active": false,
+        "quality": 1,
+        "renderMs": 4.4313725491656974,
+        "calibration": "moderada",
+        "width": 487,
+        "height": 1055
+      }
+    }
+  ],
+  "graphics": {
+    "adapter": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "samples": 58,
+    "rafIntervalMedian": 33.30000000000018,
+    "rafIntervalP95": 50.09999999999991,
+    "diagnostics": {
+      "mode": "webgl",
+      "frames": 92,
+      "active": true,
+      "quality": 1,
+      "renderMs": 0.740217391361037,
+      "calibration": "moderada",
+      "width": 1440,
+      "height": 900
+    }
+  },
+  "limitations": [
+    "Laboratório local em Windows, não mede experiência de visitantes.",
+    "Viewport móvel e CPU/rede emulados não substituem aparelho físico.",
+    "Custo de renderer é CPU JavaScript, não tempo efetivo da GPU.",
+    "Amostra de rAF mede agendamento, não garante quadros apresentados na tela.",
+    "Gravação e screenshots introduzem custo extra e avisos ReadPixels."
+  ]
+}

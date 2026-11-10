@@ -1,0 +1,25 @@
+{
+  "method": "Simulação explícita de document.hidden e visibilitychange; não representa aba física oculta.",
+  "before": 1,
+  "paused": {
+    "mode": "webgl",
+    "frames": 1,
+    "active": false,
+    "quality": 1,
+    "renderMs": 60.100000001490116,
+    "calibration": "moderada",
+    "width": 1280,
+    "height": 720
+  },
+  "resumed": {
+    "mode": "webgl",
+    "frames": 7,
+    "active": true,
+    "quality": 1,
+    "renderMs": 8.685714285820723,
+    "calibration": "moderada",
+    "width": 1280,
+    "height": 720
+  },
+  "passed": true
+}

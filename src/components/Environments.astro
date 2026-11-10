@@ -1,0 +1,25 @@
+---
+import { environments } from '../data/content';
+---
+<section class="environments" id="ambientes" aria-labelledby="environments-title" data-gallery>
+  <div class="environment-top section-shell">
+    <div><p class="section-label">Ambientes possíveis</p><h2 id="environments-title">Um lugar para<br />estar por inteiro.</h2></div>
+    <p>Duas interpretações da vida junto à água.<br />Cenas ilustrativas, criadas para este projeto.</p>
+  </div>
+  <div class="environment-gallery">
+    <div class="environment-images">
+      {environments.map((environment, i) => (
+        <figure class:list={['environment-frame', { 'is-active': i === 0 }]} data-environment={environment.id}>
+          <picture><source media="(max-width: 699px)" srcset={`/images/${environment.image}-960.webp`} /><img src={`/images/${environment.image}-1440.webp`} srcset={`/images/${environment.image}-640.webp 640w, /images/${environment.image}-960.webp 960w, /images/${environment.image}-1440.webp 1440w, /images/${environment.image}-1920.webp 1920w`} sizes="100vw" width="1672" height="941" alt={environment.alt} loading="lazy" decoding="async" /></picture>
+          <figcaption><span>{environment.name}</span><span>Imagem ilustrativa gerada por IA</span></figcaption>
+        </figure>
+      ))}
+    </div>
+    <div class="environment-bottom section-shell">
+      <div class="environment-selector" hidden data-gallery-controls role="group" aria-label="Escolher ambiente ilustrativo">
+        {environments.map((environment, i) => <button type="button" data-scene={environment.id} aria-pressed={i === 0 ? 'true' : 'false'}><span class="scene-dot" aria-hidden="true"></span>{environment.name}</button>)}
+      </div>
+      <p data-gallery-description aria-live="polite">{environments[0].description}</p>
+    </div>
+  </div>
+</section>

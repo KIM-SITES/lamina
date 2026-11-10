@@ -1,0 +1,59 @@
+[
+  {
+    "name": "chromium",
+    "version": "158.0.8127.18",
+    "title": "Lâmina — Piscinas & Paisagens · A Superfície",
+    "graphics": {
+      "mode": "webgl",
+      "frames": 21,
+      "active": true,
+      "quality": 1,
+      "renderMs": 3.033333333475249,
+      "calibration": "moderada",
+      "width": 1280,
+      "height": 720
+    },
+    "consoleErrors": [],
+    "warnings": [],
+    "exceptions": [],
+    "success": true
+  },
+  {
+    "name": "firefox",
+    "version": "159.0",
+    "title": "Lâmina — Piscinas & Paisagens · A Superfície",
+    "graphics": {
+      "mode": "webgl",
+      "frames": 54,
+      "active": true,
+      "quality": 1,
+      "renderMs": 0.6111111111111112,
+      "calibration": "moderada",
+      "width": 1280,
+      "height": 720
+    },
+    "consoleErrors": [],
+    "warnings": [],
+    "exceptions": [],
+    "success": true
+  },
+  {
+    "name": "webkit",
+    "version": "27.2",
+    "title": "Lâmina — Piscinas & Paisagens · A Superfície",
+    "graphics": {
+      "mode": "webgl",
+      "frames": 31,
+      "active": true,
+      "quality": 1,
+      "renderMs": 0.8387096774193549,
+      "calibration": "moderada",
+      "width": 1280,
+      "height": 720
+    },
+    "consoleErrors": [],
+    "warnings": [],
+    "exceptions": [],
+    "success": true
+  }
+]

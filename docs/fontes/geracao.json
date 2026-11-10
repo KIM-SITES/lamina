@@ -1,0 +1,14 @@
+{
+  "generatedWith": "image_gen integrado, sem CLI ou API key",
+  "sources": [
+    {
+      "name": "superficie",
+      "original": "docs/fontes/originais/superficie.png"
+    },
+    {
+      "name": "patio",
+      "original": "docs/fontes/originais/patio.png"
+    }
+  ],
+  "transformations": "Somente conversão WebP, redimensionamento e recortes responsivos por sharp."
+}

@@ -1,0 +1,22 @@
+---
+import { services, propertyTypes } from '../data/content';
+---
+<section class="quote section-shell" id="orcamento" aria-labelledby="quote-title">
+  <div class="quote-intro">
+    <p class="section-label">Orçamento demonstrativo</p>
+    <h2 id="quote-title">O seu espaço.<br />O próximo mergulho.</h2>
+    <p>Qual possibilidade você gostaria de explorar?</p>
+    <p class="quote-disclaimer">Esta é uma simulação local. Sem dados pessoais, sem envio e sem compromisso.</p>
+  </div>
+  <form class="quote-form" data-quote-form>
+    <fieldset disabled><legend>Qual serviço você procura?</legend><div class="choice-list">
+      {services.map(service => <label class="choice"><input type="radio" name="servico" value={service.id} required /><span>{service.title}</span><span class="choice-indicator" aria-hidden="true"></span></label>)}
+    </div></fieldset>
+    <fieldset disabled><legend>Para qual tipo de imóvel?</legend><div class="property-choices">
+      {propertyTypes.map(property => <label class="property-choice"><input type="radio" name="imovel" value={property} required /><span>{property}</span></label>)}
+    </div></fieldset>
+    <button class="button button--dark" type="submit" hidden data-quote-submit>Ver resumo <span aria-hidden="true">↗</span></button>
+    <p class="noscript-note" data-quote-noscript>A simulação exige JavaScript. Você pode conhecer todos os serviços e ambientes nesta página. Nenhuma informação será enviada.</p>
+    <div class="quote-result" data-quote-result role="status" aria-live="polite" aria-atomic="true"></div>
+  </form>
+</section>

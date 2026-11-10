@@ -1,0 +1,40 @@
+---
+import Brand from '../components/Brand.astro';
+import SurfaceHero from '../components/SurfaceHero.astro';
+import Services from '../components/Services.astro';
+import Environments from '../components/Environments.astro';
+import Quote from '../components/Quote.astro';
+import '../styles/global.css';
+---
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#123C3D" />
+    <meta name="description" content="Lâmina — Piscinas & Paisagens. Protótipo demonstrativo de projeto, construção, revitalização e manutenção de piscinas. Explore A Superfície." />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preload" href="/fonts/syne.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/instrument-sans.woff2" as="font" type="font/woff2" crossorigin />
+    <title>Lâmina — Piscinas &amp; Paisagens · A Superfície</title>
+  </head>
+  <body>
+    <a tabindex="0" class="skip-link" href="#hero-title">Pular para o conteúdo</a>
+    <main id="conteudo">
+      <SurfaceHero />
+      <Services />
+      <Environments />
+      <Quote />
+    </main>
+    <footer class="site-footer section-shell">
+      <Brand footer />
+      <p>Empresa fictícia criada para demonstração<br />de design e desenvolvimento web.</p>
+      <a tabindex="0" href="#inicio">Voltar à superfície <span aria-hidden="true">↑</span></a>
+    </footer>
+    <script>
+      import { initPrototype } from '../scripts/main';
+      initPrototype();
+    </script>
+  </body>
+</html>

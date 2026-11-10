@@ -1,0 +1,355 @@
+{
+  "environment": {
+    "os": "win32",
+    "node": "v24.19.0",
+    "baseURL": "http://127.0.0.1:4322",
+    "browser": "158.0.8127.18"
+  },
+  "assets": {
+    "scripts": [
+      {
+        "path": "dist/_astro/gsap.C2W12wA9.js",
+        "bytes": 70358,
+        "gzip": 27340
+      },
+      {
+        "path": "dist/_astro/index.astro_astro_type_script_index_0_lang.DTeJ-n1G.js",
+        "bytes": 7806,
+        "gzip": 3375
+      },
+      {
+        "path": "dist/_astro/ScrollTrigger.Dg2oAicK.js",
+        "bytes": 42839,
+        "gzip": 17444
+      },
+      {
+        "path": "dist/_astro/SurfaceRenderer.vOd-WiTa.js",
+        "bytes": 60338,
+        "gzip": 17488
+      }
+    ],
+    "javascriptGzip": 65647,
+    "css": [
+      {
+        "path": "dist/_astro/index.CEkS3Yxc.css",
+        "bytes": 16913,
+        "gzip": 4367
+      }
+    ],
+    "images": [
+      {
+        "path": "public/images/agua-detalhe.webp",
+        "bytes": 113006,
+        "gzip": 113059
+      },
+      {
+        "path": "public/images/patio-1440.webp",
+        "bytes": 315980,
+        "gzip": 316098
+      },
+      {
+        "path": "public/images/patio-1920.webp",
+        "bytes": 402494,
+        "gzip": 402637
+      },
+      {
+        "path": "public/images/patio-640.webp",
+        "bytes": 76394,
+        "gzip": 76437
+      },
+      {
+        "path": "public/images/patio-960.webp",
+        "bytes": 160728,
+        "gzip": 160796
+      },
+      {
+        "path": "public/images/superficie-1440.webp",
+        "bytes": 287672,
+        "gzip": 287780
+      },
+      {
+        "path": "public/images/superficie-1920.webp",
+        "bytes": 360032,
+        "gzip": 360160
+      },
+      {
+        "path": "public/images/superficie-640.webp",
+        "bytes": 71712,
+        "gzip": 71755
+      },
+      {
+        "path": "public/images/superficie-960.webp",
+        "bytes": 148530,
+        "gzip": 148598
+      },
+      {
+        "path": "public/images/superficie-vertical.webp",
+        "bytes": 194050,
+        "gzip": 194128
+      }
+    ],
+    "fonts": [
+      {
+        "path": "public/fonts/instrument-sans.woff2",
+        "bytes": 30092,
+        "gzip": 30120
+      },
+      {
+        "path": "public/fonts/syne.woff2",
+        "bytes": 34608,
+        "gzip": 34599
+      }
+    ],
+    "fontsBytes": 64700
+  },
+  "runs": [
+    {
+      "lcp": 1736,
+      "cls": 0,
+      "longTasks": 4,
+      "fcp": 1736,
+      "navigation": [
+        {
+          "domContentLoaded": 567.8000000007451,
+          "load": 2279.699999999255,
+          "bytes": 3337
+        }
+      ],
+      "resources": [
+        {
+          "name": "syne.woff2",
+          "bytes": 34908,
+          "duration": 884.5
+        },
+        {
+          "name": "instrument-sans.woff2",
+          "bytes": 30392,
+          "duration": 806.9000000022352
+        },
+        {
+          "name": "index.CEkS3Yxc.css",
+          "bytes": 4667,
+          "duration": 325.69999999925494
+        },
+        {
+          "name": "superficie-vertical.webp",
+          "bytes": 194350,
+          "duration": 2056.300000000745
+        },
+        {
+          "name": "agua-detalhe.webp",
+          "bytes": 113306,
+          "duration": 1653.5
+        },
+        {
+          "name": "index.astro_astro_type_script_index_0_lang.DTeJ-n1G.js",
+          "bytes": 3675,
+          "duration": 286.9000000022352
+        },
+        {
+          "name": "favicon.svg",
+          "bytes": 555,
+          "duration": 176.89999999850988
+        },
+        {
+          "name": "gsap.C2W12wA9.js",
+          "bytes": 27640,
+          "duration": 393.6000000014901
+        },
+        {
+          "name": "ScrollTrigger.Dg2oAicK.js",
+          "bytes": 17744,
+          "duration": 329.5
+        },
+        {
+          "name": "SurfaceRenderer.vOd-WiTa.js",
+          "bytes": 17788,
+          "duration": 244.89999999850988
+        }
+      ],
+      "diagnostics": {
+        "mode": "webgl",
+        "frames": 48,
+        "active": false,
+        "quality": 1,
+        "renderMs": 7.879166666651145,
+        "calibration": "moderada",
+        "width": 487,
+        "height": 1055
+      }
+    },
+    {
+      "lcp": 1252,
+      "cls": 0,
+      "longTasks": 2,
+      "fcp": 1252,
+      "navigation": [
+        {
+          "domContentLoaded": 562.5999999977648,
+          "load": 2279.300000000745,
+          "bytes": 3337
+        }
+      ],
+      "resources": [
+        {
+          "name": "syne.woff2",
+          "bytes": 34908,
+          "duration": 880.1999999992549
+        },
+        {
+          "name": "instrument-sans.woff2",
+          "bytes": 30392,
+          "duration": 801.5999999977648
+        },
+        {
+          "name": "index.CEkS3Yxc.css",
+          "bytes": 4667,
+          "duration": 321.1000000014901
+        },
+        {
+          "name": "superficie-vertical.webp",
+          "bytes": 194350,
+          "duration": 2050.39999999851
+        },
+        {
+          "name": "agua-detalhe.webp",
+          "bytes": 113306,
+          "duration": 1648.3999999985099
+        },
+        {
+          "name": "index.astro_astro_type_script_index_0_lang.DTeJ-n1G.js",
+          "bytes": 3675,
+          "duration": 287.0999999977648
+        },
+        {
+          "name": "favicon.svg",
+          "bytes": 555,
+          "duration": 178.30000000074506
+        },
+        {
+          "name": "gsap.C2W12wA9.js",
+          "bytes": 27640,
+          "duration": 392.4000000022352
+        },
+        {
+          "name": "ScrollTrigger.Dg2oAicK.js",
+          "bytes": 17744,
+          "duration": 345.3999999985099
+        },
+        {
+          "name": "SurfaceRenderer.vOd-WiTa.js",
+          "bytes": 17788,
+          "duration": 245.60000000149012
+        }
+      ],
+      "diagnostics": {
+        "mode": "webgl",
+        "frames": 54,
+        "active": false,
+        "quality": 1,
+        "renderMs": 5.259259259190272,
+        "calibration": "moderada",
+        "width": 487,
+        "height": 1055
+      }
+    },
+    {
+      "lcp": 1124,
+      "cls": 0,
+      "longTasks": 2,
+      "fcp": 1124,
+      "navigation": [
+        {
+          "domContentLoaded": 568.1999999992549,
+          "load": 2290.39999999851,
+          "bytes": 3337
+        }
+      ],
+      "resources": [
+        {
+          "name": "syne.woff2",
+          "bytes": 34908,
+          "duration": 878.0999999977648
+        },
+        {
+          "name": "instrument-sans.woff2",
+          "bytes": 30392,
+          "duration": 810.8999999985099
+        },
+        {
+          "name": "index.CEkS3Yxc.css",
+          "bytes": 4667,
+          "duration": 330.5999999977648
+        },
+        {
+          "name": "superficie-vertical.webp",
+          "bytes": 194350,
+          "duration": 2062.199999999255
+        },
+        {
+          "name": "agua-detalhe.webp",
+          "bytes": 113306,
+          "duration": 1659.4000000022352
+        },
+        {
+          "name": "index.astro_astro_type_script_index_0_lang.DTeJ-n1G.js",
+          "bytes": 3675,
+          "duration": 296
+        },
+        {
+          "name": "favicon.svg",
+          "bytes": 555,
+          "duration": 176.5
+        },
+        {
+          "name": "gsap.C2W12wA9.js",
+          "bytes": 27640,
+          "duration": 393.5999999977648
+        },
+        {
+          "name": "ScrollTrigger.Dg2oAicK.js",
+          "bytes": 17744,
+          "duration": 330.19999999925494
+        },
+        {
+          "name": "SurfaceRenderer.vOd-WiTa.js",
+          "bytes": 17788,
+          "duration": 255.20000000298023
+        }
+      ],
+      "diagnostics": {
+        "mode": "webgl",
+        "frames": 53,
+        "active": false,
+        "quality": 1,
+        "renderMs": 5.7566037734724445,
+        "calibration": "moderada",
+        "width": 487,
+        "height": 1055
+      }
+    }
+  ],
+  "graphics": {
+    "adapter": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1650 (0x00001F82) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "samples": 120,
+    "rafIntervalMedian": 16.699999999999818,
+    "rafIntervalP95": 16.800000000000182,
+    "diagnostics": {
+      "mode": "webgl",
+      "frames": 185,
+      "active": true,
+      "quality": 1,
+      "renderMs": 0.37513513516735386,
+      "calibration": "moderada",
+      "width": 1440,
+      "height": 900
+    }
+  },
+  "limitations": [
+    "Laboratório local em Windows, não mede experiência de visitantes.",
+    "Viewport móvel e CPU/rede emulados não substituem aparelho físico.",
+    "Custo de renderer é CPU JavaScript, não tempo efetivo da GPU.",
+    "Amostra de rAF mede agendamento, não garante quadros apresentados na tela.",
+    "Gravação e screenshots introduzem custo extra e avisos ReadPixels."
+  ]
+}

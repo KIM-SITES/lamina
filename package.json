@@ -1,0 +1,29 @@
+{
+  "name": "lamina-superficie-prototipo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "check": "astro check",
+    "build": "astro build",
+    "preview": "astro preview --host 127.0.0.1",
+    "test": "node scripts/run-tests.mjs",
+    "evidence": "node scripts/capture.mjs",
+    "measure": "node scripts/measure.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/instrument-sans": "5.3.0",
+    "@fontsource-variable/syne": "5.3.0",
+    "astro": "7.4.8",
+    "gsap": "3.15.1",
+    "ogl": "1.0.11"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.12",
+    "@axe-core/playwright": "4.14.0",
+    "@playwright/test": "1.65.0",
+    "sharp": "0.35.5",
+    "typescript": "6.0.3"
+  }
+}

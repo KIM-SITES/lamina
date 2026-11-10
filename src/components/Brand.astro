@@ -1,0 +1,8 @@
+---
+interface Props { footer?: boolean }
+const { footer = false } = Astro.props;
+---
+<a tabindex="0" class:list={['brand', { 'brand--footer': footer }]} href="#inicio" aria-label="Lâmina — Piscinas & Paisagens, início">
+  <span class="brand-name" translate="no">lâmina<span aria-hidden="true">.</span></span>
+  <span class="brand-description">Piscinas &amp; Paisagens</span>
+</a>

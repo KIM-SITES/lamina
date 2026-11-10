@@ -1,0 +1,14 @@
+{
+  "tool": "image_gen integrado",
+  "date": "2026-11-09",
+  "assets": [
+    {
+      "asset": "superficie",
+      "prompt": "Use case: photorealistic-natural. Asset type: original editorial architectural photograph for a fictional Brazilian pool design studio website, no text. A remarkably beautiful contemporary residential swimming pool in a secluded Brazilian garden, viewed very low and close to the water surface, wide panoramic composition, cinematic architectural photography, 16:9 landscape. Clear pristine mineral teal-green pool water occupies the lower 65 percent, intricate real sunlight caustics on pale limestone steps visible through clear water in the lower right. A pale natural limestone deck runs diagonally away at the right, a sculptural olive tree with airy foliage, warm white plaster garden wall, low understated modern pavilion with dark timber slats behind on the upper right. Lush but restrained tropical foliage on left, warm soft late-afternoon sun from upper left, pale luminous sky, deep leaf shadows, tangible natural materials. Pool is unmistakably a pristine swimming pool with visible edges, not a lake or ocean. Architecture and greenery concentrated in upper right half, calm dark reflective green water at left for crisp white HTML text overlay, enough clear water to show subtle optical distortion. Sophisticated quiet leisure, no people, no furniture in foreground, no ladders, no infinity ocean, no neon turquoise, no excessive luxury ornament, no lens flare. Physically plausible water perspective and construction, fine photographic detail and depth, image must feel photographed rather than polished 3D rendering. No lettering, no logo, no UI, no watermark. Make a single continuous coherent scene, not a collage."
+    },
+    {
+      "asset": "patio",
+      "prompt": "Use case: photorealistic-natural. Original architectural editorial photograph for a fictional Brazilian swimming pool design studio. Wide 16:9 composition of a small exquisite contemporary courtyard lap pool, crystal clear mineral green water, pale limestone coping and submerged steps, warm white textured plaster walls and horizontal dark timber screen, a mature small olive tree and restrained lush tropical planting in a sunlit Brazilian courtyard. Viewed at a slightly elevated three-quarter angle from the pool corner, so the geometric pool fills lower two thirds of frame. Strong natural sun makes sharp tree shadows on pale stone and intricate subtle caustics in transparent water. Quiet tactile sophistication, physically plausible architecture, impeccable cleanliness, editorial photographic realism, no people, no lettering, no logos, no UI, no decorative pool toys, no exaggerated 3D rendering. A smaller intimate residence rather than a resort. Palette of deep green water, pale mineral limestone, muted olive leaves, warm sunlight. One coherent continuous image."
+    }
+  ]
+}

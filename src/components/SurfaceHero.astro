@@ -1,0 +1,49 @@
+---
+import Brand from './Brand.astro';
+---
+<section class="surface-sequence" id="inicio" aria-labelledby="hero-title" data-surface>
+  <div class="surface-backdrop" aria-hidden="true">
+    <div class="surface-stage">
+      <picture class="surface-picture">
+        <source media="(max-width: 699px)" srcset="/images/superficie-vertical.webp" />
+        <img data-surface-image src="/images/superficie-1440.webp" srcset="/images/superficie-960.webp 960w, /images/superficie-1440.webp 1440w, /images/superficie-1920.webp 1920w" sizes="100vw" width="1672" height="941" alt="" fetchpriority="high" decoding="async" />
+      </picture>
+      <img class="surface-detail" src="/images/agua-detalhe.webp" width="1440" height="900" alt="" decoding="async" />
+      <div class="surface-canvas" data-surface-canvas></div>
+      <div class="surface-fallback-lens"></div>
+      <div class="surface-shade"></div>
+    </div>
+  </div>
+  <div class="hero">
+    <header class="site-header">
+      <Brand />
+      <nav aria-label="Navegação principal">
+        <a tabindex="0" href="#servicos">Serviços</a>
+        <a tabindex="0" href="#ambientes">Ambientes</a>
+        <a tabindex="0" class="nav-budget" href="#orcamento">Simular orçamento <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+    <div class="hero-copy">
+      <p class="demo-note"><span aria-hidden="true"></span> Projeto demonstrativo</p>
+      <h1 id="hero-title" tabindex="-1">A água transforma<br class="desktop-break" /> o espaço.</h1>
+      <p class="hero-description">Projeto, construção, revitalização<br class="desktop-break" /> e manutenção de piscinas.</p>
+      <div class="hero-actions">
+        <a tabindex="0" class="button button--light" href="#orcamento">Simular orçamento <span aria-hidden="true">↗</span></a>
+        <a tabindex="0" class="text-link" href="#servicos">Conhecer os serviços</a>
+      </div>
+    </div>
+    <div class="hero-bottom">
+      <div class="surface-control" data-surface-controls hidden>
+        <label for="surface-position">Explorar a superfície <span aria-hidden="true">↔</span></label>
+        <input id="surface-position" name="superficie" type="range" min="0" max="100" value="50" aria-describedby="surface-help" />
+        <p id="surface-help">Deslize para encontrar outro ponto de vista.</p>
+      </div>
+      <p class="hero-caption">Entre a luz<br />e a profundidade.</p>
+      <a tabindex="0" class="scroll-cue" href="#servicos" aria-label="Descer para os serviços"><span aria-hidden="true">↓</span></a>
+    </div>
+  </div>
+  <div class="surface-bridge" aria-hidden="true">
+    <p>A superfície é só<br />o começo.</p>
+    <span>Água, luz e novas possibilidades.</span>
+  </div>
+</section>

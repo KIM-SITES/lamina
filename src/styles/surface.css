@@ -1,0 +1,326 @@
+.surface-sequence {
+  position: relative;
+  isolation: isolate;
+  color: white;
+  background: var(--deep);
+  --surface-progress: 0;
+  --surface-y: 62%;
+  --surface-scale: 1;
+}
+.surface-backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+.surface-stage {
+  height: 100svh;
+  min-height: 650px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+.surface-picture {
+  position: absolute;
+  inset: 0;
+  display: block;
+  transform: scale(var(--surface-scale));
+  transform-origin: 65% 60%;
+}
+.surface-picture img {
+  object-position: 50% 50%;
+}
+.surface-detail {
+  position: absolute;
+  inset: 0;
+  opacity: var(--surface-progress);
+  object-position: center;
+  transform: scale(1.025);
+}
+.surface-canvas {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.surface-canvas.is-ready {
+  opacity: 1;
+}
+.surface-canvas canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.surface-fallback-lens {
+  position: absolute;
+  top: var(--surface-y);
+  left: -3%;
+  width: 106%;
+  height: 15%;
+  transform: translateY(-50%) rotate(-0.8deg);
+  background: linear-gradient(
+    180deg,
+    transparent,
+    rgba(205, 230, 223, 0.09) 25%,
+    rgba(8, 49, 48, 0.13) 66%,
+    transparent
+  );
+  border-radius: 50%;
+  opacity: 0.65;
+}
+.has-webgl .surface-fallback-lens {
+  display: none;
+}
+.surface-shade {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(5, 29, 28, 0.58) 0%,
+      rgba(5, 29, 28, 0.22) 52%,
+      rgba(5, 29, 28, 0.04) 100%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(5, 29, 28, 0.32),
+      transparent 30%,
+      transparent 62%,
+      rgba(5, 29, 28, 0.49)
+    );
+}
+.hero {
+  min-height: 900px;
+  min-height: max(760px, 100svh);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--gutter);
+  padding-left: max(var(--gutter), env(safe-area-inset-left));
+  padding-right: max(var(--gutter), env(safe-area-inset-right));
+}
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: calc(34px + env(safe-area-inset-top));
+  gap: 30px;
+}
+.brand {
+  display: inline-flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  gap: 1px;
+}
+.brand-name {
+  font-family: Syne, sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  letter-spacing: -3px;
+  line-height: 1;
+}
+.brand-name > span {
+  color: var(--sun);
+}
+.brand-description {
+  font-size: 10px;
+  letter-spacing: 0.085em;
+  margin-top: 5px;
+}
+.site-header nav {
+  display: flex;
+  gap: 34px;
+  align-items: center;
+  font-size: 14px;
+}
+.site-header nav > a {
+  padding-block: 12px;
+}
+.site-header nav > a:hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+.site-header .nav-budget {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  padding: 13px 21px;
+  display: flex;
+  gap: 28px;
+}
+.hero-copy {
+  padding-top: clamp(96px, 13svh, 155px);
+  padding-bottom: 96px;
+  max-width: 1120px;
+}
+.demo-note {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 25px;
+  line-height: 1.4;
+}
+.demo-note > span {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--sun);
+}
+h1 {
+  font-size: clamp(64px, 6.6vw, 112px);
+  line-height: 1.02;
+  letter-spacing: -0.06em;
+  margin-left: -0.05em;
+}
+.hero-description {
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 410px;
+  margin-top: 30px;
+}
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 32px;
+}
+.button {
+  border: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 36px;
+  border-radius: 40px;
+  min-height: 54px;
+  padding: 17px 25px;
+  font-size: 14px;
+  font-weight: 500;
+  transition:
+    background-color 0.18s ease,
+    transform 0.18s ease;
+}
+.button:hover {
+  transform: translateY(-2px);
+}
+.button--light {
+  background: var(--chalk);
+  color: var(--deep);
+}
+.button--light:hover {
+  background: var(--sun);
+}
+.button--dark {
+  background: var(--deep);
+  color: var(--chalk);
+}
+.button--dark:hover {
+  background: #225958;
+}
+.text-link {
+  font-size: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  padding-block: 8px;
+}
+.text-link:hover {
+  color: var(--sun);
+}
+.hero-bottom {
+  margin-top: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 0 36px;
+  gap: 30px;
+}
+.surface-control {
+  width: 270px;
+}
+.surface-control label {
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.surface-control p {
+  font-size: 11px;
+  margin-top: 2px;
+  opacity: 1;
+}
+.surface-control input {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 44px;
+  background: transparent;
+  cursor: ew-resize;
+  display: block;
+  margin: 5px 0 0;
+  touch-action: pan-y;
+}
+.surface-control input::-webkit-slider-runnable-track {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.65);
+}
+.surface-control input::-moz-range-track {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.65);
+}
+.surface-control input::-webkit-slider-thumb {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  background: var(--chalk);
+  border: 4px solid var(--deep);
+  outline: 1px solid var(--chalk);
+  border-radius: 50%;
+  margin-top: -7px;
+}
+.surface-control input::-moz-range-thumb {
+  width: 10px;
+  height: 10px;
+  border: 3px solid var(--deep);
+  outline: 1px solid var(--chalk);
+  border-radius: 50%;
+  background: var(--chalk);
+}
+.hero-caption {
+  font-size: 13px;
+  line-height: 1.5;
+  margin-left: auto;
+  margin-right: 44px;
+}
+.scroll-cue {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 21px;
+}
+.scroll-cue:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.surface-bridge {
+  min-height: 62svh;
+  padding: 120px var(--gutter) 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 28px;
+}
+.surface-bridge p {
+  font-family: Syne, sans-serif;
+  font-size: clamp(40px, 5.3vw, 88px);
+  letter-spacing: -0.055em;
+  line-height: 1.08;
+  text-wrap: balance;
+}
+.surface-bridge > span {
+  font-size: 14px;
+}

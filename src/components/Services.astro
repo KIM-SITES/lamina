@@ -1,0 +1,19 @@
+---
+import { services } from '../data/content';
+---
+<section class="services section-shell" id="servicos" aria-labelledby="services-title">
+  <div class="section-intro">
+    <p class="section-label">O que fazemos</p>
+    <h2 id="services-title">Da ideia à água.<br />Da água ao cuidado.</h2>
+    <p>Uma piscina começa muito antes do primeiro mergulho. E continua a transformar o espaço com o cuidado certo.</p>
+  </div>
+  <div class="service-list">
+    {services.map(service => (
+      <article class="service-row">
+        <div class="service-heading"><h3>{service.title}</h3><span class="service-mark" aria-hidden="true">↗</span></div>
+        <p>{service.description}</p>
+        <a tabindex="0" href="#orcamento" data-select-service={service.id}>Explorar possibilidades<span class="sr-only"> de {service.title.toLowerCase()}</span></a>
+      </article>
+    ))}
+  </div>
+</section>
