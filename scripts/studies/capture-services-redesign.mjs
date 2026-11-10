@@ -7,8 +7,8 @@ import sharp from 'sharp';
 import {launch} from '../browser.mjs';
 
 const exec=promisify(execFile);
-const root='docs/redirecao/etapa-2/servicos';
-const publicRoot='public/studies/etapa-2/servicos';
+const root=process.env.EVIDENCE_DIR||'docs/redirecao/etapa-2/servicos';
+const publicRoot=process.env.REVIEW_ASSETS_DIR||'public/studies/etapa-2/servicos';
 for(const directory of ['evidencias','videos','quadros-desktop','quadros-mobile'])await mkdir(`${root}/${directory}`,{recursive:true});
 await mkdir(`${publicRoot}/videos`,{recursive:true});
 const manifest={date:new Date().toISOString(),screenshots:[],comparisons:[],videos:[],performance:{}};

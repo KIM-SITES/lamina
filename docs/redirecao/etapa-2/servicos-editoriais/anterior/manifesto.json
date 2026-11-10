@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-10T19:02:59.001Z",
+  "files": [
+    {
+      "path": "src/studies/etapa-2/Story.astro",
+      "sha256": "db6f0e1d4e63aadb95c471d156e330383710e0f5803a19c377e792677ad1c729"
+    },
+    {
+      "path": "src/studies/etapa-2/Services.astro",
+      "sha256": "07906b60b3d4fef7cdd7c400fe63b6e24886dbc5d2d587f0bdbfa43fc09b79ab"
+    },
+    {
+      "path": "src/studies/etapa-2/services.css",
+      "sha256": "3f5b5b7ece788b5ef9dd9e14e7dcd1ddf83c4b5537b373f19f81964c245f0b65"
+    },
+    {
+      "path": "src/studies/etapa-2/continuity.ts",
+      "sha256": "e618d4ec2b88117716b2006d998754ae5549e5fab0d86f146c9509009f10d124"
+    },
+    {
+      "path": "src/studies/etapa-2/scene.ts",
+      "sha256": "10e5dff49df82acf644ca38741e03f63fe473067620826152c437557bd8e6b35"
+    },
+    {
+      "path": "src/studies/etapa-2/shaders.ts",
+      "sha256": "e261ea40511ee4f5da664e8ffabefd2c03e88e49d8bad4f0db7dc9930c230d94"
+    },
+    {
+      "path": "src/studies/etapa-2/ContinuityRenderer.ts",
+      "sha256": "368820c8981fbee4c972013302d6d390d49f712fb02bcafcbf58f1858c42f166"
+    },
+    {
+      "path": "src/studies/etapa-2/ServicesReview.astro",
+      "sha256": "cc9c886b27313acd4a37236a803afd0af32945e6ab6ed6523db983922872b3cd"
+    }
+  ]
+}

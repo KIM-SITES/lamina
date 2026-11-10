@@ -60,7 +60,10 @@ export async function initContinuity(){
     frameElement.style.transform=`translate3d(${frame.x/cssScale}px,${frame.y/cssScale}px,0) scale(${frame.width/base.width},${frame.height/base.height})`;
     poster.style.transform=`matrix(${1/crop.width},0,0,${1/crop.height},${-crop.x*base.width/cssScale/crop.width},${-crop.y*base.height/cssScale/crop.height})`;
     const atmosphere=smooth((progress-.1)/.68);
-    story.style.setProperty('--story-color',`rgb(${Math.round(lerp(8,22,atmosphere))} ${Math.round(lerp(60,88,atmosphere))} ${Math.round(lerp(99,186,atmosphere))})`);
+    story.style.setProperty('--story-color',`rgb(${Math.round(lerp(8,233,atmosphere))} ${Math.round(lerp(60,249,atmosphere))} ${Math.round(lerp(99,231,atmosphere))})`);
+    // A leitura da margem começa quando o quadro libera sua área no desktop.
+    // No mobile o título vem depois da foto e entra pelo fluxo normal.
+    story.style.setProperty('--intro-opacity',String(smooth((progress-.8)/.18)));
     shade.style.opacity=String(1-smooth((progress-.08)/.67));
     composition.style.opacity=String(1-smooth((progress-.08)/.45));
     renderer?.update(crop,progress);
@@ -117,6 +120,7 @@ export async function initContinuity(){
       sourceGeneration++;renderer?.dispose();renderer=undefined;ready=false;source='';
       story.classList.remove('motion-ready');plane.hidden=true;story.style.removeProperty('--story-color');
       composition.style.removeProperty('opacity');
+      story.style.removeProperty('--intro-opacity');
       diagnostics.motion='reduced-motion';diagnostics.graphics={mode:'reduced-motion'};
       return;
     }
@@ -150,6 +154,8 @@ export async function initContinuity(){
     window.removeEventListener('resize',schedule);window.removeEventListener('pagehide',onPageHide);
     story.classList.remove('motion-ready');plane.hidden=true;diagnostics.motion='disposed';
     composition.style.removeProperty('opacity');
+    story.style.removeProperty('--intro-opacity');
+    story.style.removeProperty('--story-color');
   }
   await document.fonts.ready;
   if(!disposed)await motion();

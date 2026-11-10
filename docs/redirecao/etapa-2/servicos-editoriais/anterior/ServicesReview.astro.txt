@@ -1,0 +1,60 @@
+---
+import './review.css';
+const base='/studies/etapa-2/servicos';
+const alternatives=[
+  ['vertical','Coluna de água','A fotografia alta preserva a perspectiva, mas a relação lateral com o texto permanece próxima da solução anterior.'],
+  ['panorama','Horizonte contínuo — selecionado','A fotografia atravessa a composição. Título, quadro e serviços ganham momentos próprios, com uma faixa turquesa mais contida.'],
+  ['assimetrica','A margem','A margem profunda e o deslocamento lateral criam tensão, mas o intervalo até a oferta fica longo no celular.'],
+];
+---
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="theme-color" content="#083c63" />
+    <link rel="icon" href="/favicon.svg" />
+    <title>Lâmina — Redesign editorial dos serviços</title>
+  </head>
+  <body>
+    <header class="review-header"><a href="/estudos/etapa-2/" translate="no">lâmina.</a><span>Etapa 2 · revisão dos serviços</span></header>
+    <main>
+      <section class="review-intro">
+        <p>Horizonte contínuo</p><h1>Serviços,<br />em outra escala.</h1>
+        <p>O título encontra a borda da fotografia. O panorama abre espaço para a arquitetura, e o turquesa passa a ligar os momentos da composição. Os três serviços continuam explícitos, com descrições mais curtas e ações próprias.</p>
+        <div class="actions"><a href="/estudos/etapa-2/#servicos">Ver os novos serviços</a><a href="/estudos/etapa-2/">Experimentar desde o hero</a><a href="/estudos/etapa-2/?grafico=fallback#servicos">Ver sem WebGL</a><a href="/estudos/etapa-1/">Estudo A preservado</a><a href="/estudos/etapa-1/?composicao=editorial">Estudo B preservado</a><a href="/">Original preservado</a></div>
+      </section>
+      <section class="review-section">
+        <h2>Três direções,<br />antes da implementação.</h2>
+        <p>Estudos estáticos renderizados no navegador. A panorâmica foi escolhida para mudar a relação entre imagem e texto, preservando uma chegada coerente da mesma piscina.</p>
+        <div class="frames">{alternatives.map(([key,title,description])=><figure><img src={`${base}/alternativa-${key}.webp`} loading="lazy" alt={`Estudo editorial ${title}.`} /><figcaption><strong>{title}</strong><br />{description}</figcaption></figure>)}</div>
+      </section>
+      <section class="review-section">
+        <h2>Anterior e redesenhada.</h2><p>A seção turquesa anterior está à esquerda. A nova composição está à direita. As pranchas completas preservam as dimensões das capturas e acomodam a diferença de altura entre as seções.</p>
+        {['desktop','tablet','mobile'].map(name=><figure class:list={['comparison',{'comparison-mobile':name==='mobile'}]}><img src={`${base}/${name}-comparacao-completa.webp`} loading="lazy" alt={`Comparação completa dos serviços em ${name}: anterior à esquerda e redesign à direita.`} /><figcaption>{name==='desktop'?'Desktop · largura 1440px':name==='tablet'?'Tablet vertical · largura 820px':'Mobile · largura 390px'}</figcaption></figure>)}
+      </section>
+      <section class="review-section">
+        <h2>A mesma paleta.<br />Outro ritmo.</h2>
+        <div class="palette"><div style="--color:#083c63;--ink:#e9f9e7">Profundidade<br /><code>#083C63</code></div><div style="--color:#1658ba;--ink:#e9f9e7">Plano editorial<br /><code>#1658BA</code></div><div style="--color:#f6d567;--ink:#083c63">Luz solar<br /><code>#F6D567</code></div><div style="--color:#16c7ad;--ink:#083c63">Ligação<br /><code>#16C7AD</code></div><div style="--color:#e9f9e7;--ink:#083c63">Leitura<br /><code>#E9F9E7</code></div></div>
+        <p>O azul luminoso acolhe o título amarelo. A arquitetura atravessa a largura do desktop. Uma faixa turquesa curta conduz ao plano claro mineral dos serviços. No celular, a fotografia fica vertical e sangra pela margem direita; o segundo serviço recebe um recuo curto.</p>
+        <div class="frames"><figure><img src={`${base}/desktop-servicos.webp`} loading="lazy" width="1200" height="750" alt="Título amarelo sobre azul e panorama arquitetônico da piscina." /><figcaption>Fotografia e tipografia compartilham a borda do enquadramento.</figcaption></figure><figure><img src={`${base}/desktop-oferta.webp`} loading="lazy" width="1200" height="750" alt="Três serviços em linhas amplas, com títulos grandes e ações de simulação." /><figcaption>Espaçamento entre os serviços, sem três cards convencionais.</figcaption></figure><figure><img src={`${base}/tablet-servicos.webp`} loading="lazy" alt="Composição dos serviços em tablet vertical." /><figcaption>Tablet · o assunto permanece reconhecível.</figcaption></figure><figure class="mobile-still"><img src={`${base}/mobile-servicos.webp`} loading="lazy" width="390" height="844" alt="Composição própria para celular com fotografia vertical e faixa turquesa." /><figcaption>Mobile · enquadramento vertical e ações acessíveis por toque.</figcaption></figure></div>
+      </section>
+      <section class="review-section">
+        <h2>Da abertura<br />ao novo enquadramento.</h2>
+        <div class="frames">{[['inicio','Início da passagem'],['passagem','O título encontra a fotografia'],['acomodacao','A câmera se acomoda'],['destino','Chegada ao novo quadro']].map(([key,label])=><figure><img src={`${base}/desktop-${key}.webp`} width="1200" height="750" loading="lazy" alt={label} /><figcaption>{label}</figcaption></figure>)}</div>
+        <p>A fonte fotográfica é a mesma da abertura. O recorte acompanha a nova proporção do destino; não há troca de cena, efeito ligado ao ponteiro ou animação extra para esconder a chegada. A leitura dos serviços segue o fluxo nativo.</p>
+      </section>
+      <section class="review-section">
+        <h2>Ida e reversão reais.</h2><p>Vídeos brutos do navegador, sem montagem. Desktop: wheel, leitura da oferta, retorno e deslocamentos rápidos. Mobile: gestos de toque emulados, avanço até os serviços e reversão. O carregamento inicial também está registrado.</p>
+        <div class="video-grid"><figure><video controls playsinline preload="none" poster={`${base}/desktop-servicos.webp`} aria-label="Gravação desktop da chegada e reversão dos serviços"><source src={`${base}/videos/continuidade-desktop.webm`} type="video/webm" /></video><figcaption>Desktop · 1440 × 900</figcaption></figure><figure class="mobile-video"><video controls playsinline preload="none" poster={`${base}/mobile-servicos.webp`} aria-label="Gravação mobile da chegada por toque e reversão"><source src={`${base}/videos/continuidade-mobile.webm`} type="video/webm" /></video><figcaption>Mobile · 390 × 844</figcaption></figure></div>
+      </section>
+      <section class="review-section">
+        <h2>A composição<br />sem refração.</h2><div class="frames"><figure><img src={`${base}/desktop-fallback-destino.webp`} width="1200" height="750" loading="lazy" alt="Destino panorâmico sem WebGL." /><figcaption>Pôster HTML no desktop, sem a camada óptica.</figcaption></figure><figure class="mobile-still"><img src={`${base}/mobile-fallback-destino.webp`} width="390" height="844" loading="lazy" alt="Destino vertical sem WebGL no celular." /><figcaption>O mobile mantém imagem, cor e leitura.</figcaption></figure></div>
+        <p>Movimento reduzido usa fotografias no fluxo normal. A pré-seleção dos três serviços foi preservada na simulação existente. Sem JavaScript, o formulário mantém a explicação de sua limitação.</p>
+      </section>
+      <section class="review-section"><h2>Limites desta revisão.</h2><p>O ritmo é mais espaçado e exige mais rolagem que a seção anterior. O panorama continua limitado pela resolução da matriz sintética da Etapa 1. WebGL e imagem HTML usam filtros de amostragem diferentes; a continuidade geométrica não implica pixels idênticos entre eles.</p><p>Os testes de navegador e toque emulado não substituem Safari real, aparelhos físicos ou leitor de tela. O original, A/B e a lógica comercial compartilhada permanecem preservados. A Etapa 3 não foi iniciada.</p></section>
+    </main>
+    <footer><a href="/estudos/etapa-2/#servicos">Voltar aos serviços</a><p>Projeto fictício. Cenas sintéticas existentes.<br />Sem commits, push ou deploy.</p></footer>
+  </body>
+</html>

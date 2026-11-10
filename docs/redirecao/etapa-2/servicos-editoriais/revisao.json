@@ -1,0 +1,59 @@
+{
+  "checks": [
+    {
+      "name": "Galeria online 320px",
+      "overflow": false,
+      "images": 16,
+      "title": "Lâmina — Margem aberta · Revisão editorial",
+      "violations": [],
+      "passed": true
+    },
+    {
+      "name": "Galeria online 390px",
+      "overflow": false,
+      "images": 16,
+      "title": "Lâmina — Margem aberta · Revisão editorial",
+      "violations": [],
+      "passed": true
+    },
+    {
+      "name": "Galeria online 820px",
+      "overflow": false,
+      "images": 16,
+      "title": "Lâmina — Margem aberta · Revisão editorial",
+      "violations": [],
+      "passed": true
+    },
+    {
+      "name": "Galeria online 1440px",
+      "overflow": false,
+      "images": 16,
+      "title": "Lâmina — Margem aberta · Revisão editorial",
+      "violations": [],
+      "passed": true
+    },
+    {
+      "name": "Vídeos brutos disponíveis na galeria",
+      "media": [
+        {
+          "name": "desktop",
+          "status": 200,
+          "bytes": 8342518
+        },
+        {
+          "name": "mobile",
+          "status": 200,
+          "bytes": 2155925
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "Galeria local: todas as imagens decodificam",
+      "images": 23,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

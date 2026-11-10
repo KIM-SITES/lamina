@@ -1,0 +1,233 @@
+{
+  "checks": [
+    {
+      "name": "Escopo preserva original, A/B, dados comerciais, AGENTS e Skills",
+      "passed": true,
+      "detail": {
+        "trackedChanges": [
+          "scripts/studies/capture-services-redesign.mjs",
+          "scripts/studies/verify-services-redesign.mjs",
+          "src/studies/etapa-2/Services.astro",
+          "src/studies/etapa-2/ServicesReview.astro",
+          "src/studies/etapa-2/continuity.ts",
+          "src/studies/etapa-2/services.css"
+        ],
+        "heroUnchanged": true,
+        "rendererAndShaderUnchanged": true
+      }
+    },
+    {
+      "name": "320px: título, panorama e serviços sem overflow, axe e foco",
+      "passed": true,
+      "detail": {
+        "services": 3,
+        "allSelections": true,
+        "axeViolations": 0,
+        "axeExecuted": false
+      }
+    },
+    {
+      "name": "375px: título, panorama e serviços sem overflow, axe e foco",
+      "passed": true,
+      "detail": {
+        "services": 3,
+        "allSelections": true,
+        "axeViolations": 0,
+        "axeExecuted": false
+      }
+    },
+    {
+      "name": "390px: título, panorama e serviços sem overflow, axe e foco",
+      "passed": true,
+      "detail": {
+        "services": 3,
+        "allSelections": true,
+        "axeViolations": 0,
+        "axeExecuted": true
+      }
+    },
+    {
+      "name": "430px: título, panorama e serviços sem overflow, axe e foco",
+      "passed": true,
+      "detail": {
+        "services": 3,
+        "allSelections": true,
+        "axeViolations": 0,
+        "axeExecuted": false
+      }
+    },
+    {
+      "name": "768px: título, panorama e serviços sem overflow, axe e foco",
+      "passed": true,
+      "detail": {
+        "services": 3,
+        "allSelections": true,
+        "axeViolations": 0,
+        "axeExecuted": false
+      }
+    },
+    {
+      "name": "820px: título, panorama e serviços sem overflow, axe e foco",
+      "passed": true,
+      "detail": {
+        "services": 3,
+        "allSelections": true,
+        "axeViolations": 0,
+        "axeExecuted": true
+      }
+    },
+    {
+      "name": "1024px: título, panorama e serviços sem overflow, axe e foco",
+      "passed": true,
+      "detail": {
+        "services": 3,
+        "allSelections": true,
+        "axeViolations": 0,
+        "axeExecuted": false
+      }
+    },
+    {
+      "name": "1440px: título, panorama e serviços sem overflow, axe e foco",
+      "passed": true,
+      "detail": {
+        "services": 3,
+        "allSelections": true,
+        "axeViolations": 0,
+        "axeExecuted": true
+      }
+    },
+    {
+      "name": "1920px: título, panorama e serviços sem overflow, axe e foco",
+      "passed": true,
+      "detail": {
+        "services": 3,
+        "allSelections": true,
+        "axeViolations": 0,
+        "axeExecuted": false
+      }
+    },
+    {
+      "name": "desktop: pôster e WebGL coincidem no novo destino",
+      "passed": true,
+      "detail": {
+        "rawMeanChannelDifference": 4.738322194945886,
+        "meanChannelDifference256": 1.9465296648550725,
+        "meanChannelDifference64": 0.708786231884058,
+        "source": "http://127.0.0.1:4322/studies/etapa-1/superficie-desktop.webp",
+        "clip": {
+          "x": 601,
+          "y": 180,
+          "width": 837,
+          "height": 603
+        }
+      }
+    },
+    {
+      "name": "tablet: pôster e WebGL coincidem no novo destino",
+      "passed": true,
+      "detail": {
+        "rawMeanChannelDifference": 2.1513933225780617,
+        "meanChannelDifference256": 1.3461100260416667,
+        "meanChannelDifference64": 0.5409007352941176,
+        "source": "http://127.0.0.1:4322/studies/etapa-2/superficie-vertical.webp",
+        "clip": {
+          "x": 350,
+          "y": 164,
+          "width": 468,
+          "height": 498
+        }
+      }
+    },
+    {
+      "name": "mobile: pôster e WebGL coincidem no novo destino",
+      "passed": true,
+      "detail": {
+        "rawMeanChannelDifference": 4.217196493982208,
+        "meanChannelDifference256": 3.293787638346354,
+        "meanChannelDifference64": 1.2045084635416667,
+        "source": "http://127.0.0.1:4322/studies/etapa-2/superficie-vertical.webp",
+        "clip": {
+          "x": 0,
+          "y": 128,
+          "width": 364,
+          "height": 364
+        }
+      }
+    },
+    {
+      "name": "Título não atravessa a fotografia na nova composição",
+      "passed": true,
+      "detail": [
+        {
+          "width": 390,
+          "progress": 0.819753,
+          "opacity": 1,
+          "clear": true
+        },
+        {
+          "width": 390,
+          "progress": 0.9,
+          "opacity": 1,
+          "clear": true
+        },
+        {
+          "width": 390,
+          "progress": 1,
+          "opacity": 1,
+          "clear": true
+        },
+        {
+          "width": 820,
+          "progress": 0.819804,
+          "opacity": 0.0336511,
+          "clear": true
+        },
+        {
+          "width": 820,
+          "progress": 0.900089,
+          "opacity": 0.583723,
+          "clear": true
+        },
+        {
+          "width": 820,
+          "progress": 1,
+          "opacity": 1,
+          "clear": true
+        },
+        {
+          "width": 1440,
+          "progress": 0.819883,
+          "opacity": 0.0339094,
+          "clear": true
+        },
+        {
+          "width": 1440,
+          "progress": 0.900585,
+          "opacity": 0.587802,
+          "clear": true
+        },
+        {
+          "width": 1440,
+          "progress": 1,
+          "opacity": 1,
+          "clear": true
+        }
+      ]
+    },
+    {
+      "name": "Zoom 200% mantém título e ações legíveis e dentro da tela",
+      "passed": true
+    },
+    {
+      "name": "Âncoras e faixa de ligação mantêm destino acessível",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "checks": 16,
+    "passed": 16,
+    "failed": 0,
+    "errors": 0
+  }
+}

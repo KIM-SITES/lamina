@@ -5,13 +5,13 @@ import sharp from 'sharp';
 import AxeBuilder from '@axe-core/playwright';
 import {launch} from '../browser.mjs';
 const exec=promisify(execFile);
-const root='docs/redirecao/etapa-2/servicos';
+const root=process.env.EVIDENCE_DIR||'docs/redirecao/etapa-2/servicos';
 const output={checks:[],errors:[]};
 const assert=(value,message)=>{if(!value)throw Error(message);};
 async function check(name,fn){try{const detail=await fn();output.checks.push({name,passed:true,detail});console.log('PASS',name);}catch(error){output.checks.push({name,passed:false,error:error.message});console.log('FAIL',name,error.message);}}
 await check('Escopo preserva original, A/B, dados comerciais, AGENTS e Skills',async()=>{
   const files=(await exec('git',['diff','--name-only','HEAD'])).stdout.trim().split(/\r?\n/).filter(Boolean);
-  assert(files.every(f=>f.startsWith('src/studies/etapa-2/')||f.startsWith('src/pages/estudos/etapa-2')||['scripts/studies/verify-stage2.mjs','scripts/studies/review-stage2.mjs'].includes(f)),'Arquivo fora do escopo: '+files.join(', '));
+  assert(files.every(f=>f.startsWith('src/studies/etapa-2/')||f.startsWith('src/pages/estudos/etapa-2')||['scripts/studies/verify-stage2.mjs','scripts/studies/review-stage2.mjs','scripts/studies/capture-services-redesign.mjs','scripts/studies/verify-services-redesign.mjs'].includes(f)),'Arquivo fora do escopo: '+files.join(', '));
   const old=await readFile(`${root}/anterior/Story.astro.txt`,'utf8');const current=await readFile('src/studies/etapa-2/Story.astro','utf8');
   const hero=t=>t.slice(t.indexOf('<section class="hero"'),t.indexOf('</section>')+10).replaceAll('\r\n','\n');
   assert(hero(old)===hero(current),'Conteúdo do hero alterado');
@@ -28,8 +28,8 @@ try{
   await page.setViewportSize({width,height});await ready();
   await check(`${width}px: título, panorama e serviços sem overflow, axe e foco`,async()=>{
    const violations=[];
-   for(const state of ['intermediate','arrival','offer']){
-    await page.evaluate(state=>{const hero=document.querySelector('.hero').offsetHeight;const offer=document.querySelector('.services-offer');scrollTo(0,state==='offer'?scrollY+offer.getBoundingClientRect().top:state==='arrival'?hero:hero*.65*(innerWidth<700?.9:.95));},state);
+   for(const state of ['hero','intermediate','arrival','offer']){
+    await page.evaluate(state=>{const hero=document.querySelector('.hero').offsetHeight;const offer=document.querySelector('.services-offer');scrollTo(0,state==='offer'?scrollY+offer.getBoundingClientRect().top:state==='hero'?0:state==='arrival'?hero:hero*.65*(innerWidth<700?.9:.95));},state);
     await page.waitForTimeout(140);
     assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Overflow '+state);
     if([390,820,1440].includes(width))violations.push(...(await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze()).violations.map(v=>({id:v.id,state,nodes:v.nodes.length})));
@@ -67,6 +67,18 @@ try{
    assert(framingDifference<1.5,`Diferença média de canais em 64px ${framingDifference}`);return {rawMeanChannelDifference:rawDifference,meanChannelDifference256:difference256,meanChannelDifference64:framingDifference,source,clip};
   });
  }
+ await check('Título não atravessa a fotografia na nova composição',async()=>{
+  const states=[];
+  for(const width of [390,820,1440]){
+   await page.setViewportSize({width,height:width===820?1180:900});await ready();
+   for(const progress of [.82,.9,1]){
+    await page.evaluate(t=>scrollTo(0,document.querySelector('.hero').offsetHeight*(innerWidth<700?.9:.95)*t),progress);await page.waitForTimeout(140);
+    const state=await page.evaluate(()=>{const r=document.querySelector('.services-heading').getBoundingClientRect();const f=window.__laminaContinuity.frame;return {width:innerWidth,progress:window.__laminaContinuity.progress,opacity:+getComputedStyle(document.querySelector('.services-heading')).opacity,clear:innerWidth<700?r.top>=f.y+f.height-1:r.right<=f.x+1};});
+    assert(state.opacity<.01||state.clear,JSON.stringify(state));states.push(state);
+   }
+  }
+  return states;
+ });
  await check('Zoom 200% mantém título e ações legíveis e dentro da tela',async()=>{
   await page.setViewportSize({width:820,height:1180});await ready();await page.evaluate(()=>document.documentElement.style.zoom='2');await page.waitForTimeout(300);
   for(const selector of ['#services-title','.services-offer','[data-select-service="manutencao"]']){await page.locator(selector).scrollIntoViewIfNeeded();await page.waitForTimeout(100);assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Overflow em '+selector);}

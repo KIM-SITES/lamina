@@ -1,0 +1,260 @@
+{
+  "baseline": "4fc0150676db3a931117df31156066129beeea2b",
+  "modified": [
+    {
+      "path": "scripts/studies/capture-services-redesign.mjs",
+      "status": "modified",
+      "bytes": 10027,
+      "sha256": "f2ffb3001918ed0e4e612d3cb6f20a545dc140eb0d5606cbc9d8bc8b22346c0e"
+    },
+    {
+      "path": "scripts/studies/verify-services-redesign.mjs",
+      "status": "modified",
+      "bytes": 9010,
+      "sha256": "f77c5cd0ef61401bdcdaaaba06c1d3ecb88dce60d1ebaf0c9a505e7bb5149bb4"
+    },
+    {
+      "path": "src/studies/etapa-2/Services.astro",
+      "status": "modified",
+      "bytes": 1564,
+      "sha256": "e4a8c882f6357346839183e72133dd8d77347a2e596a4fc7371d7dafbe8587ef"
+    },
+    {
+      "path": "src/studies/etapa-2/ServicesReview.astro",
+      "status": "modified",
+      "bytes": 8617,
+      "sha256": "8dc5f48acfd46d651792ddd7d29d73a6e932cf21c8bc8165ea3e01d2a2bb2221"
+    },
+    {
+      "path": "src/studies/etapa-2/continuity.ts",
+      "status": "modified",
+      "bytes": 9126,
+      "sha256": "7c5718a1c681f51abdbf67dab8a95526f87d862ae8ce9a420a257ea4deab35c0"
+    },
+    {
+      "path": "src/studies/etapa-2/services.css",
+      "status": "modified",
+      "bytes": 6154,
+      "sha256": "adf916522032d834f2a9cfe3f927c66d41470e120f6b920a2e3a470284ed76ce"
+    }
+  ],
+  "created": [
+    {
+      "path": "src/studies/etapa-2/ServiceEntry.astro",
+      "status": "created",
+      "bytes": 999,
+      "sha256": "f57f33c00bcd2267874addbc9d15cc39c081bab54044e3cc83fce5cf8c87bb3e"
+    },
+    {
+      "path": "scripts/studies/prepare-editorial-services.mjs",
+      "status": "created",
+      "bytes": 9550,
+      "sha256": "39f6ccb16f838b2a5b040d89e30130074ffa0bc574333a20fcb4fdbbc1cd8669"
+    },
+    {
+      "path": "scripts/studies/package-editorial-services.mjs",
+      "status": "created",
+      "bytes": 8368,
+      "sha256": "94e375ddb1a708d22378ded6c65c14a083c21f10ef03623bf01ce98723080af0"
+    }
+  ],
+  "assets": [
+    {
+      "path": "public/studies/etapa-2/servicos-editoriais/alternativa-assimetrica.webp",
+      "status": "generated-preview",
+      "bytes": 81796,
+      "sha256": "85f964ab6b82a706d97bbdc023a6cbded2f334184c683527521ae8db74211b80"
+    },
+    {
+      "path": "public/studies/etapa-2/servicos-editoriais/alternativa-panorama.webp",
+      "status": "generated-preview",
+      "bytes": 88980,
+      "sha256": "642330bd92394f40f4889b076958e096623d494641efe2c897e5bbd29548f6b0"
+    },
+    {
+      "path": "public/studies/etapa-2/servicos-editoriais/alternativa-vertical.webp",
+      "status": "generated-preview",
+      "bytes": 96774,
+      "sha256": "8f5cd1d1bb405b8f9dd08613a86c70b7d6423e59974142dd09cb6f92979fe17b"
+    },
+    {
+      "path": "public/studies/etapa-2/servicos-editoriais/desktop-acomodacao.webp",
+      "status": "generated-preview",
+      "bytes": 108228,
+      "sha256": "af8bf7990feec7700c14f2e64847497199092a7a0a6fb25826b8556e842fc309"
+    },
+    {
+      "path": "public/studies/etapa-2/servicos-editoriais/desktop-comparacao-completa.webp",
+      "status": "generated-preview",
+      "bytes": 257318,
+      "sha256": "03c788a18e138fb52df47e51f9768cd9d65351792390bb8f4eebebbe97432308"
+    },
+    {
+      "path": "public/studies/etapa-2/servicos-editoriais/desktop-comparacao-viewport.webp",
+      "status": "generated-preview",
+      "bytes": 207280,
+      "sha256": "1736e82afdd57537850c31af27499a7f42b24bec4652be31530f77cdf88d1019"
+    },
+    {
+      "path": "public/studies/etapa-2/servicos-editoriais/desktop-destino.webp",
+      "status": "generated-preview",
+      "bytes": 114194,
+      "sha256": "f0ee9538850d0ead61e4c8dd707614ca3431ca487bc3f3a92714768a194fe2b4"
+    },
+    {
+      "path": "public/studies/etapa-2/servicos-editoriais/desktop-fallback-destino.webp",
+      "status": "generated-preview",
+      "bytes": 118034,
+      "sha256": "f9694ad96e32129161123c7baae7bd3fa8e92741869670a8c13a0887983e9f04"
+    },
+    {
+      "path": "public/studies/etapa-2/servicos-editoriais/desktop-inicio.webp",
+      "status": "generated-preview",
+      "bytes": 129298,
+      "sha256": "90bd85d188c023a54a1184cc8c701217959ff7cb206f6b6905ce2421743ace1d"
+    },
+    {
+      "path": "public/studies/etapa-2/servicos-editoriais/desktop-oferta.webp",
+      "status": "generated-preview",
+      "bytes": 45038,
+      "sha256": "2128ee674ce64ad417908cebb9d5fb743ce4f05eede5ff39e08f059b30e44af6"
+    },
+    {
+      "path": "public/studies/etapa-2/servicos-editoriais/desktop-passagem.webp",
+      "status": "generated-preview",
+      "bytes": 122224,
+      "sha256": "785740fa470aef33f84487930f86af88c91c71aa134960b5d158688669872aa2"
+    },
+    {
+      "path": "public/studies/etapa-2/servicos-editoriais/desktop-servicos.webp",
+      "status": "generated-preview",
+      "bytes": 118802,
+      "sha256": "9249d70c3b04a2ff136c392dc7c5e3ef2474262bc1752465c495bde644f85632"
+    },
+    {
+      "path": "public/studies/etapa-2/servicos-editoriais/mobile-comparacao-completa.webp",
+      "status": "generated-preview",
+      "bytes": 162164,
+      "sha256": "bf1f154acbf8750a6e4dce944806d5e1fa04596c5cb99ad5622328894ba717e9"
+    },
+    {
+      "path": "public/studies/etapa-2/servicos-editoriais/mobile-comparacao-viewport.webp",
+      "status": "generated-preview",
+      "bytes": 103810,
+      "sha256": "cd56bfdb89ee913b1e56c7953b268378187a60a50f294d1682d95be7bc5d244f"
+    },
+    {
+      "path": "public/studies/etapa-2/servicos-editoriais/mobile-fallback-destino.webp",
+      "status": "generated-preview",
+      "bytes": 48038,
+      "sha256": "0c1b82d19d0c3e4d0c8a21cf39b18fe6d7a10bb1ff346e86a8e479ecaba58c42"
+    },
+    {
+      "path": "public/studies/etapa-2/servicos-editoriais/mobile-oferta.webp",
+      "status": "generated-preview",
+      "bytes": 32074,
+      "sha256": "6e8300e60e80ffb18eb8d31fa822da78c63d851fdaafd990d5eda25c46ed3d03"
+    },
+    {
+      "path": "public/studies/etapa-2/servicos-editoriais/mobile-servicos.webp",
+      "status": "generated-preview",
+      "bytes": 52686,
+      "sha256": "c92929bd60c427f9194dee6abbe262b2ca5cd88cc713fb49b1b6a33985bf8f95"
+    },
+    {
+      "path": "public/studies/etapa-2/servicos-editoriais/tablet-comparacao-completa.webp",
+      "status": "generated-preview",
+      "bytes": 246144,
+      "sha256": "31b165e439cfe78a7b87aa3e8d2311ac5d2344ebdafdeb7d654639f595f6c1b0"
+    },
+    {
+      "path": "public/studies/etapa-2/servicos-editoriais/tablet-comparacao-viewport.webp",
+      "status": "generated-preview",
+      "bytes": 222308,
+      "sha256": "99fdd239e98b485ce2e0052fadb81eea9aed0b1ed07ba5b30fd56d5a5169f0f5"
+    },
+    {
+      "path": "public/studies/etapa-2/servicos-editoriais/tablet-servicos.webp",
+      "status": "generated-preview",
+      "bytes": 108072,
+      "sha256": "48a5650a211eefba0e77d0f076b896dbdc392f33d58a06d691d9446bae684650"
+    },
+    {
+      "path": "public/studies/etapa-2/servicos-editoriais/videos/continuidade-desktop.webm",
+      "status": "generated-preview",
+      "bytes": 8342518,
+      "sha256": "81192f638a2b41732e4a6a0bb864bfb82308b46a433cb1c11e206ccfb73e43f0"
+    },
+    {
+      "path": "public/studies/etapa-2/servicos-editoriais/videos/continuidade-mobile.webm",
+      "status": "generated-preview",
+      "bytes": 2155925,
+      "sha256": "1eb51626ec209bbc3d47e0f49c217d1dcc24cb5ce4b7dee7f3513b1d625180e9"
+    }
+  ],
+  "reused": [
+    {
+      "path": "src/studies/etapa-2/Story.astro",
+      "status": "unchanged",
+      "bytes": 2191,
+      "sha256": "db6f0e1d4e63aadb95c471d156e330383710e0f5803a19c377e792677ad1c729"
+    },
+    {
+      "path": "src/studies/etapa-2/scene.ts",
+      "status": "unchanged",
+      "bytes": 2448,
+      "sha256": "10e5dff49df82acf644ca38741e03f63fe473067620826152c437557bd8e6b35"
+    },
+    {
+      "path": "src/studies/etapa-2/shaders.ts",
+      "status": "unchanged",
+      "bytes": 1874,
+      "sha256": "e261ea40511ee4f5da664e8ffabefd2c03e88e49d8bad4f0db7dc9930c230d94"
+    },
+    {
+      "path": "src/studies/etapa-2/ContinuityRenderer.ts",
+      "status": "unchanged",
+      "bytes": 7480,
+      "sha256": "368820c8981fbee4c972013302d6d390d49f712fb02bcafcbf58f1858c42f166"
+    },
+    {
+      "path": "src/data/content.ts",
+      "status": "unchanged",
+      "bytes": 1585,
+      "sha256": "0f534390a3bdc6091bce3519630590aae2a0d7201bb0aa5dd8c7a4789b1a0adb"
+    },
+    {
+      "path": "src/scripts/quote.ts",
+      "status": "unchanged",
+      "bytes": 1741,
+      "sha256": "c911aa682152555ca550246931e554821cb0b36b927dbdbfe3c0007b4de13350"
+    },
+    {
+      "path": "src/studies/etapa-1/Quote.astro",
+      "status": "unchanged",
+      "bytes": 1467,
+      "sha256": "73eac37fea3817585459969ab3b42c952585d262f628bd3a3423f85fddd1ed0e"
+    },
+    {
+      "path": "public/studies/etapa-1/superficie-desktop.webp",
+      "status": "unchanged",
+      "bytes": 364072,
+      "sha256": "6e27ecefd43de9a6ff271e65927220faaafe3425505e2e355187e96ef8de4f83"
+    },
+    {
+      "path": "public/studies/etapa-2/superficie-vertical.webp",
+      "status": "unchanged",
+      "bytes": 230258,
+      "sha256": "5d9ce2b2f2219c5858434b5dfa87cf925bfd7fb3304594aa978ef2107db4ba66"
+    }
+  ],
+  "evidence": {
+    "screenshots": 80,
+    "comparisons": 6,
+    "videos": 2
+  },
+  "newPhotography": false,
+  "commits": false,
+  "push": false,
+  "deploy": false
+}

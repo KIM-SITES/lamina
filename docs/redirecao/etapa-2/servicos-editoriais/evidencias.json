@@ -1,0 +1,2011 @@
+{
+  "date": "2026-11-10T19:16:38.360Z",
+  "screenshots": [
+    {
+      "name": "desktop-hero",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/desktop-hero.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.00037802419354837635,
+          "width": 1,
+          "height": 0.9992439516129032
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "desktop-inicio",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/desktop-inicio.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": {
+        "progress": 0.349708,
+        "frame": {
+          "x": 95.5757860735196,
+          "y": 19.874433157446497,
+          "width": 1344.4242139264804,
+          "height": 869.0670881479923
+        },
+        "crop": {
+          "x": 0.023431189520522866,
+          "y": 0.0074683941272641885,
+          "width": 0.9531376209589543,
+          "height": 0.9850632117454716
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "desktop-passagem",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/desktop-passagem.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": {
+        "progress": 0.650292,
+        "frame": {
+          "x": 387.53587491148835,
+          "y": 80.58584876420773,
+          "width": 1052.4641250885115,
+          "height": 774.5747898018172
+        },
+        "crop": {
+          "x": 0.08391081086150098,
+          "y": 0.010408353054611352,
+          "width": 0.832178378276998,
+          "height": 0.9791832938907773
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "desktop-acomodacao",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/desktop-acomodacao.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": {
+        "progress": 0.850292,
+        "frame": {
+          "x": 553.4338949416567,
+          "y": 115.08338465165579,
+          "width": 886.5661050583433,
+          "height": 720.8822276912808
+        },
+        "crop": {
+          "x": 0.11749590754203815,
+          "y": 0.0027431297205305905,
+          "width": 0.7650081849159237,
+          "height": 0.9945137405589388
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "desktop-destino",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/desktop-destino.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 600.671875,
+          "y": 124.90625,
+          "width": 839.328125,
+          "height": 705.59375
+        },
+        "crop": {
+          "x": 0.12798920332795932,
+          "y": 0,
+          "width": 0.7440215933440814,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "desktop-servicos",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/desktop-servicos.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 600.671875,
+          "y": 79.90625,
+          "width": 839.328125,
+          "height": 705.59375
+        },
+        "crop": {
+          "x": 0.12798920332795932,
+          "y": 0,
+          "width": 0.7440215933440814,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "desktop-oferta",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/desktop-oferta.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 600.671875,
+          "y": -706.09375,
+          "width": 839.328125,
+          "height": 705.59375
+        },
+        "crop": {
+          "x": 0.12798920332795932,
+          "y": 0,
+          "width": 0.7440215933440814,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "desktop-secao-completa",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/desktop-secao-completa.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1336
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 600.671875,
+          "y": 82.90625,
+          "width": 839.328125,
+          "height": 705.59375
+        },
+        "crop": {
+          "x": 0.12798920332795932,
+          "y": 0,
+          "width": 0.7440215933440814,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "wide-hero",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/wide-hero.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.050340221774193505,
+          "width": 1,
+          "height": 0.899319556451613
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "wide-inicio",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/wide-inicio.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "state": {
+        "progress": 0.349903,
+        "frame": {
+          "x": 127.63941109453893,
+          "y": 25.498996636780184,
+          "width": 1792.360588905461,
+          "height": 1048.1262542040247
+        },
+        "crop": {
+          "x": 0.007476377014839719,
+          "y": 0.03952422233428049,
+          "width": 0.9850472459703206,
+          "height": 0.920951555331439
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "wide-passagem",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/wide-passagem.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "state": {
+        "progress": 0.650097,
+        "frame": {
+          "x": 516.4622786060844,
+          "y": 103.17557713774053,
+          "width": 1403.5377213939155,
+          "height": 951.0305285778243
+        },
+        "crop": {
+          "x": 0.04807448985886309,
+          "y": 0.010414285892433317,
+          "width": 0.9038510202822738,
+          "height": 0.9791714282151334
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "wide-acomodacao",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/wide-acomodacao.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "state": {
+        "progress": 0.849903,
+        "frame": {
+          "x": 737.615031901326,
+          "y": 147.35607957137577,
+          "width": 1182.384968098674,
+          "height": 895.8049005357802
+        },
+        "crop": {
+          "x": 0.08949041625536369,
+          "y": 0.002756235690744957,
+          "width": 0.8210191674892726,
+          "height": 0.9944875286185101
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "wide-destino",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/wide-destino.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 800.90625,
+          "y": 160,
+          "width": 1119.09375,
+          "height": 880
+        },
+        "crop": {
+          "x": 0.1022938639229623,
+          "y": 0,
+          "width": 0.7954122721540754,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "wide-servicos",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/wide-servicos.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 800.90625,
+          "y": 106,
+          "width": 1119.09375,
+          "height": 880
+        },
+        "crop": {
+          "x": 0.1022938639229623,
+          "y": 0,
+          "width": 0.7954122721540754,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "wide-oferta",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/wide-oferta.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 800.90625,
+          "y": -880,
+          "width": 1119.09375,
+          "height": 880
+        },
+        "crop": {
+          "x": 0.1022938639229623,
+          "y": 0,
+          "width": 0.7954122721540754,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-768-hero",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-768-hero.png",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1080
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.031250000000000056,
+          "width": 1,
+          "height": 0.9374999999999999
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-768-inicio",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-768-inicio.png",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "state": {
+        "progress": 0.349903,
+        "frame": {
+          "x": 52.22314037759316,
+          "y": 18.805510019625384,
+          "width": 715.7768596224068,
+          "height": 1003.5030100896595
+        },
+        "crop": {
+          "x": 0.007476377014839719,
+          "y": 0.039661994226707686,
+          "width": 0.9850472459703206,
+          "height": 0.9206760115465846
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-768-passagem",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-768-passagem.png",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "state": {
+        "progress": 0.650097,
+        "frame": {
+          "x": 211.30841833327096,
+          "y": 76.09198813908365,
+          "width": 556.691581666729,
+          "height": 770.4732685867784
+        },
+        "crop": {
+          "x": 0.010414285892433317,
+          "y": 0.04826847537077544,
+          "width": 0.9791714282151334,
+          "height": 0.9034630492584491
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-768-acomodacao",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-768-acomodacao.png",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "state": {
+        "progress": 0.849903,
+        "frame": {
+          "x": 301.79215827840744,
+          "y": 108.67510868388962,
+          "width": 466.20784172159256,
+          "height": 637.9317612858727
+        },
+        "crop": {
+          "x": 0.002756235690744957,
+          "y": 0.04640032196391253,
+          "width": 0.9944875286185101,
+          "height": 0.907199356072175
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-768-destino",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-768-destino.png",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 327.6875,
+          "y": 118,
+          "width": 440.3125,
+          "height": 600
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.04577714691270407,
+          "width": 1,
+          "height": 0.9084457061745919
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-768-servicos",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-768-servicos.png",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 327.6875,
+          "y": 64,
+          "width": 440.3125,
+          "height": 600
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.04577714691270407,
+          "width": 1,
+          "height": 0.9084457061745919
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-768-oferta",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-768-oferta.png",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 327.6875,
+          "y": -600,
+          "width": 440.3125,
+          "height": 600
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.04577714691270407,
+          "width": 1,
+          "height": 0.9084457061745919
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-hero",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-hero.png",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 1180
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.020325203252032575,
+          "width": 1,
+          "height": 0.9593495934959348
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-inicio",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-inicio.png",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "state": {
+        "progress": 0.349688,
+        "frame": {
+          "x": 55.66118198151202,
+          "y": 19.567918210006372,
+          "width": 764.3388180184879,
+          "height": 1087.7285157576935
+        },
+        "crop": {
+          "x": 0.007467575260578396,
+          "y": 0.03271895421698501,
+          "width": 0.9850648494788432,
+          "height": 0.93456209156603
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-passagem",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-passagem.png",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "state": {
+        "progress": 0.650312,
+        "frame": {
+          "x": 225.74068822928572,
+          "y": 79.36007046002756,
+          "width": 594.2593117707142,
+          "height": 805.7817815706017
+        },
+        "crop": {
+          "x": 0.010407744111765593,
+          "y": 0.057427190028893405,
+          "width": 0.9791845117764688,
+          "height": 0.8851456199422132
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-acomodacao",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-acomodacao.png",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "state": {
+        "progress": 0.850134,
+        "frame": {
+          "x": 322.30582639940656,
+          "y": 113.30794325724045,
+          "width": 497.69417360059344,
+          "height": 645.7023813886223
+        },
+        "crop": {
+          "x": 0.0027484501376124904,
+          "y": 0.06991458218543767,
+          "width": 0.994503099724775,
+          "height": 0.8601708356291247
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-destino",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-destino.png",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 349.875,
+          "y": 123,
+          "width": 470.125,
+          "height": 600
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.07458122839670306,
+          "width": 1,
+          "height": 0.8508375432065939
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-servicos",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-servicos.png",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 349.875,
+          "y": 64,
+          "width": 470.125,
+          "height": 600
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.07458122839670306,
+          "width": 1,
+          "height": 0.8508375432065939
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-oferta",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-oferta.png",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 349.875,
+          "y": -600,
+          "width": 470.125,
+          "height": 600
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.07458122839670306,
+          "width": 1,
+          "height": 0.8508375432065939
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-secao-completa",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-secao-completa.png",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 349.875,
+          "y": 88,
+          "width": 470.125,
+          "height": 600
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.07458122839670306,
+          "width": 1,
+          "height": 0.8508375432065939
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-1024-hero",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-1024-hero.png",
+      "viewport": {
+        "width": 1024,
+        "height": 900
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 900
+        },
+        "crop": {
+          "x": 0.144175423847555,
+          "y": 0,
+          "width": 0.71164915230489,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-1024-inicio",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-1024-inicio.png",
+      "viewport": {
+        "width": 1024,
+        "height": 900
+      },
+      "state": {
+        "progress": 0.349708,
+        "frame": {
+          "x": 69.52073735072258,
+          "y": 17.343513348304572,
+          "width": 954.4792626492774,
+          "height": 852.2655595918222
+        },
+        "crop": {
+          "x": 0.15498803860872712,
+          "y": 0.0074683941272641885,
+          "width": 0.6900239227825458,
+          "height": 0.9850632117454716
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-1024-passagem",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-1024-passagem.png",
+      "viewport": {
+        "width": 1024,
+        "height": 900
+      },
+      "state": {
+        "progress": 0.650292,
+        "frame": {
+          "x": 281.8891780076984,
+          "y": 70.32360282450752,
+          "width": 742.1108219923017,
+          "height": 706.4487995655757
+        },
+        "crop": {
+          "x": 0.17831518395937984,
+          "y": 0.010408353054611352,
+          "width": 0.6433696320812403,
+          "height": 0.9791832938907773
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-1024-acomodacao",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-1024-acomodacao.png",
+      "viewport": {
+        "width": 1024,
+        "height": 900
+      },
+      "state": {
+        "progress": 0.850292,
+        "frame": {
+          "x": 402.561506756849,
+          "y": 100.42803244057427,
+          "width": 621.438493243151,
+          "height": 623.5925712644745
+        },
+        "crop": {
+          "x": 0.190053669253896,
+          "y": 0.0027431297205305905,
+          "width": 0.619892661492208,
+          "height": 0.9945137405589388
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-1024-destino",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-1024-destino.png",
+      "viewport": {
+        "width": 1024,
+        "height": 900
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 436.921875,
+          "y": 109,
+          "width": 587.078125,
+          "height": 600
+        },
+        "crop": {
+          "x": 0.19399879150903743,
+          "y": 0,
+          "width": 0.6120024169819251,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-1024-servicos",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-1024-servicos.png",
+      "viewport": {
+        "width": 1024,
+        "height": 900
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 436.921875,
+          "y": 64,
+          "width": 587.078125,
+          "height": 600
+        },
+        "crop": {
+          "x": 0.19399879150903743,
+          "y": 0,
+          "width": 0.6120024169819251,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-1024-oferta",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-1024-oferta.png",
+      "viewport": {
+        "width": 1024,
+        "height": 900
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 436.921875,
+          "y": -600,
+          "width": 587.078125,
+          "height": 600
+        },
+        "crop": {
+          "x": 0.19399879150903743,
+          "y": 0,
+          "width": 0.6120024169819251,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-horizontal-hero",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-horizontal-hero.png",
+      "viewport": {
+        "width": 1180,
+        "height": 820
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1180,
+          "height": 820
+        },
+        "crop": {
+          "x": 0.049964629532802285,
+          "y": 0,
+          "width": 0.9000707409343954,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-horizontal-inicio",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-horizontal-inicio.png",
+      "viewport": {
+        "width": 1180,
+        "height": 820
+      },
+      "state": {
+        "progress": 0.350449,
+        "frame": {
+          "x": 78.79463287272695,
+          "y": 17.046073996179107,
+          "width": 1101.2053671272731,
+          "height": 784.7822858596916
+        },
+        "crop": {
+          "x": 0.06775002015946185,
+          "y": 0.007498718740671928,
+          "width": 0.8644999596810763,
+          "height": 0.9850025625186561
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-horizontal-passagem",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-horizontal-passagem.png",
+      "viewport": {
+        "width": 1180,
+        "height": 820
+      },
+      "state": {
+        "progress": 0.649551,
+        "frame": {
+          "x": 316.96021459282815,
+          "y": 68.5697372373222,
+          "width": 863.0397854071718,
+          "height": 678.3328099337496
+        },
+        "crop": {
+          "x": 0.11040756053777157,
+          "y": 0.010430855723844834,
+          "width": 0.7791848789244569,
+          "height": 0.9791382885523103
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-horizontal-acomodacao",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-horizontal-acomodacao.png",
+      "viewport": {
+        "width": 1180,
+        "height": 820
+      },
+      "state": {
+        "progress": 0.849807,
+        "frame": {
+          "x": 453.274873173038,
+          "y": 98.05943307327325,
+          "width": 726.725126826962,
+          "height": 617.4061896299798
+        },
+        "crop": {
+          "x": 0.13392151627872678,
+          "y": 0.002759473676592128,
+          "width": 0.7321569674425464,
+          "height": 0.9944810526468157
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-horizontal-destino",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-horizontal-destino.png",
+      "viewport": {
+        "width": 1180,
+        "height": 820
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 492.21875,
+          "y": 106.484375,
+          "width": 687.78125,
+          "height": 600
+        },
+        "crop": {
+          "x": 0.1415095628415301,
+          "y": 0,
+          "width": 0.7169808743169398,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-horizontal-servicos",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-horizontal-servicos.png",
+      "viewport": {
+        "width": 1180,
+        "height": 820
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 492.21875,
+          "y": 65.484375,
+          "width": 687.78125,
+          "height": 600
+        },
+        "crop": {
+          "x": 0.1415095628415301,
+          "y": 0,
+          "width": 0.7169808743169398,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-horizontal-oferta",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-horizontal-oferta.png",
+      "viewport": {
+        "width": 1180,
+        "height": 820
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 492.21875,
+          "y": -599.515625,
+          "width": 687.78125,
+          "height": 600
+        },
+        "crop": {
+          "x": 0.1415095628415301,
+          "y": 0,
+          "width": 0.7169808743169398,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "small-hero",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/small-hero.png",
+      "viewport": {
+        "width": 320,
+        "height": 700
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 740
+        },
+        "crop": {
+          "x": 0.17567567567567566,
+          "y": 0,
+          "width": 0.6486486486486487,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "small-inicio",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/small-inicio.png",
+      "viewport": {
+        "width": 320,
+        "height": 700
+      },
+      "state": {
+        "progress": 0.34985,
+        "frame": {
+          "x": 0,
+          "y": 17.52296677994253,
+          "width": 316.81400604001044,
+          "height": 681.8556102301907
+        },
+        "crop": {
+          "x": 0.15673289096819237,
+          "y": 0.00747420749810046,
+          "width": 0.6865342180636153,
+          "height": 0.9850515850037991
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "small-passagem",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/small-passagem.png",
+      "viewport": {
+        "width": 320,
+        "height": 700
+      },
+      "state": {
+        "progress": 0.65015,
+        "frame": {
+          "x": 0,
+          "y": 70.94287609472926,
+          "width": 307.10129525550377,
+          "height": 504.59863841294384
+        },
+        "crop": {
+          "x": 0.0530519987752871,
+          "y": 0.010412674159645474,
+          "width": 0.8938960024494258,
+          "height": 0.979174651680709
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "small-acomodacao",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/small-acomodacao.png",
+      "viewport": {
+        "width": 320,
+        "height": 700
+      },
+      "state": {
+        "progress": 0.84985,
+        "frame": {
+          "x": 0,
+          "y": 101.30156395413917,
+          "width": 301.5815338265202,
+          "height": 403.8629923339928
+        },
+        "crop": {
+          "x": 0.002758023152392597,
+          "y": 0.05607884842785332,
+          "width": 0.9944839536952148,
+          "height": 0.8878423031442934
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "small-destino",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/small-destino.png",
+      "viewport": {
+        "width": 320,
+        "height": 700
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 0,
+          "y": 110,
+          "width": 300,
+          "height": 375
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.08333333333333337,
+          "width": 1,
+          "height": 0.8333333333333333
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "small-servicos",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/small-servicos.png",
+      "viewport": {
+        "width": 320,
+        "height": 700
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 0,
+          "y": 36,
+          "width": 300,
+          "height": 375
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.08333333333333337,
+          "width": 1,
+          "height": 0.8333333333333333
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "small-oferta",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/small-oferta.png",
+      "viewport": {
+        "width": 320,
+        "height": 700
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 0,
+          "y": -849,
+          "width": 300,
+          "height": 375
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.08333333333333337,
+          "width": 1,
+          "height": 0.8333333333333333
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "small-secao-completa",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/small-secao-completa.png",
+      "viewport": {
+        "width": 320,
+        "height": 1502
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 0,
+          "y": 38,
+          "width": 300,
+          "height": 375
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.08333333333333337,
+          "width": 1,
+          "height": 0.8333333333333333
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-375-hero",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-375-hero.png",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 375,
+          "height": 812
+        },
+        "crop": {
+          "x": 0.15363300492610832,
+          "y": 0,
+          "width": 0.6927339901477834,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-375-inicio",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-375-inicio.png",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "state": {
+        "progress": 0.350205,
+        "frame": {
+          "x": 0,
+          "y": 18.724139843943465,
+          "width": 371.1657051514109,
+          "height": 752.3687269901715
+        },
+        "crop": {
+          "x": 0.13554447995674052,
+          "y": 0.007488736425454168,
+          "width": 0.728911040086519,
+          "height": 0.9850225271490917
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-375-passagem",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-375-passagem.png",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "state": {
+        "progress": 0.649795,
+        "frame": {
+          "x": 0,
+          "y": 75.51741252219209,
+          "width": 359.5356834425545,
+          "height": 571.4976602055613
+        },
+        "crop": {
+          "x": 0.03800273734305615,
+          "y": 0.01042345857166549,
+          "width": 0.9239945253138877,
+          "height": 0.979153082856669
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-375-acomodacao",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-375-acomodacao.png",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "state": {
+        "progress": 0.849521,
+        "frame": {
+          "x": 0,
+          "y": 107.89420503874904,
+          "width": 352.9056235415531,
+          "height": 468.3864161201954
+        },
+        "crop": {
+          "x": 0.0027691286235895785,
+          "y": 0.06004066376895201,
+          "width": 0.9944617427528208,
+          "height": 0.879918672462096
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-375-destino",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-375-destino.png",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 0,
+          "y": 117,
+          "width": 351,
+          "height": 438.75
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.08333333333333337,
+          "width": 1,
+          "height": 0.8333333333333333
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-375-servicos",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-375-servicos.png",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 0,
+          "y": 36,
+          "width": 351,
+          "height": 438.75
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.08333333333333337,
+          "width": 1,
+          "height": 0.8333333333333333
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-375-oferta",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-375-oferta.png",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 0,
+          "y": -933,
+          "width": 351,
+          "height": 438.75
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.08333333333333337,
+          "width": 1,
+          "height": 0.8333333333333333
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-hero",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-hero.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        },
+        "crop": {
+          "x": 0.15343601895734593,
+          "y": 0,
+          "width": 0.6931279620853081,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-inicio",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-inicio.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "progress": 0.35,
+        "frame": {
+          "x": 0,
+          "y": 19.20320970443566,
+          "width": 386.1721176668899,
+          "height": 782.3551449272061
+        },
+        "crop": {
+          "x": 0.13533692111374068,
+          "y": 0.0074803472687870465,
+          "width": 0.7293261577725186,
+          "height": 0.9850393054624259
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-passagem",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-passagem.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "progress": 0.65,
+        "frame": {
+          "x": 0,
+          "y": 77.62025564044508,
+          "width": 374.5275237926023,
+          "height": 594.828664410033
+        },
+        "crop": {
+          "x": 0.03760915044603852,
+          "y": 0.010417234154267596,
+          "width": 0.924781699107923,
+          "height": 0.9791655316914648
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-acomodacao",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-acomodacao.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "progress": 0.85,
+        "frame": {
+          "x": 0,
+          "y": 110.89694534421254,
+          "width": 367.8942966091271,
+          "height": 488.00606830948374
+        },
+        "crop": {
+          "x": 0.0027529654252878566,
+          "y": 0.06027302306134741,
+          "width": 0.9944940691494243,
+          "height": 0.8794539538773052
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-destino",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-destino.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 0,
+          "y": 120,
+          "width": 366,
+          "height": 457.5
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.08333333333333337,
+          "width": 1,
+          "height": 0.8333333333333333
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-servicos",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-servicos.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 0,
+          "y": 36,
+          "width": 366,
+          "height": 457.5
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.08333333333333337,
+          "width": 1,
+          "height": 0.8333333333333333
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-oferta",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-oferta.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 0,
+          "y": -957,
+          "width": 366,
+          "height": 457.5
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.08333333333333337,
+          "width": 1,
+          "height": 0.8333333333333333
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-secao-completa",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-secao-completa.png",
+      "viewport": {
+        "width": 390,
+        "height": 1621
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 0,
+          "y": 38,
+          "width": 366,
+          "height": 457.5
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.08333333333333337,
+          "width": 1,
+          "height": 0.8333333333333333
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-430-hero",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-430-hero.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 430,
+          "height": 932
+        },
+        "crop": {
+          "x": 0.15396995708154504,
+          "y": 0,
+          "width": 0.6920600858369099,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-430-inicio",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-430-inicio.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "state": {
+        "progress": 0.350417,
+        "frame": {
+          "x": 0,
+          "y": 20.677009086055516,
+          "width": 426.1590695196182,
+          "height": 864.0635421282464
+        },
+        "crop": {
+          "x": 0.13564407819685903,
+          "y": 0.007497409760619467,
+          "width": 0.7287118436062819,
+          "height": 0.9850051804787611
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-430-passagem",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-430-passagem.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "state": {
+        "progress": 0.649583,
+        "frame": {
+          "x": 0,
+          "y": 83.20413594477627,
+          "width": 414.5441233539115,
+          "height": 658.62418182231
+        },
+        "crop": {
+          "x": 0.037790095171911064,
+          "y": 0.010429886313660097,
+          "width": 0.9244198096561779,
+          "height": 0.9791402273726798
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-430-acomodacao",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-430-acomodacao.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "state": {
+        "progress": 0.849821,
+        "frame": {
+          "x": 0,
+          "y": 118.97960124129999,
+          "width": 407.89852608520744,
+          "height": 541.0801801321063
+        },
+        "crop": {
+          "x": 0.0027590013814857706,
+          "y": 0.06027094665962457,
+          "width": 0.9944819972370285,
+          "height": 0.8794581066807509
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-430-destino",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-430-destino.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 0,
+          "y": 129,
+          "width": 406,
+          "height": 507.5
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.08333333333333337,
+          "width": 1,
+          "height": 0.8333333333333333
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-430-servicos",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-430-servicos.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 0,
+          "y": 36,
+          "width": 406,
+          "height": 507.5
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.08333333333333337,
+          "width": 1,
+          "height": 0.8333333333333333
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-430-oferta",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-430-oferta.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 0,
+          "y": -1020,
+          "width": 406,
+          "height": 507.5
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.08333333333333337,
+          "width": 1,
+          "height": 0.8333333333333333
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "desktop-fallback-passagem",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/desktop-fallback-passagem.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": {
+        "progress": 0.650292,
+        "frame": {
+          "x": 387.53587491148835,
+          "y": 80.58584876420773,
+          "width": 1052.4641250885115,
+          "height": 774.5747898018172
+        },
+        "crop": {
+          "x": 0.08391081086150098,
+          "y": 0.010408353054611352,
+          "width": 0.832178378276998,
+          "height": 0.9791832938907773
+        },
+        "mode": "fallback"
+      }
+    },
+    {
+      "name": "desktop-fallback-destino",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/desktop-fallback-destino.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 600.671875,
+          "y": 79.90625,
+          "width": 839.328125,
+          "height": 705.59375
+        },
+        "crop": {
+          "x": 0.12798920332795932,
+          "y": 0,
+          "width": 0.7440215933440814,
+          "height": 1
+        },
+        "mode": "fallback"
+      }
+    },
+    {
+      "name": "desktop-movimento-reduzido",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/desktop-movimento-reduzido.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        },
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1
+        },
+        "mode": "reduced-motion"
+      }
+    },
+    {
+      "name": "mobile-fallback-passagem",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-fallback-passagem.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "progress": 0.65,
+        "frame": {
+          "x": 0,
+          "y": 77.62025564044508,
+          "width": 374.5275237926023,
+          "height": 594.828664410033
+        },
+        "crop": {
+          "x": 0.03760915044603852,
+          "y": 0.010417234154267596,
+          "width": 0.924781699107923,
+          "height": 0.9791655316914648
+        },
+        "mode": "fallback"
+      }
+    },
+    {
+      "name": "mobile-fallback-destino",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-fallback-destino.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 0,
+          "y": 36,
+          "width": 366,
+          "height": 457.5
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.08333333333333337,
+          "width": 1,
+          "height": 0.8333333333333333
+        },
+        "mode": "fallback"
+      }
+    },
+    {
+      "name": "mobile-movimento-reduzido",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-movimento-reduzido.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        },
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1
+        },
+        "mode": "reduced-motion"
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "name": "desktop",
+      "type": "viewport",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/desktop-comparacao-viewport.png",
+      "before": "docs/redirecao/etapa-2/servicos-editoriais/anterior/desktop-servicos.png",
+      "after": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/desktop-servicos.png",
+      "pixelsResampled": false
+    },
+    {
+      "name": "desktop",
+      "type": "completa",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/desktop-comparacao-completa.png",
+      "before": "docs/redirecao/etapa-2/servicos-editoriais/anterior/desktop-secao-completa.png",
+      "after": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/desktop-secao-completa.png",
+      "pixelsResampled": false
+    },
+    {
+      "name": "tablet",
+      "type": "viewport",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-comparacao-viewport.png",
+      "before": "docs/redirecao/etapa-2/servicos-editoriais/anterior/tablet-servicos.png",
+      "after": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-servicos.png",
+      "pixelsResampled": false
+    },
+    {
+      "name": "tablet",
+      "type": "completa",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-comparacao-completa.png",
+      "before": "docs/redirecao/etapa-2/servicos-editoriais/anterior/tablet-secao-completa.png",
+      "after": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/tablet-secao-completa.png",
+      "pixelsResampled": false
+    },
+    {
+      "name": "mobile",
+      "type": "viewport",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-comparacao-viewport.png",
+      "before": "docs/redirecao/etapa-2/servicos-editoriais/anterior/mobile-servicos.png",
+      "after": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-servicos.png",
+      "pixelsResampled": false
+    },
+    {
+      "name": "mobile",
+      "type": "completa",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-comparacao-completa.png",
+      "before": "docs/redirecao/etapa-2/servicos-editoriais/anterior/mobile-secao-completa.png",
+      "after": "docs/redirecao/etapa-2/servicos-editoriais/evidencias/mobile-secao-completa.png",
+      "pixelsResampled": false
+    }
+  ],
+  "videos": [
+    {
+      "name": "desktop",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/videos/continuidade-desktop.webm",
+      "width": 1440,
+      "height": 900,
+      "edited": false,
+      "sha256": "81192f638a2b41732e4a6a0bb864bfb82308b46a433cb1c11e206ccfb73e43f0",
+      "interaction": "Wheel nativo: chegada, leitura da oferta, reversão e ida/volta rápida."
+    },
+    {
+      "name": "mobile",
+      "path": "docs/redirecao/etapa-2/servicos-editoriais/videos/continuidade-mobile.webm",
+      "width": 390,
+      "height": 844,
+      "edited": false,
+      "sha256": "1eb51626ec209bbc3d47e0f49c217d1dcc24cb5ce4b7dee7f3513b1d625180e9",
+      "interaction": "Gestos CDP: chegada por toque, continuação até a oferta e reversão."
+    }
+  ],
+  "performance": {
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1650 (0x00001F82) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "samples": 90,
+    "rafMedian": 16.699999999254942,
+    "rafP95": 16.800000000745058,
+    "graphics": {
+      "mode": "webgl",
+      "frames": 88,
+      "active": true,
+      "quality": 1,
+      "width": 1440,
+      "height": 900,
+      "renderMs": 0.4488636363848028
+    },
+    "notes": "rAF local; não mede tempo real da GPU, FPS apresentado ou desempenho em aparelho físico."
+  }
+}

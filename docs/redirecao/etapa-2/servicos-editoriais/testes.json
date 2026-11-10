@@ -1,0 +1,384 @@
+{
+  "date": "2026-11-10",
+  "baseURL": "http://127.0.0.1:4322",
+  "baseline": "4fc0150676db3a931117df31156066129beeea2b",
+  "trackedChanges": "scripts/studies/capture-services-redesign.mjs\nscripts/studies/verify-services-redesign.mjs\nsrc/studies/etapa-2/Services.astro\nsrc/studies/etapa-2/continuity.ts\nsrc/studies/etapa-2/services.css",
+  "checks": [
+    {
+      "name": "contraste dos pares sólidos >= 4.5:1",
+      "passed": true
+    },
+    {
+      "name": "nenhuma entrada de mouse ou toque no caminho óptico",
+      "passed": true
+    },
+    {
+      "name": "chromium: WebGL e repouso sem loop",
+      "passed": true,
+      "detail": {
+        "mode": "webgl",
+        "frames": 2,
+        "active": false,
+        "quality": 1,
+        "width": 1440,
+        "height": 900,
+        "renderMs": 17.450000000186265
+      }
+    },
+    {
+      "name": "chromium: reversão, interrupção e alinhamento no destino",
+      "passed": true,
+      "detail": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "name": "chromium: mouse não muda imagem ou estado gráfico",
+      "passed": true,
+      "detail": {
+        "identicalScreenshot": true,
+        "frames": 8
+      }
+    },
+    {
+      "name": "chromium: pausa fora da cena",
+      "passed": true
+    },
+    {
+      "name": "chromium: teclado, âncoras e simulação comercial",
+      "passed": true
+    },
+    {
+      "name": "chromium: perda e restauração de contexto",
+      "passed": true
+    },
+    {
+      "name": "chromium: preferência de movimento em tempo real",
+      "passed": true
+    },
+    {
+      "name": "Chromium: 320px, resize em movimento e axe",
+      "passed": true
+    },
+    {
+      "name": "Chromium: 375px, resize em movimento e axe",
+      "passed": true
+    },
+    {
+      "name": "Chromium: 390px, resize em movimento e axe",
+      "passed": true
+    },
+    {
+      "name": "Chromium: 430px, resize em movimento e axe",
+      "passed": true
+    },
+    {
+      "name": "Chromium: 768px, resize em movimento e axe",
+      "passed": true
+    },
+    {
+      "name": "Chromium: 820px, resize em movimento e axe",
+      "passed": true
+    },
+    {
+      "name": "Chromium: 1024px, resize em movimento e axe",
+      "passed": true
+    },
+    {
+      "name": "Chromium: 1280px, resize em movimento e axe",
+      "passed": true
+    },
+    {
+      "name": "Chromium: 1440px, resize em movimento e axe",
+      "passed": true
+    },
+    {
+      "name": "Chromium: 1920px, resize em movimento e axe",
+      "passed": true
+    },
+    {
+      "name": "Chromium: rotação durante a passagem",
+      "passed": true
+    },
+    {
+      "name": "Chromium: zoom 200% sem overflow",
+      "passed": true
+    },
+    {
+      "name": "Chromium: fallback solicitado e resolução reduzida",
+      "passed": true
+    },
+    {
+      "name": "Chromium: WebGL indisponível mantém enquadramento",
+      "passed": true
+    },
+    {
+      "name": "Chromium: WebGL 1 sem erro de textura 2D",
+      "passed": true
+    },
+    {
+      "name": "Chromium: falha de textura mantém poster",
+      "passed": true
+    },
+    {
+      "name": "Chromium: toque não altera estado óptico",
+      "passed": true
+    },
+    {
+      "name": "chromium: sem JavaScript mantém conteúdo",
+      "passed": true
+    },
+    {
+      "name": "chromium: descarte interrompe desenho",
+      "passed": true
+    },
+    {
+      "name": "firefox: WebGL e repouso sem loop",
+      "passed": true,
+      "detail": {
+        "mode": "webgl",
+        "frames": 2,
+        "active": false,
+        "quality": 1,
+        "width": 1440,
+        "height": 900,
+        "renderMs": 0.5
+      }
+    },
+    {
+      "name": "firefox: reversão, interrupção e alinhamento no destino",
+      "passed": true,
+      "detail": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "name": "firefox: mouse não muda imagem ou estado gráfico",
+      "passed": true,
+      "detail": {
+        "identicalScreenshot": true,
+        "frames": 8
+      }
+    },
+    {
+      "name": "firefox: pausa fora da cena",
+      "passed": true
+    },
+    {
+      "name": "firefox: teclado, âncoras e simulação comercial",
+      "passed": true
+    },
+    {
+      "name": "firefox: perda e restauração de contexto",
+      "passed": true
+    },
+    {
+      "name": "firefox: preferência de movimento em tempo real",
+      "passed": true
+    },
+    {
+      "name": "firefox: sem JavaScript mantém conteúdo",
+      "passed": true
+    },
+    {
+      "name": "firefox: descarte interrompe desenho",
+      "passed": true
+    },
+    {
+      "name": "webkit: WebGL e repouso sem loop",
+      "passed": true,
+      "detail": {
+        "mode": "webgl",
+        "frames": 2,
+        "active": false,
+        "quality": 1,
+        "width": 1440,
+        "height": 900,
+        "renderMs": 3.5
+      }
+    },
+    {
+      "name": "webkit: reversão, interrupção e alinhamento no destino",
+      "passed": true,
+      "detail": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "name": "webkit: mouse não muda imagem ou estado gráfico",
+      "passed": true,
+      "detail": {
+        "identicalScreenshot": true,
+        "frames": 8
+      }
+    },
+    {
+      "name": "webkit: pausa fora da cena",
+      "passed": true
+    },
+    {
+      "name": "webkit: teclado, âncoras e simulação comercial",
+      "passed": true
+    },
+    {
+      "name": "webkit: perda e restauração de contexto",
+      "passed": true
+    },
+    {
+      "name": "webkit: preferência de movimento em tempo real",
+      "passed": true
+    },
+    {
+      "name": "webkit: sem JavaScript mantém conteúdo",
+      "passed": true
+    },
+    {
+      "name": "webkit: descarte interrompe desenho",
+      "passed": true
+    }
+  ],
+  "browsers": [
+    {
+      "engine": "chromium",
+      "version": "158.0.8127.18"
+    },
+    {
+      "engine": "firefox",
+      "version": "159.0"
+    },
+    {
+      "engine": "webkit",
+      "version": "27.2"
+    }
+  ],
+  "viewports": [
+    {
+      "width": 320,
+      "height": 844,
+      "overflow": false,
+      "source": "http://127.0.0.1:4322/studies/etapa-2/superficie-vertical.webp",
+      "progress": 0.630263,
+      "graphics": "webgl"
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "overflow": false,
+      "source": "http://127.0.0.1:4322/studies/etapa-2/superficie-vertical.webp",
+      "progress": 0.630263,
+      "graphics": "webgl"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "source": "http://127.0.0.1:4322/studies/etapa-2/superficie-vertical.webp",
+      "progress": 0.630263,
+      "graphics": "webgl"
+    },
+    {
+      "width": 430,
+      "height": 844,
+      "overflow": false,
+      "source": "http://127.0.0.1:4322/studies/etapa-2/superficie-vertical.webp",
+      "progress": 0.630263,
+      "graphics": "webgl"
+    },
+    {
+      "width": 768,
+      "height": 1180,
+      "overflow": false,
+      "source": "http://127.0.0.1:4322/studies/etapa-2/superficie-vertical.webp",
+      "progress": 0.629795,
+      "graphics": "webgl"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "overflow": false,
+      "source": "http://127.0.0.1:4322/studies/etapa-2/superficie-vertical.webp",
+      "progress": 0.629795,
+      "graphics": "webgl"
+    },
+    {
+      "width": 1024,
+      "height": 900,
+      "overflow": false,
+      "source": "http://127.0.0.1:4322/studies/etapa-1/superficie-desktop.webp",
+      "progress": 0.630409,
+      "graphics": "webgl"
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "overflow": false,
+      "source": "http://127.0.0.1:4322/studies/etapa-1/superficie-desktop.webp",
+      "progress": 0.630409,
+      "graphics": "webgl"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "overflow": false,
+      "source": "http://127.0.0.1:4322/studies/etapa-1/superficie-desktop.webp",
+      "progress": 0.630409,
+      "graphics": "webgl"
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "overflow": false,
+      "source": "http://127.0.0.1:4322/studies/etapa-1/superficie-desktop.webp",
+      "progress": 0.62963,
+      "graphics": "webgl"
+    }
+  ],
+  "contrast": [
+    {
+      "foreground": "deep",
+      "background": "aqua",
+      "ratio": 5.34
+    },
+    {
+      "foreground": "sun",
+      "background": "deep",
+      "ratio": 7.97
+    },
+    {
+      "foreground": "light",
+      "background": "deep",
+      "ratio": 10.44
+    },
+    {
+      "foreground": "sun",
+      "background": "blue",
+      "ratio": 4.66
+    },
+    {
+      "foreground": "light",
+      "background": "blue",
+      "ratio": 6.11
+    },
+    {
+      "foreground": "deep",
+      "background": "sun",
+      "ratio": 7.97
+    }
+  ],
+  "normalErrors": [],
+  "summary": {
+    "checks": 46,
+    "passed": 46,
+    "failed": 0,
+    "normalErrors": 0
+  }
+}

@@ -1,21 +1,14 @@
----
+﻿---
 import { services } from '../../data/content';
-
-const descriptions = {
-  projeto: 'Arquitetura, materiais e execução para a piscina que você imagina.',
-  revitalizacao: 'Novos revestimentos, bordas e sistemas para a piscina que já existe.',
-  manutencao: 'Água e equipamentos bem cuidados, em todas as estações.',
-};
-const actions = {
-  projeto: 'Simular projeto e construção',
-  revitalizacao: 'Simular revitalização',
-  manutencao: 'Simular manutenção',
-};
+import ServiceEntry from './ServiceEntry.astro';
+const [project,renewal,care]=services;
 ---
 <section class="services" id="servicos" aria-labelledby="services-title">
   <div class="services-stage">
-    <header class="services-heading shell">
+    <header class="services-heading">
       <h2 id="services-title" tabindex="-1"><span>Da paisagem</span><span>ao detalhe.</span></h2>
+      <p>Do primeiro traço<br />ao cuidado com a água.</p>
+      <nav class="services-bridge" aria-label="Atalhos dos serviços"><a tabindex="0" href="#services-offer">Renovar ou cuidar <span aria-hidden="true">↓</span></a></nav>
     </header>
     <figure class="services-media" data-destination>
       <picture>
@@ -23,12 +16,10 @@ const actions = {
         <img src="/studies/etapa-1/superficie-desktop.webp" width="1586" height="992" alt="A mesma piscina da abertura, com borda de pedra, água verde e pavilhão integrados ao jardim." loading="lazy" decoding="async" />
       </picture>
     </figure>
-    <div class="services-bridge shell"><p>Uma piscina começa no espaço.<br />E continua no cuidado.</p><a tabindex="0" href="#services-offer">Conheça os serviços <span aria-hidden="true">↓</span></a></div>
+    <div class="services-project"><ServiceEntry service={project} primary /></div>
   </div>
   <div class="services-offer shell" id="services-offer">
-    {services.map(service => <article class={`service service-${service.id}`} aria-labelledby={`service-${service.id}`}>
-      <h3 id={`service-${service.id}`}>{service.title}</h3>
-      <div class="service-detail"><p>{descriptions[service.id]}</p><a tabindex="0" data-select-service={service.id} href="#orcamento">{actions[service.id]} <span aria-hidden="true">↗</span></a></div>
-    </article>)}
+    <ServiceEntry service={renewal}><figure class="material-detail" aria-hidden="true"><img src="/studies/etapa-1/superficie-desktop.webp" alt="" width="1586" height="992" loading="lazy" decoding="async" /></figure></ServiceEntry>
+    <ServiceEntry service={care} />
   </div>
 </section>

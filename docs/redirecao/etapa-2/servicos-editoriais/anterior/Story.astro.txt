@@ -1,0 +1,23 @@
+---
+import Services from './Services.astro';
+---
+<div class="story" data-continuity>
+  <section class="hero" id="inicio" data-hero aria-labelledby="titulo">
+    <picture class="hero-poster" data-hero-poster>
+      <source media="(max-width:699px), (max-width:1099px) and (orientation:portrait)" srcset="/studies/etapa-2/superficie-vertical.webp" width="1024" height="1536" />
+      <img data-scene-source src="/studies/etapa-1/superficie-desktop.webp" width="1586" height="992" alt="Cena ilustrativa de piscina verde mineral, pavilhão de concreto e madeira e borda clara junto ao jardim." fetchpriority="high" decoding="async" />
+    </picture>
+    <div class="hero-shade" aria-hidden="true" data-hero-shade></div>
+    <header class="header shell">
+      <a tabindex="0" class="brand" href="#inicio" aria-label="Lâmina — Piscinas e Paisagens, início" translate="no">lâmina<span>.</span></a>
+      <nav aria-label="Navegação principal"><a tabindex="0" href="#servicos">Serviços</a><a tabindex="0" href="/estudos/etapa-1/#ambientes">Ambientes</a><a tabindex="0" class="nav-budget" href="#orcamento">Simular orçamento <span aria-hidden="true">↗</span></a></nav>
+    </header>
+    <div class="hero-context shell"><p>Piscinas &amp; Paisagens</p><p>Projeto demonstrativo</p></div>
+    <div class="hero-composition shell">
+      <h1 id="titulo" tabindex="-1"><span class="title-pool">Piscinas,</span><span class="title-landscape">entre luz e paisagem.</span></h1>
+      <div class="hero-bottom"><p>Projeto, construção, revitalização<br class="wide-break" /> e manutenção de piscinas.</p><div class="hero-actions"><a tabindex="0" class="text-link" href="#servicos">Conhecer os serviços</a><a tabindex="0" class="button button-sun" href="#orcamento">Simular orçamento <span aria-hidden="true">↗</span></a></div></div>
+    </div>
+  </section>
+  <Services />
+  <div class="visual-plane" data-visual-plane aria-hidden="true" hidden><div class="optical-frame" data-optical-frame><img class="plane-poster" data-plane-poster alt="" width="1586" height="992" /><div class="canvas-holder" data-continuity-canvas></div><div class="plane-shade" data-plane-shade></div></div></div>
+</div>
