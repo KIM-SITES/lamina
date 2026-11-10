@@ -1,0 +1,640 @@
+{
+  "date": "2026-11-10",
+  "baseURL": "http://127.0.0.1:4322",
+  "browser": "Chromium 158.0.8127.18",
+  "baselineCommit": "1b5b6d455bd503dfce76222f7faf179b569e30b3",
+  "baselineTrackedChanges": "",
+  "viewports": [
+    {
+      "name": "desktop",
+      "composition": "a",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "overflow": false,
+      "heroHeight": 900,
+      "selectedSource": "superficie-desktop.webp",
+      "brokenImages": [],
+      "canvasCount": 0
+    },
+    {
+      "name": "desktop",
+      "composition": "b",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "overflow": false,
+      "heroHeight": 900,
+      "selectedSource": "superficie-desktop.webp",
+      "brokenImages": [],
+      "canvasCount": 0
+    },
+    {
+      "name": "tablet",
+      "composition": "a",
+      "width": 820,
+      "height": 1180,
+      "scrollWidth": 820,
+      "overflow": false,
+      "heroHeight": 1180,
+      "selectedSource": "superficie-tablet-vertical.webp",
+      "brokenImages": [],
+      "canvasCount": 0
+    },
+    {
+      "name": "tablet",
+      "composition": "b",
+      "width": 820,
+      "height": 1180,
+      "scrollWidth": 820,
+      "overflow": false,
+      "heroHeight": 1180,
+      "selectedSource": "superficie-tablet-vertical.webp",
+      "brokenImages": [],
+      "canvasCount": 0
+    },
+    {
+      "name": "mobile",
+      "composition": "a",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "overflow": false,
+      "heroHeight": 844,
+      "selectedSource": "superficie-mobile.webp",
+      "brokenImages": [],
+      "canvasCount": 0
+    },
+    {
+      "name": "mobile",
+      "composition": "b",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "overflow": false,
+      "heroHeight": 844,
+      "selectedSource": "superficie-mobile.webp",
+      "brokenImages": [],
+      "canvasCount": 0
+    },
+    {
+      "name": "tablet-horizontal",
+      "composition": "a",
+      "width": 1180,
+      "height": 820,
+      "scrollWidth": 1180,
+      "overflow": false,
+      "heroHeight": 820,
+      "selectedSource": "superficie-tablet-horizontal.webp",
+      "brokenImages": [],
+      "canvasCount": 0
+    },
+    {
+      "name": "tablet-horizontal",
+      "composition": "b",
+      "width": 1180,
+      "height": 820,
+      "scrollWidth": 1180,
+      "overflow": false,
+      "heroHeight": 820,
+      "selectedSource": "superficie-tablet-horizontal.webp",
+      "brokenImages": [],
+      "canvasCount": 0
+    },
+    {
+      "name": "compacto",
+      "composition": "a",
+      "width": 320,
+      "height": 700,
+      "scrollWidth": 320,
+      "overflow": false,
+      "heroHeight": 740,
+      "selectedSource": "superficie-mobile.webp",
+      "brokenImages": [],
+      "canvasCount": 0
+    },
+    {
+      "name": "compacto",
+      "composition": "b",
+      "width": 320,
+      "height": 700,
+      "scrollWidth": 320,
+      "overflow": false,
+      "heroHeight": 740,
+      "selectedSource": "superficie-mobile.webp",
+      "brokenImages": [],
+      "canvasCount": 0
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "overflow": false,
+      "source": "superficie-mobile.webp",
+      "titleWidth": 327
+    },
+    {
+      "width": 430,
+      "height": 844,
+      "overflow": false,
+      "source": "superficie-mobile.webp",
+      "titleWidth": 382
+    },
+    {
+      "width": 600,
+      "height": 1100,
+      "overflow": false,
+      "source": "superficie-tablet-vertical.webp",
+      "titleWidth": 546.625
+    },
+    {
+      "width": 699,
+      "height": 1100,
+      "overflow": false,
+      "source": "superficie-tablet-vertical.webp",
+      "titleWidth": 636.8125
+    },
+    {
+      "width": 700,
+      "height": 1100,
+      "overflow": false,
+      "source": "superficie-tablet-vertical.webp",
+      "titleWidth": 637.71875
+    },
+    {
+      "width": 768,
+      "height": 1100,
+      "overflow": false,
+      "source": "superficie-tablet-vertical.webp",
+      "titleWidth": 699.65625
+    },
+    {
+      "width": 1024,
+      "height": 900,
+      "overflow": false,
+      "source": "superficie-tablet-horizontal.webp",
+      "titleWidth": 932.875
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "overflow": false,
+      "source": "superficie-desktop.webp",
+      "titleWidth": 1166.09375
+    },
+    {
+      "width": 1920,
+      "height": 900,
+      "overflow": false,
+      "source": "superficie-desktop.webp",
+      "titleWidth": 1749.125
+    }
+  ],
+  "accessibility": [
+    {
+      "composition": "a",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "violations": []
+    },
+    {
+      "composition": "b",
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "violations": []
+    },
+    {
+      "composition": "a",
+      "viewport": {
+        "name": "tablet",
+        "width": 820,
+        "height": 1180
+      },
+      "violations": []
+    },
+    {
+      "composition": "b",
+      "viewport": {
+        "name": "tablet",
+        "width": 820,
+        "height": 1180
+      },
+      "violations": []
+    },
+    {
+      "composition": "a",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "violations": []
+    },
+    {
+      "composition": "b",
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "violations": []
+    }
+  ],
+  "functionality": [
+    {
+      "name": "skip-link recebe primeiro foco visível",
+      "passed": true
+    },
+    {
+      "name": "serviço pré-seleciona formulário",
+      "passed": true
+    },
+    {
+      "name": "resumo local com aviso de não envio",
+      "passed": true
+    },
+    {
+      "name": "mudança limpa resumo anterior",
+      "passed": true
+    },
+    {
+      "name": "sem envio ou persistência",
+      "passed": true
+    },
+    {
+      "name": "destinos de âncora existentes",
+      "passed": true
+    },
+    {
+      "name": "composição estática sob movimento reduzido",
+      "passed": true
+    },
+    {
+      "name": "zoom CSS 200% sem overflow",
+      "passed": true
+    },
+    {
+      "name": "sem JavaScript: conteúdo e aviso disponíveis, envio desabilitado",
+      "passed": true
+    }
+  ],
+  "consoleErrors": [],
+  "httpErrors": [],
+  "screenshots": [
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/anterior-desktop.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/a-desktop.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/percurso-desktop.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "fullPage": true,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/servicos-desktop.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/ambientes-desktop.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/orcamento-desktop.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/b-desktop.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/anterior-tablet.png",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/a-tablet.png",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/percurso-tablet.png",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "fullPage": true,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/servicos-tablet.png",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/ambientes-tablet.png",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/orcamento-tablet.png",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/b-tablet.png",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/anterior-mobile.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/a-mobile.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/percurso-mobile.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "fullPage": true,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/servicos-mobile.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/ambientes-mobile.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/orcamento-mobile.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/b-mobile.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/anterior-tablet-horizontal.png",
+      "viewport": {
+        "width": 1180,
+        "height": 820
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/a-tablet-horizontal.png",
+      "viewport": {
+        "width": 1180,
+        "height": 820
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/b-tablet-horizontal.png",
+      "viewport": {
+        "width": 1180,
+        "height": 820
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/anterior-compacto.png",
+      "viewport": {
+        "width": 320,
+        "height": 700
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/a-compacto.png",
+      "viewport": {
+        "width": 320,
+        "height": 700
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/b-compacto.png",
+      "viewport": {
+        "width": 320,
+        "height": 700
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/largura-375.png",
+      "viewport": {
+        "width": 375,
+        "height": 844
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/largura-430.png",
+      "viewport": {
+        "width": 430,
+        "height": 844
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/largura-600.png",
+      "viewport": {
+        "width": 600,
+        "height": 1100
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/largura-699.png",
+      "viewport": {
+        "width": 699,
+        "height": 1100
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/largura-700.png",
+      "viewport": {
+        "width": 700,
+        "height": 1100
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/largura-768.png",
+      "viewport": {
+        "width": 768,
+        "height": 1100
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/largura-1024.png",
+      "viewport": {
+        "width": 1024,
+        "height": 900
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/largura-1280.png",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/largura-1920.png",
+      "viewport": {
+        "width": 1920,
+        "height": 900
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/resumo-mobile.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    },
+    {
+      "file": "docs/redirecao/etapa-1/evidencias/zoom-200.png",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "fullPage": false,
+      "deviceScaleFactor": 1
+    }
+  ],
+  "summary": {
+    "screenshots": 38,
+    "functionalChecks": 9,
+    "failedChecks": 0,
+    "axeViolations": 0,
+    "overflowingViewports": 0,
+    "consoleErrors": 0
+  }
+}

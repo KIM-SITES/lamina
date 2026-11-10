@@ -1,0 +1,18 @@
+---
+interface Props { kind?: 'hero' | 'editorial' | 'patio' | 'detail' | 'garden'; class?: string; alt?: string; eager?: boolean }
+const { kind = 'hero', class: className, alt = '', eager = false } = Astro.props;
+const root = '/studies/etapa-1';
+---
+{kind === 'hero' ? (
+  <picture class={className}>
+    <source media="(max-width: 599px)" srcset={`${root}/superficie-mobile.webp`} width="792" height="1188" />
+    <source media="(min-width: 600px) and (max-width: 1099px) and (orientation: portrait)" srcset={`${root}/superficie-tablet-vertical.webp`} width="1024" height="1365" />
+    <source media="(min-width: 600px) and (max-width: 1199px) and (orientation: landscape)" srcset={`${root}/superficie-tablet-horizontal.webp`} width="1280" height="960" />
+    <img src={`${root}/superficie-desktop.webp`} width="1586" height="992" alt={alt} fetchpriority={eager ? 'high' : undefined} loading={eager ? 'eager' : 'lazy'} decoding="async" />
+  </picture>
+) : (
+  <picture class={className}>
+    {kind === 'editorial' && <source media="(max-width: 599px), (min-width: 600px) and (max-width: 1099px) and (orientation: portrait)" srcset={`${root}/enquadramento-vertical.webp`} width="820" height="1100" />}
+    <img src={`${root}/${kind === 'patio' ? 'patio' : kind === 'garden' ? 'jardim' : kind === 'detail' ? 'material' : 'enquadramento'}.webp`} width={kind === 'editorial' ? 790 : kind === 'detail' ? 952 : 1440} height={kind === 'editorial' ? 992 : kind === 'detail' ? 600 : 960} alt={alt} loading={eager ? 'eager' : 'lazy'} decoding="async" />
+  </picture>
+)}

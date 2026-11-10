@@ -1,0 +1,40 @@
+---
+import StudyHero from '../../studies/etapa-1/Hero.astro';
+import StudyServices from '../../studies/etapa-1/Services.astro';
+import StudyEnvironments from '../../studies/etapa-1/Environments.astro';
+import StudyQuote from '../../studies/etapa-1/Quote.astro';
+import '../../studies/etapa-1/study.css';
+---
+<!doctype html>
+<html lang="pt-BR" data-composition="superficie">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#123c3d" />
+    <meta name="description" content="Estudo de composição da Lâmina, empresa fictícia de piscinas e paisagens. Etapa 1: Superfície arquitetônica contínua." />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="/fonts/syne.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/instrument-sans.woff2" as="font" type="font/woff2" crossorigin />
+    <title>Lâmina — Estudos de composição · A Superfície</title>
+    <script is:inline>if (new URL(location.href).searchParams.get('composicao') === 'editorial') document.documentElement.dataset.composition = 'editorial';</script>
+  </head>
+  <body>
+    <a class="skip-link" href="#titulo">Pular para o conteúdo</a>
+    <main>
+      <StudyHero />
+      <StudyServices />
+      <StudyEnvironments />
+      <StudyQuote />
+    </main>
+    <footer class="closing wrap">
+      <div class="closing-line"><p>Piscinas &amp; Paisagens</p><a href="#inicio">Voltar à superfície <span aria-hidden="true">↑</span></a></div>
+      <a class="closing-brand" href="#inicio" aria-label="Lâmina, início" translate="no">lâmina<span>.</span></a>
+      <div class="closing-notes"><p>Empresa fictícia. Cenas ilustrativas geradas por IA.<br />Estudo de design e desenvolvimento web.</p><a href="/estudos/">Ver estudos e comparação</a></div>
+    </footer>
+    <script>
+      import { initQuote } from '../../scripts/quote';
+      initQuote();
+    </script>
+  </body>
+</html>

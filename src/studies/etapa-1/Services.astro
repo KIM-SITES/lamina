@@ -1,0 +1,12 @@
+---
+import Photo from './Photo.astro';
+import { services } from '../../data/content';
+---
+<section class="services wrap" id="servicos" aria-labelledby="services-title">
+  <div class="section-heading"><h2 id="services-title">Da paisagem<br />ao detalhe.</h2><p>Uma piscina faz parte do espaço.<br />Do primeiro desenho ao cuidado com a água.</p></div>
+  <div class="service-composition">
+    <figure class="editorial-frame"><Photo kind="editorial" alt="Enquadramento da mesma cena do hero, preservando pavilhão, borda e água em um plano editorial." /><figcaption>Uma mesma superfície. Outro enquadramento.</figcaption></figure>
+    <div class="service-list">{services.map(service => <article class="service"><h3>{service.title}</h3><p>{service.description}</p><a class="service-link" data-select-service={service.id} href="#orcamento">Simular {service.id === 'projeto' ? 'projeto e construção' : service.id === 'revitalizacao' ? 'revitalização' : 'manutenção'}<span aria-hidden="true">↗</span></a></article>)}</div>
+  </div>
+  <div class="material-note"><p>A borda desenha.<br />A água dá profundidade.</p><p>Pedra, luz e vegetação compõem o mesmo ambiente.<br />A piscina participa da arquitetura.</p></div>
+</section>

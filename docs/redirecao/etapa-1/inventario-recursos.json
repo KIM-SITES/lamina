@@ -1,0 +1,150 @@
+{
+  "generatedWith": "image_gen integrado",
+  "transformations": "Somente recorte, redimensionamento sem ampliação e codificação WebP com sharp. Sem retoque pictórico por código.",
+  "originals": [
+    {
+      "path": "docs/redirecao/etapa-1/originais/superficie-horizontal.png",
+      "width": 1586,
+      "height": 992,
+      "bytes": 2921569,
+      "sha256": "822b2e50da3c9052fb7a4ef7326c5fe4f6edef57a2204ee8beceee8d2bd6cab9"
+    },
+    {
+      "path": "docs/redirecao/etapa-1/originais/superficie-vertical.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2625118,
+      "sha256": "dc8f0a3272b051a044fc2b77f7f1868f2c87ac46c1bc2c71303d40c0b5e8b995"
+    },
+    {
+      "path": "docs/redirecao/etapa-1/originais/patio.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2689345,
+      "sha256": "19c54db9890b8edc537c0960df6a359b56dea0b2b373de13cb26fed416228b5c"
+    },
+    {
+      "path": "docs/redirecao/etapa-1/originais/jardim.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 3383174,
+      "sha256": "090582ae0c71e2adde85a6e64194e92378c64c1060e5a010e7a300c2f9b288ec"
+    }
+  ],
+  "assets": [
+    {
+      "name": "superficie-desktop",
+      "source": "docs/redirecao/etapa-1/originais/superficie-horizontal.png",
+      "width": 1586,
+      "height": 992,
+      "position": "centre",
+      "role": "Hero desktop; matriz de enquadramento desktop.",
+      "path": "public/studies/etapa-1/superficie-desktop.webp",
+      "bytes": 364072,
+      "sha256": "6e27ecefd43de9a6ff271e65927220faaafe3425505e2e355187e96ef8de4f83"
+    },
+    {
+      "name": "superficie-tablet-horizontal",
+      "source": "docs/redirecao/etapa-1/originais/superficie-horizontal.png",
+      "width": 1280,
+      "height": 960,
+      "position": "centre",
+      "role": "Recorte 4:3 do mestre horizontal; preserva canto da piscina, pavilhão e borda.",
+      "path": "public/studies/etapa-1/superficie-tablet-horizontal.webp",
+      "bytes": 295932,
+      "sha256": "071e817f358b2975e91a82b4482c348621cec84ecd594f531560a93376218833"
+    },
+    {
+      "name": "superficie-tablet-vertical",
+      "source": "docs/redirecao/etapa-1/originais/superficie-vertical.png",
+      "width": 1024,
+      "height": 1365,
+      "position": "centre",
+      "role": "Recorte 3:4 da tomada vertical; retém pavilhão, diagonal da borda e degraus.",
+      "path": "public/studies/etapa-1/superficie-tablet-vertical.webp",
+      "bytes": 275470,
+      "sha256": "1e835bab8374520623610f99771e69fb71e7c298df7f6cdb82cd7bda2aa2c4f4"
+    },
+    {
+      "name": "superficie-mobile",
+      "source": "docs/redirecao/etapa-1/originais/superficie-vertical.png",
+      "width": 792,
+      "height": 1188,
+      "position": "centre",
+      "role": "Tomada vertical completa em 2:3, sem recorte panorâmico ampliado.",
+      "path": "public/studies/etapa-1/superficie-mobile.webp",
+      "bytes": 193964,
+      "sha256": "48b696d243c22391e772b519be8ad1a89a786d38d3a7961dd7bc39f4209920a8"
+    },
+    {
+      "name": "enquadramento",
+      "source": "docs/redirecao/etapa-1/originais/superficie-horizontal.png",
+      "width": 790,
+      "height": 992,
+      "extract": {
+        "left": 440,
+        "top": 0,
+        "width": 790,
+        "height": 992
+      },
+      "role": "Destino editorial da cena desktop; mesma fotografia, não uma nova perspectiva.",
+      "path": "public/studies/etapa-1/enquadramento.webp",
+      "bytes": 206478,
+      "sha256": "ca2ed326f4e18dcfefadebaf50f3dd4010d742bc81d5f54c9c6a9c3dcc09086e"
+    },
+    {
+      "name": "enquadramento-vertical",
+      "source": "docs/redirecao/etapa-1/originais/superficie-vertical.png",
+      "width": 820,
+      "height": 1100,
+      "extract": {
+        "left": 102,
+        "top": 160,
+        "width": 820,
+        "height": 1100
+      },
+      "role": "Destino editorial de mobile e tablet vertical; mesma matriz vertical do hero.",
+      "path": "public/studies/etapa-1/enquadramento-vertical.webp",
+      "bytes": 195638,
+      "sha256": "142bb7fd18412e48f74ba5acfbedbf0efea7b10b9778ec30c3a6368a4bc5a12d"
+    },
+    {
+      "name": "patio",
+      "source": "docs/redirecao/etapa-1/originais/patio.png",
+      "width": 1440,
+      "height": 960,
+      "position": "centre",
+      "role": "Segundo ambiente demonstrativo, distinto do hero.",
+      "path": "public/studies/etapa-1/patio.webp",
+      "bytes": 224154,
+      "sha256": "03fb582e34f38c5f86d8850962884fcc5be04029f02d20376824e7443d1ccb2d"
+    },
+    {
+      "name": "jardim",
+      "source": "docs/redirecao/etapa-1/originais/jardim.png",
+      "width": 1440,
+      "height": 960,
+      "position": "centre",
+      "role": "Vista elevada do ambiente de jardim, não utilizada na passagem óptica por ser outra câmera.",
+      "path": "public/studies/etapa-1/jardim.webp",
+      "bytes": 415676,
+      "sha256": "dfa63b4245b77fe81ae4264a37ab354d2bf41bf76340c5ead7734fbbe070f614"
+    },
+    {
+      "name": "material",
+      "source": "docs/redirecao/etapa-1/originais/superficie-horizontal.png",
+      "width": 952,
+      "height": 600,
+      "extract": {
+        "left": 634,
+        "top": 392,
+        "width": 952,
+        "height": 600
+      },
+      "role": "Detalhe de água, borda e degraus para concluir a narrativa; mesma matriz horizontal.",
+      "path": "public/studies/etapa-1/material.webp",
+      "bytes": 116704,
+      "sha256": "b2f3d79ffb268011ef07c6c08f2bcf80e018ed62d2e4d00f86f07ae72d914800"
+    }
+  ]
+}

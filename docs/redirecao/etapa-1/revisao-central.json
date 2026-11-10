@@ -1,0 +1,23 @@
+{
+  "pages": [
+    {
+      "url": "http://127.0.0.1:4322/estudos/",
+      "width": 1440,
+      "violations": [],
+      "layout": {
+        "overflow": false,
+        "broken": []
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4322/estudos/",
+      "width": 390,
+      "violations": [],
+      "layout": {
+        "overflow": false,
+        "broken": []
+      }
+    }
+  ],
+  "errors": []
+}
