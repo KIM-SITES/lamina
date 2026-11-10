@@ -1,0 +1,33 @@
+---
+import Story from '../../studies/etapa-2/Story.astro';
+import Quote from '../../studies/etapa-1/Quote.astro';
+import '../../studies/etapa-2/surface.css';
+---
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="theme-color" content="#083c63" />
+    <meta name="description" content="Lâmina — Piscinas e Paisagens. Protótipo demonstrativo: água, cor e arquitetura em uma superfície contínua." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preload" href="/fonts/syne.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/instrument-sans.woff2" as="font" type="font/woff2" crossorigin />
+    <title>Lâmina — A Superfície · Protótipo da continuidade</title>
+  </head>
+  <body>
+    <a tabindex="0" class="skip-link" href="#services-title">Pular para os serviços</a>
+    <main>
+      <Story />
+      <Quote />
+    </main>
+    <footer class="footer shell"><a tabindex="0" class="brand" href="#inicio" aria-label="Lâmina, início" translate="no">lâmina<span>.</span></a><p>Empresa fictícia. Fotografias sintéticas.<br />Protótipo demonstrativo de design e desenvolvimento web.</p><nav aria-label="Comparar versões"><a tabindex="0" href="/estudos/">Estudos A e B</a><a tabindex="0" href="/">Versão original</a><a tabindex="0" href="/estudos/etapa-2/revisao/">Capturas e gravações</a></nav></footer>
+    <script>
+      import { initContinuity } from '../../studies/etapa-2/continuity';
+      import { initQuote } from '../../scripts/quote';
+      initQuote();
+      void initContinuity();
+    </script>
+  </body>
+</html>

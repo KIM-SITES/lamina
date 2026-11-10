@@ -1,0 +1,71 @@
+{
+  "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1650 (0x00001F82) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "samples": 90,
+  "rafMedian": 16.700000000186265,
+  "rafP95": 16.90000000037253,
+  "graphics": {
+    "mode": "webgl",
+    "frames": 88,
+    "active": true,
+    "quality": 1,
+    "width": 1440,
+    "height": 900,
+    "renderMs": 0.5181818181458353
+  },
+  "notes": [
+    "Soma por módulo gzip, sem negociação HTTP; cache, cabeçalhos e Brotli não medidos.",
+    "JS inclui imports dinâmicos; o conjunto não é baixado integralmente no primeiro byte.",
+    "WebP e fontes não incluídos na soma de JavaScript/CSS; ver inventário.",
+    "Amostra rAF local em produção; duração de render é CPU, não tempo real da GPU."
+  ],
+  "javascript": [
+    {
+      "path": "_astro/etapa-2.astro_astro_type_script_index_0_lang.D1opv9U_.js",
+      "bytes": 5983,
+      "gzip": 2636
+    },
+    {
+      "path": "_astro/ContinuityRenderer.-yPcNWOH.js",
+      "bytes": 7055,
+      "gzip": 2841
+    },
+    {
+      "path": "_astro/Triangle.cRlXukj0.js",
+      "bytes": 51720,
+      "gzip": 14460
+    },
+    {
+      "path": "_astro/preload-helper.DygEbaNj.js",
+      "bytes": 1761,
+      "gzip": 880
+    },
+    {
+      "path": "_astro/quote.CaCKXksw.js",
+      "bytes": 2282,
+      "gzip": 1129
+    },
+    {
+      "path": "_astro/gsap.C2W12wA9.js",
+      "bytes": 70358,
+      "gzip": 27340
+    },
+    {
+      "path": "_astro/ScrollTrigger.Dg2oAicK.js",
+      "bytes": 42839,
+      "gzip": 17444
+    }
+  ],
+  "styles": [
+    {
+      "path": "/_astro/etapa-2.ewqMB2Q3.css",
+      "bytes": 12175,
+      "gzip": 3247
+    }
+  ],
+  "totals": {
+    "javascript": 181998,
+    "javascriptGzip": 66730,
+    "css": 12175,
+    "cssGzip": 3247
+  }
+}

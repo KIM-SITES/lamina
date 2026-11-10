@@ -1,0 +1,1407 @@
+{
+  "date": "2026-11-10",
+  "browser": "Chromium 158.0.8127.18",
+  "screenshots": [
+    {
+      "name": "desktop-hero",
+      "path": "docs/redirecao/etapa-2/evidencias/desktop-hero.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.00037802419354837635,
+          "width": 1,
+          "height": 0.9992439516129032
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "desktop-inicio",
+      "path": "docs/redirecao/etapa-2/evidencias/desktop-inicio.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": {
+        "progress": 0.349708,
+        "frame": {
+          "x": 10.195778130934212,
+          "y": 21.16226858095879,
+          "width": 1307.7159320188375,
+          "height": 864.9947437006697
+        },
+        "crop": {
+          "x": 0.06424025372839255,
+          "y": 0.0333628263420781,
+          "width": 0.8825061980703424,
+          "height": 0.9332743473158438
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "desktop-passagem",
+      "path": "docs/redirecao/etapa-2/evidencias/desktop-passagem.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": {
+        "progress": 0.650292,
+        "frame": {
+          "x": 41.34132671779033,
+          "y": 85.80769885926146,
+          "width": 903.6212357961015,
+          "height": 758.0624530147554
+        },
+        "crop": {
+          "x": 0.19452090970652683,
+          "y": 0.06625183542868818,
+          "width": 0.6467814818742078,
+          "height": 0.8674963291426236
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "desktop-servicos",
+      "path": "docs/redirecao/etapa-2/evidencias/desktop-servicos.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 64.078125,
+          "y": 133,
+          "width": 608.625,
+          "height": 680
+        },
+        "crop": {
+          "x": 0.27742749054224464,
+          "y": 0.0551182928202783,
+          "width": 0.4981084489281211,
+          "height": 0.8897634143594434
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "desktop-orcamento",
+      "path": "docs/redirecao/etapa-2/evidencias/desktop-orcamento.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 64.078125,
+          "y": -870.265625,
+          "width": 608.625,
+          "height": 680
+        },
+        "crop": {
+          "x": 0.27742749054224464,
+          "y": 0.0551182928202783,
+          "width": 0.4981084489281211,
+          "height": 0.8897634143594434
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "desktop-anterior-a",
+      "path": "docs/redirecao/etapa-2/evidencias/desktop-anterior-a.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": null
+    },
+    {
+      "name": "desktop-anterior-servicos",
+      "path": "docs/redirecao/etapa-2/evidencias/desktop-anterior-servicos.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": null
+    },
+    {
+      "name": "desktop-original",
+      "path": "docs/redirecao/etapa-2/evidencias/desktop-original.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": null
+    },
+    {
+      "name": "wide-hero",
+      "path": "docs/redirecao/etapa-2/evidencias/wide-hero.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.050340221774193505,
+          "width": 1,
+          "height": 0.899319556451613
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "wide-inicio",
+      "path": "docs/redirecao/etapa-2/evidencias/wide-inicio.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "state": {
+        "progress": 0.349903,
+        "frame": {
+          "x": 13.616065782218168,
+          "y": 22.630359515142413,
+          "width": 1743.3397639258073,
+          "height": 1029.0020067264397
+        },
+        "crop": {
+          "x": 0.0643195414651214,
+          "y": 0.08366560431336306,
+          "width": 0.8823615828266098,
+          "height": 0.8326687913732739
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "wide-passagem",
+      "path": "docs/redirecao/etapa-2/evidencias/wide-passagem.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "state": {
+        "progress": 0.650097,
+        "frame": {
+          "x": 55.09414607316067,
+          "y": 91.56832470974473,
+          "width": 1205.1867046425914,
+          "height": 873.6488457245189
+        },
+        "crop": {
+          "x": 0.19444325276249125,
+          "y": 0.12511739574151365,
+          "width": 0.6469209231600317,
+          "height": 0.7497652085169727
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "wide-servicos",
+      "path": "docs/redirecao/etapa-2/evidencias/wide-servicos.png",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 85.4375,
+          "y": 142,
+          "width": 811.5,
+          "height": 760
+        },
+        "crop": {
+          "x": 0.27742749054224464,
+          "y": 0.12708445133464508,
+          "width": 0.4981084489281211,
+          "height": 0.7458310973307098
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-768-hero",
+      "path": "docs/redirecao/etapa-2/evidencias/tablet-768-hero.png",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1080
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.031250000000000056,
+          "width": 1,
+          "height": 0.9374999999999999
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-768-inicio",
+      "path": "docs/redirecao/etapa-2/evidencias/tablet-768-inicio.png",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "state": {
+        "progress": 0.349903,
+        "frame": {
+          "x": 5.445928285609205,
+          "y": 19.76172239350464,
+          "width": 698.6223100295574,
+          "height": 1006.690384669257
+        },
+        "crop": {
+          "x": 0.027856187564271894,
+          "y": 0.03859520112538768,
+          "width": 0.9442876248714561,
+          "height": 0.9071236906057263
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-768-passagem",
+      "path": "docs/redirecao/etapa-2/evidencias/tablet-768-passagem.png",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "state": {
+        "progress": 0.650097,
+        "frame": {
+          "x": 22.0356432812733,
+          "y": 79.96107228174891,
+          "width": 487.2798091177159,
+          "height": 783.370215728996
+        },
+        "crop": {
+          "x": 0.13085894606557183,
+          "y": 0.07884053341196612,
+          "width": 0.7382821078688564,
+          "height": 0.7912609323409197
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-768-servicos",
+      "path": "docs/redirecao/etapa-2/evidencias/tablet-768-servicos.png",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 34.171875,
+          "y": 124,
+          "width": 332.671875,
+          "height": 620
+        },
+        "crop": {
+          "x": 0.21180454377205138,
+          "y": 0.10416666666666667,
+          "width": 0.5763909124558972,
+          "height": 0.7161458333333334
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-hero",
+      "path": "docs/redirecao/etapa-2/evidencias/tablet-hero.png",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 1180
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.020325203252032575,
+          "width": 1,
+          "height": 0.9593495934959348
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-inicio",
+      "path": "docs/redirecao/etapa-2/evidencias/tablet-inicio.png",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "state": {
+        "progress": 0.349688,
+        "frame": {
+          "x": 5.804254194660173,
+          "y": 20.522450805616437,
+          "width": 746.2946718947029,
+          "height": 1090.9102910763938
+        },
+        "crop": {
+          "x": 0.027819234844396398,
+          "y": 0.03202193618533548,
+          "width": 0.9443615303112072,
+          "height": 0.9202921676122268
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-passagem",
+      "path": "docs/redirecao/etapa-2/evidencias/tablet-passagem.png",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "state": {
+        "progress": 0.650312,
+        "frame": {
+          "x": 23.539858298293236,
+          "y": 83.23129340929721,
+          "width": 521.079084195849,
+          "height": 818.6858580681671
+        },
+        "crop": {
+          "x": 0.12232109115489856,
+          "y": 0.0788686900112951,
+          "width": 0.7553578176902028,
+          "height": 0.7911796652754975
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-servicos",
+      "path": "docs/redirecao/etapa-2/evidencias/tablet-servicos.png",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 36.484375,
+          "y": 129,
+          "width": 356.703125,
+          "height": 620
+        },
+        "crop": {
+          "x": 0.1909861410817792,
+          "y": 0.10416666666666667,
+          "width": 0.6180277178364416,
+          "height": 0.7161458333333334
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-orcamento",
+      "path": "docs/redirecao/etapa-2/evidencias/tablet-orcamento.png",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 36.484375,
+          "y": -631.921875,
+          "width": 356.703125,
+          "height": 620
+        },
+        "crop": {
+          "x": 0.1909861410817792,
+          "y": 0.10416666666666667,
+          "width": 0.6180277178364416,
+          "height": 0.7161458333333334
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-anterior-a",
+      "path": "docs/redirecao/etapa-2/evidencias/tablet-anterior-a.png",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "state": null
+    },
+    {
+      "name": "tablet-anterior-servicos",
+      "path": "docs/redirecao/etapa-2/evidencias/tablet-anterior-servicos.png",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "state": null
+    },
+    {
+      "name": "tablet-original",
+      "path": "docs/redirecao/etapa-2/evidencias/tablet-original.png",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "state": null
+    },
+    {
+      "name": "tablet-1024-hero",
+      "path": "docs/redirecao/etapa-2/evidencias/tablet-1024-hero.png",
+      "viewport": {
+        "width": 1024,
+        "height": 900
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 900
+        },
+        "crop": {
+          "x": 0.144175423847555,
+          "y": 0,
+          "width": 0.71164915230489,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-1024-inicio",
+      "path": "docs/redirecao/etapa-2/evidencias/tablet-1024-inicio.png",
+      "viewport": {
+        "width": 1024,
+        "height": 900
+      },
+      "state": {
+        "progress": 0.349708,
+        "frame": {
+          "x": 7.249668136991992,
+          "y": 18.29820215646813,
+          "width": 932.8272188203805,
+          "height": 855.4478556190342
+        },
+        "crop": {
+          "x": 0.1695622144943814,
+          "y": 0.0074683941272641885,
+          "width": 0.6718622765383646,
+          "height": 0.9850632117454716
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-1024-passagem",
+      "path": "docs/redirecao/etapa-2/evidencias/tablet-1024-passagem.png",
+      "viewport": {
+        "width": 1024,
+        "height": 900
+      },
+      "state": {
+        "progress": 0.650292,
+        "frame": {
+          "x": 29.3955885659782,
+          "y": 74.19462683319601,
+          "width": 654.3172071702495,
+          "height": 719.3522129278706
+        },
+        "crop": {
+          "x": 0.23937057634121864,
+          "y": 0.010408353054611352,
+          "width": 0.5570821486048242,
+          "height": 0.9791832938907773
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-1024-servicos",
+      "path": "docs/redirecao/etapa-2/evidencias/tablet-1024-servicos.png",
+      "viewport": {
+        "width": 1024,
+        "height": 900
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 45.5625,
+          "y": 115,
+          "width": 451,
+          "height": 620
+        },
+        "crop": {
+          "x": 0.2989911727616646,
+          "y": 0,
+          "width": 0.4549810844892812,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-horizontal-hero",
+      "path": "docs/redirecao/etapa-2/evidencias/tablet-horizontal-hero.png",
+      "viewport": {
+        "width": 1180,
+        "height": 820
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1180,
+          "height": 820
+        },
+        "crop": {
+          "x": 0.049964629532802285,
+          "y": 0,
+          "width": 0.9000707409343954,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-horizontal-inicio",
+      "path": "docs/redirecao/etapa-2/evidencias/tablet-horizontal-inicio.png",
+      "viewport": {
+        "width": 1180,
+        "height": 820
+      },
+      "state": {
+        "progress": 0.350449,
+        "frame": {
+          "x": 8.404227238028144,
+          "y": 20.650386927726295,
+          "width": 1070.942645296052,
+          "height": 797.5887273652583
+        },
+        "crop": {
+          "x": 0.09189843673331632,
+          "y": 0.007498718740671928,
+          "width": 0.8272429123011458,
+          "height": 0.9850025625186561
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-horizontal-passagem",
+      "path": "docs/redirecao/etapa-2/evidencias/tablet-horizontal-passagem.png",
+      "viewport": {
+        "width": 1180,
+        "height": 820
+      },
+      "state": {
+        "progress": 0.649551,
+        "frame": {
+          "x": 33.80694308399158,
+          "y": 83.06848872066502,
+          "width": 741.3046055341915,
+          "height": 729.8481517760224
+        },
+        "crop": {
+          "x": 0.20686263240695899,
+          "y": 0.010430855723844834,
+          "width": 0.6220377024259496,
+          "height": 0.9791382885523103
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "tablet-horizontal-servicos",
+      "path": "docs/redirecao/etapa-2/evidencias/tablet-horizontal-servicos.png",
+      "viewport": {
+        "width": 1180,
+        "height": 820
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 52.5,
+          "y": 129,
+          "width": 498.734375,
+          "height": 680
+        },
+        "crop": {
+          "x": 0.2971105166530673,
+          "y": 0,
+          "width": 0.45874239670647576,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "small-hero",
+      "path": "docs/redirecao/etapa-2/evidencias/small-hero.png",
+      "viewport": {
+        "width": 320,
+        "height": 700
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 740
+        },
+        "crop": {
+          "x": 0.17567567567567566,
+          "y": 0,
+          "width": 0.6486486486486487,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "small-inicio",
+      "path": "docs/redirecao/etapa-2/evidencias/small-inicio.png",
+      "viewport": {
+        "width": 320,
+        "height": 700
+      },
+      "state": {
+        "progress": 0.34985,
+        "frame": {
+          "x": 3.185993959989551,
+          "y": 16.88576798794462,
+          "width": 313.6280120800209,
+          "height": 677.8731177802038
+        },
+        "crop": {
+          "x": 0.17833385604311927,
+          "y": 0.028661970162770414,
+          "width": 0.6433322879137615,
+          "height": 0.9269955637030379
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "small-passagem",
+      "path": "docs/redirecao/etapa-2/evidencias/small-passagem.png",
+      "viewport": {
+        "width": 320,
+        "height": 700
+      },
+      "state": {
+        "progress": 0.65015,
+        "frame": {
+          "x": 12.898704744496229,
+          "y": 68.36313514583,
+          "width": 294.20259051100754,
+          "height": 488.47525748232357
+        },
+        "crop": {
+          "x": 0.14258406484668595,
+          "y": 0.07884747568589956,
+          "width": 0.714831870306628,
+          "height": 0.7912408958242141
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "small-servicos",
+      "path": "docs/redirecao/etapa-2/evidencias/small-servicos.png",
+      "viewport": {
+        "width": 320,
+        "height": 700
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 20,
+          "y": 106,
+          "width": 280,
+          "height": 350
+        },
+        "crop": {
+          "x": 0.099609375,
+          "y": 0.12858072916666674,
+          "width": 0.80078125,
+          "height": 0.6673177083333333
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-375-hero",
+      "path": "docs/redirecao/etapa-2/evidencias/mobile-375-hero.png",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 375,
+          "height": 812
+        },
+        "crop": {
+          "x": 0.15363300492610832,
+          "y": 0,
+          "width": 0.6927339901477834,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-375-inicio",
+      "path": "docs/redirecao/etapa-2/evidencias/mobile-375-inicio.png",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "state": {
+        "progress": 0.350205,
+        "frame": {
+          "x": 3.8342948485891073,
+          "y": 18.085090702511945,
+          "width": 367.3314103028218,
+          "height": 747.5758584294351
+        },
+        "crop": {
+          "x": 0.15844078128449235,
+          "y": 0.02872463123696979,
+          "width": 0.6831184374310153,
+          "height": 0.9268339850571947
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-375-passagem",
+      "path": "docs/redirecao/etapa-2/evidencias/mobile-375-passagem.png",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "state": {
+        "progress": 0.649795,
+        "frame": {
+          "x": 15.464316557445489,
+          "y": 72.94002642928452,
+          "width": 344.071366885109,
+          "height": 552.1672645087544
+        },
+        "crop": {
+          "x": 0.13015347243853093,
+          "y": 0.07880095875665774,
+          "width": 0.7396930551229381,
+          "height": 0.7913751431298046
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-375-servicos",
+      "path": "docs/redirecao/etapa-2/evidencias/mobile-375-servicos.png",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 24,
+          "y": 113,
+          "width": 327,
+          "height": 408.75
+        },
+        "crop": {
+          "x": 0.099609375,
+          "y": 0.12858072916666674,
+          "width": 0.80078125,
+          "height": 0.6673177083333333
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-hero",
+      "path": "docs/redirecao/etapa-2/evidencias/mobile-hero.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        },
+        "crop": {
+          "x": 0.15343601895734593,
+          "y": 0,
+          "width": 0.6931279620853081,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-inicio",
+      "path": "docs/redirecao/etapa-2/evidencias/mobile-inicio.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "progress": 0.35,
+        "frame": {
+          "x": 3.8278823331100993,
+          "y": 18.565229315583977,
+          "width": 382.3442353337798,
+          "height": 777.5702920108185
+        },
+        "crop": {
+          "x": 0.15816083077753784,
+          "y": 0.028688443303599202,
+          "width": 0.6836783384449243,
+          "height": 0.9269273011740439
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-passagem",
+      "path": "docs/redirecao/etapa-2/evidencias/mobile-passagem.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "progress": 0.65,
+        "frame": {
+          "x": 15.472476207397692,
+          "y": 75.04150960587879,
+          "width": 359.0550475852046,
+          "height": 575.4880691507858
+        },
+        "crop": {
+          "x": 0.1297237740254438,
+          "y": 0.07882782546183971,
+          "width": 0.7405524519491123,
+          "height": 0.7912976084369374
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-servicos",
+      "path": "docs/redirecao/etapa-2/evidencias/mobile-servicos.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 24,
+          "y": 116,
+          "width": 342,
+          "height": 427.5
+        },
+        "crop": {
+          "x": 0.099609375,
+          "y": 0.12858072916666674,
+          "width": 0.80078125,
+          "height": 0.6673177083333333
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-orcamento",
+      "path": "docs/redirecao/etapa-2/evidencias/mobile-orcamento.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 24,
+          "y": -1551,
+          "width": 342,
+          "height": 427.5
+        },
+        "crop": {
+          "x": 0.099609375,
+          "y": 0.12858072916666674,
+          "width": 0.80078125,
+          "height": 0.6673177083333333
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-anterior-a",
+      "path": "docs/redirecao/etapa-2/evidencias/mobile-anterior-a.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": null
+    },
+    {
+      "name": "mobile-anterior-servicos",
+      "path": "docs/redirecao/etapa-2/evidencias/mobile-anterior-servicos.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": null
+    },
+    {
+      "name": "mobile-original",
+      "path": "docs/redirecao/etapa-2/evidencias/mobile-original.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": null
+    },
+    {
+      "name": "mobile-430-hero",
+      "path": "docs/redirecao/etapa-2/evidencias/mobile-430-hero.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 430,
+          "height": 932
+        },
+        "crop": {
+          "x": 0.15396995708154504,
+          "y": 0,
+          "width": 0.6920600858369099,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-430-inicio",
+      "path": "docs/redirecao/etapa-2/evidencias/mobile-430-inicio.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "state": {
+        "progress": 0.350417,
+        "frame": {
+          "x": 3.840930480381832,
+          "y": 20.036854005991877,
+          "width": 422.3181390392363,
+          "height": 859.262379027769
+        },
+        "crop": {
+          "x": 0.15838894532537662,
+          "y": 0.028762064513065743,
+          "width": 0.6832221093492468,
+          "height": 0.9267374534584564
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-430-passagem",
+      "path": "docs/redirecao/etapa-2/evidencias/mobile-430-passagem.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "state": {
+        "progress": 0.649583,
+        "frame": {
+          "x": 15.45587664608848,
+          "y": 80.62815650376153,
+          "width": 399.08824670782303,
+          "height": 639.3043360146994
+        },
+        "crop": {
+          "x": 0.12944815913085342,
+          "y": 0.0787731608042911,
+          "width": 0.7411036817382932,
+          "height": 0.791455358691827
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mobile-430-servicos",
+      "path": "docs/redirecao/etapa-2/evidencias/mobile-430-servicos.png",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 24,
+          "y": 125,
+          "width": 382,
+          "height": 477.5
+        },
+        "crop": {
+          "x": 0.099609375,
+          "y": 0.12858072916666674,
+          "width": 0.80078125,
+          "height": 0.6673177083333333
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "desktop-fallback-hero",
+      "path": "docs/redirecao/etapa-2/evidencias/desktop-fallback-hero.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.00037802419354837635,
+          "width": 1,
+          "height": 0.9992439516129032
+        },
+        "mode": "fallback"
+      }
+    },
+    {
+      "name": "desktop-fallback-passagem",
+      "path": "docs/redirecao/etapa-2/evidencias/desktop-fallback-passagem.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": {
+        "progress": 0.650292,
+        "frame": {
+          "x": 41.34132671779033,
+          "y": 85.80769885926146,
+          "width": 903.6212357961015,
+          "height": 758.0624530147554
+        },
+        "crop": {
+          "x": 0.19452090970652683,
+          "y": 0.06625183542868818,
+          "width": 0.6467814818742078,
+          "height": 0.8674963291426236
+        },
+        "mode": "fallback"
+      }
+    },
+    {
+      "name": "desktop-fallback-servicos",
+      "path": "docs/redirecao/etapa-2/evidencias/desktop-fallback-servicos.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 64.078125,
+          "y": 133,
+          "width": 608.625,
+          "height": 680
+        },
+        "crop": {
+          "x": 0.27742749054224464,
+          "y": 0.0551182928202783,
+          "width": 0.4981084489281211,
+          "height": 0.8897634143594434
+        },
+        "mode": "fallback"
+      }
+    },
+    {
+      "name": "desktop-movimento-reduzido",
+      "path": "docs/redirecao/etapa-2/evidencias/desktop-movimento-reduzido.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        },
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1
+        },
+        "mode": "reduced-motion"
+      }
+    },
+    {
+      "name": "mobile-fallback-hero",
+      "path": "docs/redirecao/etapa-2/evidencias/mobile-fallback-hero.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        },
+        "crop": {
+          "x": 0.15343601895734593,
+          "y": 0,
+          "width": 0.6931279620853081,
+          "height": 1
+        },
+        "mode": "fallback"
+      }
+    },
+    {
+      "name": "mobile-fallback-passagem",
+      "path": "docs/redirecao/etapa-2/evidencias/mobile-fallback-passagem.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "progress": 0.65,
+        "frame": {
+          "x": 15.472476207397692,
+          "y": 75.04150960587879,
+          "width": 359.0550475852046,
+          "height": 575.4880691507858
+        },
+        "crop": {
+          "x": 0.1297237740254438,
+          "y": 0.07882782546183971,
+          "width": 0.7405524519491123,
+          "height": 0.7912976084369374
+        },
+        "mode": "fallback"
+      }
+    },
+    {
+      "name": "mobile-fallback-servicos",
+      "path": "docs/redirecao/etapa-2/evidencias/mobile-fallback-servicos.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "progress": 1,
+        "frame": {
+          "x": 24,
+          "y": 116,
+          "width": 342,
+          "height": 427.5
+        },
+        "crop": {
+          "x": 0.099609375,
+          "y": 0.12858072916666674,
+          "width": 0.80078125,
+          "height": 0.6673177083333333
+        },
+        "mode": "fallback"
+      }
+    },
+    {
+      "name": "mobile-movimento-reduzido",
+      "path": "docs/redirecao/etapa-2/evidencias/mobile-movimento-reduzido.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        },
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1
+        },
+        "mode": "reduced-motion"
+      }
+    },
+    {
+      "name": "mascara-horizontal",
+      "path": "docs/redirecao/etapa-2/evidencias/mascara-horizontal.png",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        },
+        "crop": {
+          "x": 0,
+          "y": 0.00037802419354837635,
+          "width": 1,
+          "height": 0.9992439516129032
+        },
+        "mode": "webgl"
+      }
+    },
+    {
+      "name": "mascara-vertical",
+      "path": "docs/redirecao/etapa-2/evidencias/mascara-vertical.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": {
+        "progress": 0,
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        },
+        "crop": {
+          "x": 0.15343601895734593,
+          "y": 0,
+          "width": 0.6931279620853081,
+          "height": 1
+        },
+        "mode": "webgl"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "name": "desktop",
+      "path": "docs/redirecao/etapa-2/videos/transicao-desktop.webm",
+      "width": 1440,
+      "height": 900,
+      "sha256": "6edc7168fae0bd509a80df4b46367844d57fa968e19e46d7851fcc995a0f7870",
+      "interaction": "Wheel nativo: ida lenta, reversão, deslocamento rápido e retorno.",
+      "edited": false
+    },
+    {
+      "name": "mobile",
+      "path": "docs/redirecao/etapa-2/videos/transicao-mobile.webm",
+      "width": 390,
+      "height": 844,
+      "sha256": "39a018589d65057e27742724b25507a26d623d17b4d3b7570010c33290556ea5",
+      "interaction": "Gestos de toque via CDP; rolagem e animação reais da página.",
+      "edited": false
+    }
+  ],
+  "performance": {
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1650 (0x00001F82) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "samples": 90,
+    "rafMedian": 16.700000000186265,
+    "rafP95": 16.90000000037253,
+    "graphics": {
+      "mode": "webgl",
+      "frames": 88,
+      "active": true,
+      "quality": 1,
+      "width": 1440,
+      "height": 900,
+      "renderMs": 0.5181818181458353
+    },
+    "notes": "Intervalos rAF em rolagem programática. Não mede apresentação da GPU, INP de campo ou FPS do vídeo."
+  },
+  "frameSequences": [
+    {
+      "path": "docs/redirecao/etapa-2/evidencias/video-desktop-sequencia.png",
+      "sourceVideo": "docs/redirecao/etapa-2/videos/transicao-desktop.webm",
+      "sampling": "1 quadro por segundo, até 12 quadros, sem interpolação."
+    },
+    {
+      "path": "docs/redirecao/etapa-2/evidencias/video-mobile-sequencia.png",
+      "sourceVideo": "docs/redirecao/etapa-2/videos/transicao-mobile.webm",
+      "sampling": "1 quadro por segundo, até 12 quadros, sem interpolação."
+    }
+  ]
+}

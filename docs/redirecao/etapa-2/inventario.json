@@ -1,0 +1,158 @@
+{
+  "baseline": "63dcb61ea339c9d58ae94e5fc4e9ff5dd7abdc5b",
+  "palette": {
+    "profundidade": "#083c63",
+    "turquesa": "#16c7ad",
+    "solar": "#f6d567",
+    "luz": "#e9f9e7",
+    "azul": "#1658ba"
+  },
+  "newFiles": [
+    {
+      "path": "src/pages/estudos/etapa-2.astro",
+      "bytes": 1774,
+      "sha256": "f94037edc2955b8ebac34e11f8d4d5d9e6b76fbba0950c4243c03b1864ae9cc2"
+    },
+    {
+      "path": "src/pages/estudos/etapa-2/revisao.astro",
+      "bytes": 6543,
+      "sha256": "8c9969ec8897f2d20f5bb99458cda2eb80956ee70bf35b020bba7f2b93e80ace"
+    },
+    {
+      "path": "src/studies/etapa-2/continuity.ts",
+      "bytes": 8737,
+      "sha256": "8bbac5e742092de1c65beaf3ca10e52ca047d00513992107228f53acaa5805ab"
+    },
+    {
+      "path": "src/studies/etapa-2/ContinuityRenderer.ts",
+      "bytes": 7480,
+      "sha256": "368820c8981fbee4c972013302d6d390d49f712fb02bcafcbf58f1858c42f166"
+    },
+    {
+      "path": "src/studies/etapa-2/review.css",
+      "bytes": 3215,
+      "sha256": "55206acc8ddf7b223eaec50ece1c9b460b74959b517c9b9c3574fb6cd53e4b05"
+    },
+    {
+      "path": "src/studies/etapa-2/scene.ts",
+      "bytes": 2491,
+      "sha256": "e1397b6cae54104d795ba2dfc849d7469739ef6ae61eb248d8324b494cfabc05"
+    },
+    {
+      "path": "src/studies/etapa-2/shaders.ts",
+      "bytes": 1874,
+      "sha256": "e261ea40511ee4f5da664e8ffabefd2c03e88e49d8bad4f0db7dc9930c230d94"
+    },
+    {
+      "path": "src/studies/etapa-2/Story.astro",
+      "bytes": 3514,
+      "sha256": "c1e91dc45fb7a735af292daf6795b4664b9f1ae563975ef42895841debfacf42"
+    },
+    {
+      "path": "src/studies/etapa-2/surface.css",
+      "bytes": 12482,
+      "sha256": "869e738000504460af1e20a13c1d861b1bd9383da0198e25ccd2284a78d4383f"
+    },
+    {
+      "path": "scripts/studies/verify-stage2.mjs",
+      "bytes": 15056,
+      "sha256": "6bfd34a25ec76a23ecadf43a4767b2ac569f457b7d85c01b906580171fcb559b"
+    },
+    {
+      "path": "scripts/studies/capture-stage2.mjs",
+      "bytes": 10403,
+      "sha256": "11a49d60da7e4aa6cc6089fb3fb15b59bc2ffd292eeb6a2a0f1df548d30b5d80"
+    },
+    {
+      "path": "scripts/studies/package-stage2.mjs",
+      "bytes": 8623,
+      "sha256": "0808933ad3e7995544e22ead936a7bba732fd9711960a534bd311c376fddf67b"
+    },
+    {
+      "path": "scripts/studies/review-stage2.mjs",
+      "bytes": 2601,
+      "sha256": "38340ca26fb3404570dc0c84ea6cf5e2aa2caaeb50cdb6f54df5185e7c50d34b"
+    },
+    {
+      "path": "public/studies/etapa-2/superficie-vertical.webp",
+      "bytes": 230258,
+      "sha256": "5d9ce2b2f2219c5858434b5dfa87cf925bfd7fb3304594aa978ef2107db4ba66"
+    }
+  ],
+  "reusedAssets": [
+    {
+      "path": "public/studies/etapa-1/superficie-desktop.webp",
+      "bytes": 364072,
+      "sha256": "6e27ecefd43de9a6ff271e65927220faaafe3425505e2e355187e96ef8de4f83"
+    },
+    {
+      "path": "public/studies/etapa-1/enquadramento.webp",
+      "bytes": 206478,
+      "sha256": "ca2ed326f4e18dcfefadebaf50f3dd4010d742bc81d5f54c9c6a9c3dcc09086e"
+    },
+    {
+      "path": "public/studies/etapa-1/enquadramento-vertical.webp",
+      "bytes": 195638,
+      "sha256": "142bb7fd18412e48f74ba5acfbedbf0efea7b10b9778ec30c3a6368a4bc5a12d"
+    },
+    {
+      "path": "public/fonts/syne.woff2",
+      "bytes": 34608,
+      "sha256": "68b623f0e45b905041b2edb9b2e4f563a505f13db1cd06b5f1946eb2e1f47048"
+    },
+    {
+      "path": "public/fonts/instrument-sans.woff2",
+      "bytes": 30092,
+      "sha256": "2ee17598a98d8a59e4df8152d015bec9ab8e4d5672cc0ab42bef806b568e3971"
+    },
+    {
+      "path": "src/studies/etapa-1/Quote.astro",
+      "bytes": 1467,
+      "sha256": "73eac37fea3817585459969ab3b42c952585d262f628bd3a3423f85fddd1ed0e"
+    },
+    {
+      "path": "src/scripts/quote.ts",
+      "bytes": 1741,
+      "sha256": "c911aa682152555ca550246931e554821cb0b36b927dbdbfe3c0007b4de13350"
+    }
+  ],
+  "newImage": "Codificação WebP do original vertical da Etapa 1, sem alteração pictórica. Não houve nova geração de imagem.",
+  "noPointerInputs": true,
+  "generated": {
+    "screenshots": 62,
+    "rawVideos": [
+      {
+        "name": "desktop",
+        "path": "docs/redirecao/etapa-2/videos/transicao-desktop.webm",
+        "width": 1440,
+        "height": 900,
+        "sha256": "6edc7168fae0bd509a80df4b46367844d57fa968e19e46d7851fcc995a0f7870",
+        "interaction": "Wheel nativo: ida lenta, reversão, deslocamento rápido e retorno.",
+        "edited": false
+      },
+      {
+        "name": "mobile",
+        "path": "docs/redirecao/etapa-2/videos/transicao-mobile.webm",
+        "width": 390,
+        "height": 844,
+        "sha256": "39a018589d65057e27742724b25507a26d623d17b4d3b7570010c33290556ea5",
+        "interaction": "Gestos de toque via CDP; rolagem e animação reais da página.",
+        "edited": false
+      }
+    ],
+    "previews": 16,
+    "frameSequences": [
+      {
+        "path": "docs/redirecao/etapa-2/evidencias/video-desktop-sequencia.png",
+        "sourceVideo": "docs/redirecao/etapa-2/videos/transicao-desktop.webm",
+        "sampling": "1 quadro por segundo, até 12 quadros, sem interpolação."
+      },
+      {
+        "path": "docs/redirecao/etapa-2/evidencias/video-mobile-sequencia.png",
+        "sourceVideo": "docs/redirecao/etapa-2/videos/transicao-mobile.webm",
+        "sampling": "1 quadro por segundo, até 12 quadros, sem interpolação."
+      }
+    ],
+    "documentationRoot": "docs/redirecao/etapa-2"
+  }
+}
