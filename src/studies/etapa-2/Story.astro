@@ -1,5 +1,5 @@
 ---
-import { services } from '../../data/content';
+import Services from './Services.astro';
 ---
 <div class="story" data-continuity>
   <section class="hero" id="inicio" data-hero aria-labelledby="titulo">
@@ -18,15 +18,6 @@ import { services } from '../../data/content';
       <div class="hero-bottom"><p>Projeto, construção, revitalização<br class="wide-break" /> e manutenção de piscinas.</p><div class="hero-actions"><a tabindex="0" class="text-link" href="#servicos">Conhecer os serviços</a><a tabindex="0" class="button button-sun" href="#orcamento">Simular orçamento <span aria-hidden="true">↗</span></a></div></div>
     </div>
   </section>
-  <section class="services shell" id="servicos" aria-labelledby="services-title">
-    <figure class="services-media" data-destination>
-      <picture><source media="(max-width:699px), (max-width:1099px) and (orientation:portrait)" srcset="/studies/etapa-1/enquadramento-vertical.webp" width="820" height="1100" /><img src="/studies/etapa-1/enquadramento.webp" width="790" height="992" alt="A mesma piscina em enquadramento editorial, com borda, água e pavilhão preservados." loading="lazy" decoding="async" /></picture>
-      <figcaption>Água, pedra e luz natural.<br />Cena ilustrativa gerada por IA.</figcaption>
-    </figure>
-    <div class="services-content">
-      <div class="services-intro"><p class="section-label">O que fazemos</p><h2 id="services-title" tabindex="-1">Da paisagem<br />ao detalhe.</h2><p>Da primeira ideia ao cuidado com a água.<br />Uma piscina pensada como parte do espaço.</p></div>
-      <div class="service-list">{services.map(service => <article class="service"><h3>{service.title}</h3><p>{service.description}</p><a tabindex="0" data-select-service={service.id} href="#orcamento">Simular {service.id === 'projeto' ? 'projeto e construção' : service.id === 'revitalizacao' ? 'revitalização' : 'manutenção'} <span aria-hidden="true">↗</span></a></article>)}</div>
-    </div>
-  </section>
+  <Services />
   <div class="visual-plane" data-visual-plane aria-hidden="true" hidden><div class="optical-frame" data-optical-frame><img class="plane-poster" data-plane-poster alt="" width="1586" height="992" /><div class="canvas-holder" data-continuity-canvas></div><div class="plane-shade" data-plane-shade></div></div></div>
 </div>

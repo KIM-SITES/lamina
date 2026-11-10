@@ -1,0 +1,35 @@
+{
+  "method": "Only exact RGB matches in full-section PNG screenshots; photograph and antialiasing remain in the other pixels.",
+  "images": [
+    {
+      "name": "before",
+      "path": "docs/redirecao/etapa-2/servicos/anterior/desktop-secao-completa.png",
+      "width": 1440,
+      "height": 1229,
+      "solidPercent": {
+        "profundidade": 0.7,
+        "turquesa": 73.92,
+        "solar": 0,
+        "azul": 0,
+        "claro": 0
+      }
+    },
+    {
+      "name": "after",
+      "path": "docs/redirecao/etapa-2/servicos/evidencias/desktop-secao-completa.png",
+      "width": 1440,
+      "height": 1742,
+      "solidPercent": {
+        "profundidade": 0.8,
+        "turquesa": 6.41,
+        "solar": 1.44,
+        "azul": 17.31,
+        "claro": 44.19
+      }
+    }
+  ],
+  "copy": {
+    "oldDescriptionWords": 52,
+    "newDescriptionWords": 30
+  }
+}

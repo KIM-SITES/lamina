@@ -1,0 +1,59 @@
+{
+  "checks": [
+    {
+      "name": "Galeria online 320px",
+      "overflow": false,
+      "images": 16,
+      "title": "Lâmina — Redesign editorial dos serviços",
+      "violations": [],
+      "passed": true
+    },
+    {
+      "name": "Galeria online 390px",
+      "overflow": false,
+      "images": 16,
+      "title": "Lâmina — Redesign editorial dos serviços",
+      "violations": [],
+      "passed": true
+    },
+    {
+      "name": "Galeria online 820px",
+      "overflow": false,
+      "images": 16,
+      "title": "Lâmina — Redesign editorial dos serviços",
+      "violations": [],
+      "passed": true
+    },
+    {
+      "name": "Galeria online 1440px",
+      "overflow": false,
+      "images": 16,
+      "title": "Lâmina — Redesign editorial dos serviços",
+      "violations": [],
+      "passed": true
+    },
+    {
+      "name": "Vídeos brutos disponíveis na galeria",
+      "media": [
+        {
+          "name": "desktop",
+          "status": 200,
+          "bytes": 7935477
+        },
+        {
+          "name": "mobile",
+          "status": 200,
+          "bytes": 2172783
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "Galeria local: todas as imagens decodificam",
+      "images": 23,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

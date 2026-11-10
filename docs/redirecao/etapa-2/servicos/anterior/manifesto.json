@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-10T18:18:24.161Z",
+  "files": [
+    {
+      "path": "src/studies/etapa-2/Story.astro",
+      "sha256": "c1e91dc45fb7a735af292daf6795b4664b9f1ae563975ef42895841debfacf42"
+    },
+    {
+      "path": "src/studies/etapa-2/surface.css",
+      "sha256": "869e738000504460af1e20a13c1d861b1bd9383da0198e25ccd2284a78d4383f"
+    },
+    {
+      "path": "src/studies/etapa-2/continuity.ts",
+      "sha256": "8bbac5e742092de1c65beaf3ca10e52ca047d00513992107228f53acaa5805ab"
+    },
+    {
+      "path": "src/studies/etapa-2/scene.ts",
+      "sha256": "e1397b6cae54104d795ba2dfc849d7469739ef6ae61eb248d8324b494cfabc05"
+    },
+    {
+      "path": "src/studies/etapa-2/shaders.ts",
+      "sha256": "e261ea40511ee4f5da664e8ffabefd2c03e88e49d8bad4f0db7dc9930c230d94"
+    },
+    {
+      "path": "src/studies/etapa-2/ContinuityRenderer.ts",
+      "sha256": "368820c8981fbee4c972013302d6d390d49f712fb02bcafcbf58f1858c42f166"
+    }
+  ],
+  "screenshots": [
+    "docs/redirecao/etapa-2/servicos/anterior/desktop-hero.png",
+    "docs/redirecao/etapa-2/servicos/anterior/desktop-inicio.png",
+    "docs/redirecao/etapa-2/servicos/anterior/desktop-passagem.png",
+    "docs/redirecao/etapa-2/servicos/anterior/desktop-destino.png",
+    "docs/redirecao/etapa-2/servicos/anterior/tablet-hero.png",
+    "docs/redirecao/etapa-2/servicos/anterior/tablet-inicio.png",
+    "docs/redirecao/etapa-2/servicos/anterior/tablet-passagem.png",
+    "docs/redirecao/etapa-2/servicos/anterior/tablet-destino.png",
+    "docs/redirecao/etapa-2/servicos/anterior/mobile-hero.png",
+    "docs/redirecao/etapa-2/servicos/anterior/mobile-inicio.png",
+    "docs/redirecao/etapa-2/servicos/anterior/mobile-passagem.png",
+    "docs/redirecao/etapa-2/servicos/anterior/mobile-destino.png"
+  ]
+}

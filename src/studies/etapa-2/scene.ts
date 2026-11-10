@@ -8,8 +8,8 @@ export interface SceneSpec {
   water: [number, number, number];
 }
 export const palettes = { deep: '#083c63', aqua: '#16c7ad', sun: '#f6d567', light: '#e9f9e7', blue: '#1658ba' };
-export const horizontal: SceneSpec = { vertical: false, width: 1586, height: 992, editorial: { x: 440/1586, y: 0, width: 790/1586, height: 1 }, water: [.425, .502, .55] };
-export const vertical: SceneSpec = { vertical: true, width: 1024, height: 1536, editorial: { x: 102/1024, y: 160/1536, width: 820/1024, height: 1100/1536 }, water: [.503, .377, .50] };
+export const horizontal: SceneSpec = { vertical: false, width: 1586, height: 992, editorial: { x: 0, y: 0, width: 1, height: 1 }, water: [.425, .502, .55] };
+export const vertical: SceneSpec = { vertical: true, width: 1024, height: 1536, editorial: { x: 0, y: 0, width: 1, height: 1 }, water: [.503, .377, .50] };
 export const clamp = (n: number, low=0, high=1) => Math.max(low, Math.min(high, n));
 export const lerp = (a: number, b: number, t: number) => a+(b-a)*t;
 export const smooth = (n: number) => { const t=clamp(n); return t*t*(3-2*t); };

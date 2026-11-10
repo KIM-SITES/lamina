@@ -8,7 +8,7 @@ import { launch } from '../browser.mjs';
 const exec=promisify(execFile);
 const url=process.env.BASE_URL||'http://127.0.0.1:4322';
 const route='/estudos/etapa-2/';
-const output='docs/redirecao/etapa-2';await mkdir(output,{recursive:true});
+const output=process.env.EVIDENCE_DIR||'docs/redirecao/etapa-2';await mkdir(output,{recursive:true});
 const result={date:'2026-11-10',baseURL:url,baseline:(await exec('git',['rev-parse','HEAD'])).stdout.trim(),trackedChanges:(await exec('git',['diff','--name-only','HEAD'])).stdout.trim(),checks:[],browsers:[],viewports:[],contrast:[],normalErrors:[]};
 const assert=(condition,message='Condição não atendida')=>{if(!condition)throw new Error(message);};
 async function check(name,fn){try{const detail=await fn();result.checks.push({name,passed:true,detail});console.log('PASS',name);}catch(error){result.checks.push({name,passed:false,error:error.message});console.log('FAIL',name,error.message);}}

@@ -1,0 +1,66 @@
+{
+  "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1650 (0x00001F82) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "samples": 90,
+  "rafMedian": 16.699999999254942,
+  "rafP95": 16.90000000037253,
+  "graphics": {
+    "mode": "webgl",
+    "frames": 88,
+    "active": true,
+    "quality": 1,
+    "width": 1440,
+    "height": 900,
+    "renderMs": 0.5079545453825797
+  },
+  "notes": "Soma gzip por módulo, incluindo imports dinâmicos. Sem imagens, fontes, cabeçalhos HTTP e galeria. Duração de render no CPU, sem medição real da GPU ou de campo.",
+  "javascript": [
+    {
+      "path": "_astro/etapa-2.astro_astro_type_script_index_0_lang.CV9zq2S2.js",
+      "bytes": 5939,
+      "gzip": 2595
+    },
+    {
+      "path": "_astro/ContinuityRenderer.-yPcNWOH.js",
+      "bytes": 7055,
+      "gzip": 2841
+    },
+    {
+      "path": "_astro/Triangle.cRlXukj0.js",
+      "bytes": 51720,
+      "gzip": 14460
+    },
+    {
+      "path": "_astro/preload-helper.DygEbaNj.js",
+      "bytes": 1761,
+      "gzip": 880
+    },
+    {
+      "path": "_astro/quote.CaCKXksw.js",
+      "bytes": 2282,
+      "gzip": 1129
+    },
+    {
+      "path": "_astro/gsap.C2W12wA9.js",
+      "bytes": 70358,
+      "gzip": 27340
+    },
+    {
+      "path": "_astro/ScrollTrigger.Dg2oAicK.js",
+      "bytes": 42839,
+      "gzip": 17444
+    }
+  ],
+  "styles": [
+    {
+      "path": "/_astro/etapa-2.Cny-8NQ3.css",
+      "bytes": 13626,
+      "gzip": 3530
+    }
+  ],
+  "totals": {
+    "javascript": 181954,
+    "javascriptGzip": 66689,
+    "css": 13626,
+    "cssGzip": 3530
+  }
+}
