@@ -1,0 +1,272 @@
+[
+  {
+    "id": "luz-aberta",
+    "source": "docs/redirecao/etapa-3/fontes/luz-aberta.png",
+    "path": "public/studies/etapa-3/images/luz-aberta-720.webp",
+    "format": "webp",
+    "width": 720,
+    "height": 480,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 89878
+  },
+  {
+    "id": "luz-aberta",
+    "source": "docs/redirecao/etapa-3/fontes/luz-aberta.png",
+    "path": "public/studies/etapa-3/images/luz-aberta-1080.webp",
+    "format": "webp",
+    "width": 1080,
+    "height": 720,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 186512
+  },
+  {
+    "id": "luz-aberta",
+    "source": "docs/redirecao/etapa-3/fontes/luz-aberta.png",
+    "path": "public/studies/etapa-3/images/luz-aberta-1440.webp",
+    "format": "webp",
+    "width": 1440,
+    "height": 960,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 297600
+  },
+  {
+    "id": "luz-aberta",
+    "source": "docs/redirecao/etapa-3/fontes/luz-aberta.png",
+    "path": "public/studies/etapa-3/images/luz-aberta-vertical.webp",
+    "crop": {
+      "left": 476,
+      "top": 0,
+      "width": 768,
+      "height": 1024
+    },
+    "format": "webp",
+    "width": 720,
+    "height": 960,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 167820
+  },
+  {
+    "id": "jardim-adentro",
+    "source": "docs/redirecao/etapa-3/fontes/jardim-adentro.png",
+    "path": "public/studies/etapa-3/images/jardim-adentro-720.webp",
+    "format": "webp",
+    "width": 720,
+    "height": 480,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 105566
+  },
+  {
+    "id": "jardim-adentro",
+    "source": "docs/redirecao/etapa-3/fontes/jardim-adentro.png",
+    "path": "public/studies/etapa-3/images/jardim-adentro-1080.webp",
+    "format": "webp",
+    "width": 1080,
+    "height": 720,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 213130
+  },
+  {
+    "id": "jardim-adentro",
+    "source": "docs/redirecao/etapa-3/fontes/jardim-adentro.png",
+    "path": "public/studies/etapa-3/images/jardim-adentro-1440.webp",
+    "format": "webp",
+    "width": 1440,
+    "height": 960,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 341558
+  },
+  {
+    "id": "jardim-adentro",
+    "source": "docs/redirecao/etapa-3/fontes/jardim-adentro.png",
+    "path": "public/studies/etapa-3/images/jardim-adentro-vertical.webp",
+    "crop": {
+      "left": 461,
+      "top": 0,
+      "width": 768,
+      "height": 1024
+    },
+    "format": "webp",
+    "width": 720,
+    "height": 960,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 173762
+  },
+  {
+    "id": "depois-do-sol",
+    "source": "docs/redirecao/etapa-3/fontes/depois-do-sol.png",
+    "path": "public/studies/etapa-3/images/depois-do-sol-720.webp",
+    "format": "webp",
+    "width": 720,
+    "height": 480,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 68886
+  },
+  {
+    "id": "depois-do-sol",
+    "source": "docs/redirecao/etapa-3/fontes/depois-do-sol.png",
+    "path": "public/studies/etapa-3/images/depois-do-sol-1080.webp",
+    "format": "webp",
+    "width": 1080,
+    "height": 720,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 147864
+  },
+  {
+    "id": "depois-do-sol",
+    "source": "docs/redirecao/etapa-3/fontes/depois-do-sol.png",
+    "path": "public/studies/etapa-3/images/depois-do-sol-1440.webp",
+    "format": "webp",
+    "width": 1440,
+    "height": 960,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 246754
+  },
+  {
+    "id": "depois-do-sol",
+    "source": "docs/redirecao/etapa-3/fontes/depois-do-sol.png",
+    "path": "public/studies/etapa-3/images/depois-do-sol-vertical.webp",
+    "crop": {
+      "left": 492,
+      "top": 0,
+      "width": 768,
+      "height": 1024
+    },
+    "format": "webp",
+    "width": 720,
+    "height": 960,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 111954
+  },
+  {
+    "id": "materia-e-agua",
+    "source": "docs/redirecao/etapa-3/fontes/materia-e-agua.png",
+    "path": "public/studies/etapa-3/images/materia-e-agua-720.webp",
+    "format": "webp",
+    "width": 720,
+    "height": 480,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 91828
+  },
+  {
+    "id": "materia-e-agua",
+    "source": "docs/redirecao/etapa-3/fontes/materia-e-agua.png",
+    "path": "public/studies/etapa-3/images/materia-e-agua-1080.webp",
+    "format": "webp",
+    "width": 1080,
+    "height": 720,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 176358
+  },
+  {
+    "id": "materia-e-agua",
+    "source": "docs/redirecao/etapa-3/fontes/materia-e-agua.png",
+    "path": "public/studies/etapa-3/images/materia-e-agua-1440.webp",
+    "format": "webp",
+    "width": 1440,
+    "height": 960,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 270354
+  },
+  {
+    "id": "materia-e-agua",
+    "source": "docs/redirecao/etapa-3/fontes/materia-e-agua.png",
+    "path": "public/studies/etapa-3/images/materia-e-agua-vertical.webp",
+    "crop": {
+      "left": 353,
+      "top": 0,
+      "width": 768,
+      "height": 1024
+    },
+    "format": "webp",
+    "width": 720,
+    "height": 960,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 155622
+  },
+  {
+    "id": "patio-final",
+    "source": "docs/fontes/originais/patio.png",
+    "path": "public/studies/etapa-3/images/patio-final-720.webp",
+    "format": "webp",
+    "width": 720,
+    "height": 405,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 95688
+  },
+  {
+    "id": "patio-final",
+    "source": "docs/fontes/originais/patio.png",
+    "path": "public/studies/etapa-3/images/patio-final-1080.webp",
+    "format": "webp",
+    "width": 1080,
+    "height": 608,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 199478
+  },
+  {
+    "id": "patio-final",
+    "source": "docs/fontes/originais/patio.png",
+    "path": "public/studies/etapa-3/images/patio-final-1440.webp",
+    "format": "webp",
+    "width": 1440,
+    "height": 810,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 315980
+  },
+  {
+    "id": "patio-final",
+    "source": "docs/fontes/originais/patio.png",
+    "path": "public/studies/etapa-3/images/patio-final-vertical.webp",
+    "crop": {
+      "left": 584,
+      "top": 0,
+      "width": 705,
+      "height": 941
+    },
+    "format": "webp",
+    "width": 720,
+    "height": 960,
+    "channels": 3,
+    "premultiplied": false,
+    "hasAlpha": false,
+    "size": 182290
+  }
+]

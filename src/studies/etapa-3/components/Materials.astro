@@ -1,0 +1,10 @@
+---
+import Photo from './Photo.astro';
+import { materialNotes } from '../content';
+---
+<section class="materials shell" id="materiais" aria-labelledby="materials-title">
+  <header class="materials-heading"><p>Matéria, luz e uso</p><h2 id="materials-title">A diferença<br />está na borda.</h2><p>De perto, a piscina revela outras escolhas. O toque da pedra. A cor do revestimento. O que faz a água circular.</p></header>
+  <figure class="materials-photo"><Photo image="materia-e-agua" verticalAtAllSizes alt="Detalhe sintético: borda de calcário, pequenas peças de cerâmica azul e reflexos de sol na água transparente." sizes="(max-width: 699px) 100vw, 50vw" /><figcaption>Estudo de materiais. Imagem gerada por IA.</figcaption></figure>
+  <div class="material-notes">{materialNotes.map((item, index) => <details open={index === 0}><summary><span>{item.title}</span><span class="disclosure-symbol" aria-hidden="true">+</span></summary><div class="material-note-content"><h3>{item.detail}</h3><p>{item.text}</p></div></details>)}</div>
+  <a class="material-link" data-select-service="revitalizacao" href="#orcamento">Pensar a renovação da minha piscina <span aria-hidden="true">↗</span></a>
+</section>

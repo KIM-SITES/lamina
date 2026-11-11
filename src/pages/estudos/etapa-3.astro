@@ -1,0 +1,49 @@
+---
+import Opening from '../../studies/etapa-3/components/Opening.astro';
+import Atmospheres from '../../studies/etapa-3/components/Atmospheres.astro';
+import Materials from '../../studies/etapa-3/components/Materials.astro';
+import Process from '../../studies/etapa-3/components/Process.astro';
+import Quote from '../../studies/etapa-1/Quote.astro';
+import Closing from '../../studies/etapa-3/components/Closing.astro';
+import '../../studies/etapa-2/surface.css';
+import '../../studies/etapa-2/services.css';
+import '../../studies/etapa-3/styles/narrative.css';
+import '../../studies/etapa-3/styles/atmospheres.css';
+---
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="theme-color" content="#083c63" />
+    <meta name="description" content="Lâmina — Piscinas & Paisagens. Uma experiência demonstrativa de projeto, construção, revitalização e cuidado de piscinas. Explore ambientes e simule seu orçamento." />
+    <meta property="og:title" content="Lâmina — Piscinas, entre luz e paisagem" />
+    <meta property="og:description" content="Da paisagem ao detalhe. Explore ambientes ilustrativos e uma simulação local de orçamento." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/studies/etapa-3/images/luz-aberta-1440.webp" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preload" href="/fonts/syne.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/instrument-sans.woff2" as="font" type="font/woff2" crossorigin />
+    <title>Lâmina — Piscinas, entre luz e paisagem</title>
+  </head>
+  <body class="experience-complete">
+    <a tabindex="0" class="skip-link" href="#services-title">Pular para os serviços</a>
+    <main>
+      <Opening />
+      <Atmospheres />
+      <Materials />
+      <Process />
+      <Quote />
+    </main>
+    <Closing />
+    <script>
+      import { initContinuity } from '../../studies/etapa-2/continuity';
+      import { initQuote } from '../../scripts/quote';
+      import { initAtmospheres } from '../../studies/etapa-3/scripts/atmospheres';
+      initQuote();
+      initAtmospheres();
+      void initContinuity();
+    </script>
+  </body>
+</html>

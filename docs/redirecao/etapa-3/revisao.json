@@ -1,0 +1,163 @@
+{
+  "checks": [
+    {
+      "name": "320px: enquadramento final, galeria estável e ausência de overflow",
+      "passed": true,
+      "galleryHeights": [
+        806.65625,
+        806.65625,
+        806.65625
+      ]
+    },
+    {
+      "name": "375px: enquadramento final, galeria estável e ausência de overflow",
+      "passed": true,
+      "galleryHeights": [
+        880,
+        880,
+        880
+      ]
+    },
+    {
+      "name": "390px: enquadramento final, galeria estável e ausência de overflow",
+      "passed": true,
+      "galleryHeights": [
+        900,
+        900,
+        900
+      ]
+    },
+    {
+      "name": "390px: axe após refinamento fotográfico e da margem",
+      "passed": true,
+      "violations": 0
+    },
+    {
+      "name": "430px: enquadramento final, galeria estável e ausência de overflow",
+      "passed": true,
+      "galleryHeights": [
+        953.328125,
+        953.328125,
+        953.328125
+      ]
+    },
+    {
+      "name": "768px: enquadramento final, galeria estável e ausência de overflow",
+      "passed": true,
+      "galleryHeights": [
+        600,
+        600,
+        600
+      ]
+    },
+    {
+      "name": "820px: enquadramento final, galeria estável e ausência de overflow",
+      "passed": true,
+      "galleryHeights": [
+        600,
+        600,
+        600
+      ]
+    },
+    {
+      "name": "820px: axe após refinamento fotográfico e da margem",
+      "passed": true,
+      "violations": 0
+    },
+    {
+      "name": "1024px: enquadramento final, galeria estável e ausência de overflow",
+      "passed": true,
+      "galleryHeights": [
+        696.3125,
+        696.3125,
+        696.3125
+      ]
+    },
+    {
+      "name": "1280px: enquadramento final, galeria estável e ausência de overflow",
+      "passed": true,
+      "galleryHeights": [
+        614.390625,
+        614.390625,
+        614.390625
+      ]
+    },
+    {
+      "name": "1440px: enquadramento final, galeria estável e ausência de overflow",
+      "passed": true,
+      "galleryHeights": [
+        691.1875,
+        691.1875,
+        691.1875
+      ]
+    },
+    {
+      "name": "1440px: axe após refinamento fotográfico e da margem",
+      "passed": true,
+      "violations": 0
+    },
+    {
+      "name": "1920px: enquadramento final, galeria estável e ausência de overflow",
+      "passed": true,
+      "galleryHeights": [
+        830,
+        830,
+        830
+      ]
+    },
+    {
+      "name": "320px: imagens, overflow e axe da apresentação",
+      "passed": true,
+      "violations": 0
+    },
+    {
+      "name": "390px: imagens, overflow e axe da apresentação",
+      "passed": true,
+      "violations": 0
+    },
+    {
+      "name": "820px: imagens, overflow e axe da apresentação",
+      "passed": true,
+      "violations": 0
+    },
+    {
+      "name": "1440px: imagens, overflow e axe da apresentação",
+      "passed": true,
+      "violations": 0
+    },
+    {
+      "name": "Links e recursos da apresentação respondem 200",
+      "passed": true,
+      "count": 22
+    },
+    {
+      "name": "Duas gravações reproduzem no navegador",
+      "passed": true,
+      "videos": [
+        {
+          "duration": 28.12,
+          "time": 0.3556,
+          "width": 1440,
+          "height": 900
+        },
+        {
+          "duration": 30.16,
+          "time": 0.3659,
+          "width": 390,
+          "height": 844
+        }
+      ]
+    },
+    {
+      "name": "Vídeos públicos idênticos aos originais brutos",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "checks": 20,
+    "passed": 20,
+    "failed": 0,
+    "errors": 0
+  }
+}

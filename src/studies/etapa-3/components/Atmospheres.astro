@@ -1,0 +1,30 @@
+---
+import { atmospheres } from '../content';
+import Photo from './Photo.astro';
+---
+<section class="atmospheres" id="ambientes" aria-labelledby="atmospheres-title" data-atmospheres>
+  <header class="atmospheres-heading shell">
+    <h2 id="atmospheres-title">A água muda.<br />O lugar, também.</h2>
+    <div><p>Uma piscina pode abrir a casa, acompanhar o jardim ou ganhar outra vida à noite.</p><p class="illustration-note">Ambientes ilustrativos gerados por IA.<br />Não representam obras da Lâmina.</p></div>
+  </header>
+  <div class="atmosphere-navigation shell" data-gallery-controls hidden role="group" aria-label="Escolher atmosfera">
+    {atmospheres.map((item, index) => <button type="button" data-atmosphere-select={item.id} aria-pressed={index === 0 ? 'true' : 'false'} aria-controls={`ambiente-${item.id}`}><span class="atmosphere-index" aria-hidden="true">0{index + 1}</span>{item.name}<span class="selection-mark" aria-hidden="true">↘</span></button>)}
+  </div>
+  <div class="atmosphere-stage">
+    {atmospheres.map((item, index) => <article id={`ambiente-${item.id}`} class={`atmosphere-panel tone-${item.tone}`} data-atmosphere={item.id} aria-labelledby={`ambiente-title-${item.id}`}>
+      <div class="atmosphere-photo"><Photo image={item.image} alt={item.alt} /></div>
+      <div class="atmosphere-margin">
+        <p class="atmosphere-counter"><span>0{index + 1}</span><span> / 03</span></p>
+        <h3 id={`ambiente-title-${item.id}`}>{item.title}</h3>
+        <p class="atmosphere-description">{item.description}</p>
+        <p class="atmosphere-material">{item.material}</p>
+        <a class="atmosphere-action" href="#orcamento" data-select-service="projeto">Imaginar meu projeto <span aria-hidden="true">↗</span></a>
+      </div>
+    </article>)}
+  </div>
+  <div class="atmosphere-bottom shell">
+    <p>Três atmosferas. Outras formas de viver a água.</p>
+    <div class="atmosphere-arrows" data-gallery-controls hidden><button type="button" data-gallery-previous aria-label="Ambiente anterior">←</button><button type="button" data-gallery-next aria-label="Próximo ambiente">→</button></div>
+    <p class="gallery-status" role="status" aria-live="polite" aria-atomic="true" data-gallery-status></p>
+  </div>
+</section>

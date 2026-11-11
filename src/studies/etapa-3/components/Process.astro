@@ -1,0 +1,7 @@
+---
+import { processSteps } from '../content';
+---
+<section class="process shell" id="processo" aria-labelledby="process-title">
+  <header class="process-heading"><p>Da conversa ao cuidado</p><h2 id="process-title">Antes da obra,<br />uma boa<br class="process-break" /> conversa.</h2><p>Assim seria o percurso de atendimento: entender o espaço antes de propor uma solução.</p><p class="process-notice">Fluxo ilustrativo de uma empresa fictícia.</p><a href="#orcamento">Começar pela simulação <span aria-hidden="true">↗</span></a></header>
+  <ol class="process-path">{processSteps.map((step, index) => <li><span class="process-number" aria-hidden="true">0{index + 1}</span><div><h3>{step.title}</h3><p class="process-lead">{step.lead}</p><p>{step.text}</p></div></li>)}</ol>
+</section>

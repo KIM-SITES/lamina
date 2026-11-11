@@ -1,0 +1,646 @@
+{
+  "date": "2026-11-11",
+  "baseline": "a9e081c65a65a638f11d4cd1727f0dbe31671b42",
+  "trackedChanges": [],
+  "created": [
+    {
+      "path": "src/studies/etapa-3/components/Atmospheres.astro",
+      "role": "new-source",
+      "bytes": 2258,
+      "sha256": "42cd0256f928b8a280df887f74465f0e8c974046415782c5f15bdaeb91e40851"
+    },
+    {
+      "path": "src/studies/etapa-3/components/Closing.astro",
+      "role": "new-source",
+      "bytes": 1413,
+      "sha256": "94409e5b46fe4a1dde5bb29758b9910c5bd3e6a078da69320a8fc5a28ae69b90"
+    },
+    {
+      "path": "src/studies/etapa-3/components/Materials.astro",
+      "role": "new-source",
+      "bytes": 1213,
+      "sha256": "82fbef3854857dd2fc773b9c631690457e58ff19e36c6cd276b7e3cba04e2967"
+    },
+    {
+      "path": "src/studies/etapa-3/components/Opening.astro",
+      "role": "new-source",
+      "bytes": 2335,
+      "sha256": "98233eb575b4b0c0d1626bc17e208e09d1c9bb1b13442ce48ce5a158db4f6117"
+    },
+    {
+      "path": "src/studies/etapa-3/components/Photo.astro",
+      "role": "new-source",
+      "bytes": 696,
+      "sha256": "a830ca2db44c5e29e761372af5364b5a57eb818ef2e8687865ccb2341dc22455"
+    },
+    {
+      "path": "src/studies/etapa-3/components/Process.astro",
+      "role": "new-source",
+      "bytes": 795,
+      "sha256": "e0fa8a56edc3110c751fc58d9e24bb492bd8850a94dd32b75e79b50323ee7b41"
+    },
+    {
+      "path": "src/studies/etapa-3/content.ts",
+      "role": "new-source",
+      "bytes": 2744,
+      "sha256": "c00bc091153147582b10d227f9b04363541f2e496174f1d4c2e494bb5f61fdf3"
+    },
+    {
+      "path": "src/studies/etapa-3/scripts/atmospheres.ts",
+      "role": "new-source",
+      "bytes": 5069,
+      "sha256": "9cf9ef1779565c0c91e0a7adb68035d8344549e2e0ba439e6cfc09ab745931ae"
+    },
+    {
+      "path": "src/studies/etapa-3/styles/atmospheres.css",
+      "role": "new-source",
+      "bytes": 6537,
+      "sha256": "52c158f2dbdc9b867b807a7be1b6610c9957768989a9102d146dd22000171599"
+    },
+    {
+      "path": "src/studies/etapa-3/styles/narrative.css",
+      "role": "new-source",
+      "bytes": 12095,
+      "sha256": "1915760b762ef7ae50d81734966df2fd31413dd3cd75ae006ad86f37cbad471f"
+    },
+    {
+      "path": "src/pages/estudos/etapa-3/revisao.astro",
+      "role": "new-source",
+      "bytes": 9029,
+      "sha256": "ca2f786070a2bb5d9acedd71a3bdacb6bf2e9f94779c8cc844033802f766ad93"
+    },
+    {
+      "path": "src/pages/estudos/etapa-3.astro",
+      "role": "new-source",
+      "bytes": 2377,
+      "sha256": "e657e9d94f04836067c7fbfa0b3c4acc2961768248ef39a6c1cd2be6f366a3f7"
+    },
+    {
+      "path": "scripts/studies/etapa-3/capture.mjs",
+      "role": "new-source",
+      "bytes": 9220,
+      "sha256": "496218748aab56385008cb37dd45a84bf97f5a7169a77ca38f6c8e440567c9ac"
+    },
+    {
+      "path": "scripts/studies/etapa-3/inspect.mjs",
+      "role": "new-source",
+      "bytes": 2337,
+      "sha256": "3193961e9b55c370f678518a3f5c509505b795ec7ed5892e1b9c99a8590540bc"
+    },
+    {
+      "path": "scripts/studies/etapa-3/measure.mjs",
+      "role": "new-source",
+      "bytes": 5012,
+      "sha256": "d80f92f72ef95331dc87aacd6c7315cfcaed6f190e8e31772bd8d4f858d82e0c"
+    },
+    {
+      "path": "scripts/studies/etapa-3/package-evidence.mjs",
+      "role": "new-source",
+      "bytes": 4039,
+      "sha256": "18c430bbc72d2e58c42bfcf9f60044070c3fd8628b455686ccb4a8719c268b78"
+    },
+    {
+      "path": "scripts/studies/etapa-3/package.mjs",
+      "role": "new-source",
+      "bytes": 7242,
+      "sha256": "0b8afc016b9a3d2b1d4dae04bf3f9c89c7873a6a9aae19b8e417f7e72068df10"
+    },
+    {
+      "path": "scripts/studies/etapa-3/prepare-assets.mjs",
+      "role": "new-source",
+      "bytes": 1547,
+      "sha256": "4c20543bbe48b5ba6e5043c3aa82e47390c375dc273c721f3190acc8517780e9"
+    },
+    {
+      "path": "scripts/studies/etapa-3/review.mjs",
+      "role": "new-source",
+      "bytes": 5197,
+      "sha256": "f6fe0cc735ff234a6e743ab807dd2b05c6de31baa73012b26f4ee4c465d3c897"
+    },
+    {
+      "path": "scripts/studies/etapa-3/verify.mjs",
+      "role": "new-source",
+      "bytes": 18178,
+      "sha256": "28008995a5cbc978ef0a3cf58e09ca72b4007b52b6828ccf27f1d6a21a2982cf"
+    }
+  ],
+  "public": [
+    {
+      "path": "public/studies/etapa-3/evidencias/desktop-ambiente-jardim.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 172132,
+      "sha256": "c4a7854b5bcd78b6c7b2b12ad5e46f3de0d751f042b9d7fb7994a71837116bd5"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/desktop-ambiente-luz.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 164192,
+      "sha256": "9e814184b8a69d0a646f752baeb2a61d9dcfc6686fd9097fc932af09628ff162"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/desktop-ambiente-noite.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 136578,
+      "sha256": "fc189645f8702124503f53f4dbe173f17244942cc5bb488265e3db78cbd29dff"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/desktop-completa.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 444830,
+      "sha256": "bf1619ef7cb66c68c6ec68dd12032350ee90d5eff7c8dc33990f651a703422fb"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/desktop-encerramento.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 117914,
+      "sha256": "d49a0177fdc936221c973ee646d26cbe189cc42ed306f72c320180d80011fa26"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/desktop-fallback.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 113204,
+      "sha256": "b3d5efe42e4fa801a98a0616a4bd0abd87ef6ab6a75af9a371f2cf621a3c85d3"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/desktop-hero.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 124442,
+      "sha256": "fb035d1228bcde23e61965ec96ee7ac2ff32dfa5e61adc4485d7c5cd39991df1"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/desktop-marca.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 16110,
+      "sha256": "90b85673a6eede555ca3a4639178c0ed2d3eb20f5520a7aada02be4bbdac0e7a"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/desktop-materiais.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 118238,
+      "sha256": "b2013490c235fa9d841c3a25bf0a6899f79da69e15ad24b0b3d8808b20743aef"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/desktop-orcamento.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 30592,
+      "sha256": "8583f3e4647f52351b4d04591c64cb8906886b54793e170e4de734c9e0f1348e"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/desktop-passagem.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 118986,
+      "sha256": "63e8b00261ccde844c7dcf4eb00690a2b9eb5b7fab190aa01971314ae8bb3a2d"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/desktop-processo.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 50520,
+      "sha256": "787a4ecc048326fa87b9f52cc3eb3ad80570668f69baa2e003a3c3d19b598726"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/desktop-resumo.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 36178,
+      "sha256": "a8e0c35c2688ab64d24f607644eb55f7b2e0819c542107e91aef425032432bbf"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/desktop-servicos.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 112714,
+      "sha256": "b7d0fec7b1dc741e86b2d8b633d241083b8ff98e9d546453a1b432866bb31fb0"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/dimensoes.json",
+      "role": "generated-asset-or-evidence",
+      "bytes": 3254,
+      "sha256": "557151de81bf185a0850c4de08f531f229abb09f9106190369635ab0d3813d0c"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/mobile-ambiente-jardim.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 88726,
+      "sha256": "e88864472c42021eb3941229a595b70ec437ae98b590f49ca43102e7081203be"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/mobile-ambiente-luz.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 90682,
+      "sha256": "f4f1079bbc6ec348764263b4bf760e93025ac450bb596ffa7e82954cd99271c7"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/mobile-ambiente-noite.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 72488,
+      "sha256": "8a2c1e937bb818647c92040c185e1a540bb86eee731519e718b355a106049685"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/mobile-completa.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 464984,
+      "sha256": "ba836cc24ea969ae5a60508b8cb554be156f88d0d64e051b59dca16be4e8bc6f"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/mobile-encerramento.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 69020,
+      "sha256": "77b7c85c0aa5a10425421f0ecd8a2812b620dfc7747542b32909cf88dd9b1ee8"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/mobile-fallback.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 45772,
+      "sha256": "5c185833bce4a2213e69f9368ae57384e26fc5e469f755211812a8ba2b15d431"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/mobile-hero.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 46322,
+      "sha256": "ef0aef73a98b06bf33b0e0c20a46c18726c5380c6c2e904bfd058af55cf3f915"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/mobile-marca.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 11554,
+      "sha256": "489d997e5385d589074ca39f91993eae7cf0a46db217edf6f21ba9494f349c69"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/mobile-materiais.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 82110,
+      "sha256": "a146b6c9215a5dd55c380b8b660d65f2f2caf7f18caaa9f1f0d9d6b4b96c2335"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/mobile-orcamento.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 27194,
+      "sha256": "36d342c567bb944db79446bda7f4e1dcc2ae86a37a2ad25dd764aa4f85e6a6aa"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/mobile-passagem.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 43700,
+      "sha256": "da09219bf5f13fba36a52e4ebce834655f85a7f199cc0af1233a10066e5f53eb"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/mobile-processo.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 57902,
+      "sha256": "66cab1655e6060d807c44c057774fc8e17c7ee8d19bbdf3911ba3f1ffc897f1f"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/mobile-resumo.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 35234,
+      "sha256": "230229f5eb0814cc9fc118fcb49da61e8297f1a8721bda9fdd5e41419d0b42c5"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/mobile-servicos.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 50148,
+      "sha256": "e22a7ad4b698a6c7a35eb992d4aef7fdc3cb5f126ce6975b24111e16c092d141"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/small-ambientes.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 70614,
+      "sha256": "7dcc17e50849c85ff9745066785b9dedf5e51735dbdd4e84bad41f5a3322d392"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/small-encerramento.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 63114,
+      "sha256": "69d2484f9ffae4cdc8519ffb3241f0365eeeee7382b5ebcbf60e44124458a622"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/tablet-ambiente-jardim.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 102136,
+      "sha256": "0cdef4958ce31b877a3dd9bda16d5436ce7b97da87a226c101d0a1ece3825f2d"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/tablet-ambiente-luz.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 96526,
+      "sha256": "6b5d6132dba5c35bbd7b4ca5096e2cf255c0d2d9b78b50d34658b72574529fca"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/tablet-ambiente-noite.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 81532,
+      "sha256": "ec66d2e40ffe8ca071ee2fe11f899c0388681d46d9fd8067f9e9e298cf5712b8"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/tablet-completa.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 599474,
+      "sha256": "2265ff16cb43d2f1e66aa2d3bfa035cc3becf52b462afff21c8cd17eed17d954"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/tablet-encerramento.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 69374,
+      "sha256": "52de1389baaa39e88cc19a14e5731918288d46610973c7851d8477a9631f4295"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/tablet-fallback.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 102944,
+      "sha256": "18a56bf9d23e38e803dc56d6fc3166fac4dfef0b133baf1bbe7ec7fbb771cc97"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/tablet-hero.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 122526,
+      "sha256": "62d7fba12d27bd04f6b6fcc7831b5d84e9dfc7bbb8802c9b0f6c78b4bf7c321d"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/tablet-marca.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 14764,
+      "sha256": "380c87a9e00dd789c84b2578b467c7296d3cb0cd2abd3c7334d6f17185ded0f4"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/tablet-materiais.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 96142,
+      "sha256": "ef5f0bbf9bfce148f5c1aa5f42eb3fd60d4e62c0efbbc943ced0bfabad2389ad"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/tablet-orcamento.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 29328,
+      "sha256": "2938065ac9dcd5b82a344d6a09fdbe35f876dc3e9803b28eb922aa59f9e2ee41"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/tablet-passagem.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 86974,
+      "sha256": "c2eec2e4f0e698f0fa6d2283c1383cda3101e41b88f62d68dcb7d1f7584651d9"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/tablet-processo.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 56788,
+      "sha256": "001d9ed94ceea9682bd796e69167a5b0200ddf4b99ef95a5b89565cfcd172f0d"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/tablet-resumo.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 37362,
+      "sha256": "f9ecbef474fff0d1fbea468261e45e0e2d60f270578f60e9858b5b90f22ed419"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/tablet-servicos.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 102678,
+      "sha256": "d7fe50638e534ede8c5c3dce8edefe304b5c18248cfa750a5c0929e7dce5a584"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/tablet-zoom-200.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 42744,
+      "sha256": "59d756ea68ac99472435ba8ab48135e049f3604b33598a4aad2e262e917ca2fe"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/video-desktop-sequencia.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 238534,
+      "sha256": "88a445696f2c057a4e115009a879f88edee939a594b86d70276be694e0a7d45f"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/video-mobile-sequencia.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 235102,
+      "sha256": "ad092d0cf528efb044e41440b0b35e5d229994e0d576adad04ebcbdb0fe52bdd"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/wide-ambientes.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 151890,
+      "sha256": "28a9db9e017b1cabb1c5f209f9167ae74bb32916ee4605ed2a3cc752e02a4607"
+    },
+    {
+      "path": "public/studies/etapa-3/evidencias/wide-encerramento.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 118740,
+      "sha256": "3e20f917626e29747b6c3fefd0fc00f0d8583946a7e779ceff82992901a24f4b"
+    },
+    {
+      "path": "public/studies/etapa-3/images/depois-do-sol-1080.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 147864,
+      "sha256": "38569b644969a8c5f4f8d56f76559b9180354eec17a76eb397c6661d2bbf1320"
+    },
+    {
+      "path": "public/studies/etapa-3/images/depois-do-sol-1440.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 246754,
+      "sha256": "fd13a945f0fb5142bd30c7578048f9c0c2aaa1d9620ec584793335d4a867efe5"
+    },
+    {
+      "path": "public/studies/etapa-3/images/depois-do-sol-720.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 68886,
+      "sha256": "9c87b14c80a5d3f21b241385692d8fee8b836293202386c795357a3181b41f07"
+    },
+    {
+      "path": "public/studies/etapa-3/images/depois-do-sol-vertical.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 111954,
+      "sha256": "7c5e0381bd78cb5ed3deaddb37402fd53566141d0c0de84819ce9dace7ec1c44"
+    },
+    {
+      "path": "public/studies/etapa-3/images/jardim-adentro-1080.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 213130,
+      "sha256": "04766be1cbe4dd83f9bee7062d7394b094694602bcc8d78c9fa28d13d1a0bbfa"
+    },
+    {
+      "path": "public/studies/etapa-3/images/jardim-adentro-1440.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 341558,
+      "sha256": "d18cd50551dadb438bc9f451622b430f03ca39697fd95af63b6f3d5915a9d456"
+    },
+    {
+      "path": "public/studies/etapa-3/images/jardim-adentro-720.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 105566,
+      "sha256": "09b02f8b5a9de1bf3237bbbd306f3299599efdeb997a56b260e1518733300dd0"
+    },
+    {
+      "path": "public/studies/etapa-3/images/jardim-adentro-vertical.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 173762,
+      "sha256": "6823aa4bb54d787aadb1387372ff906e2b98fa29a46a951ca827d87e1d0061db"
+    },
+    {
+      "path": "public/studies/etapa-3/images/luz-aberta-1080.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 186512,
+      "sha256": "45d6fd36bdf5ceae7dbf4035ed46ea15c58045a94932c06e4694d83d33f72efd"
+    },
+    {
+      "path": "public/studies/etapa-3/images/luz-aberta-1440.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 297600,
+      "sha256": "090570288ad5e98bf3f50f2577e13f845826057f412c7eae2337568c5c3b3552"
+    },
+    {
+      "path": "public/studies/etapa-3/images/luz-aberta-720.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 89878,
+      "sha256": "76bf53dd2f982d4f87ff6505ee12dc7ef8981583b3235e9dd7567579ef929a15"
+    },
+    {
+      "path": "public/studies/etapa-3/images/luz-aberta-vertical.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 167820,
+      "sha256": "c0c7a47cab8cfa8bf3323f52283a4a995475a16b67e9b2b7a91535be2e88b610"
+    },
+    {
+      "path": "public/studies/etapa-3/images/materia-e-agua-1080.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 176358,
+      "sha256": "c48d53af41352f2a33510b20249be33a51a03610d539f510d41d1013f5bf73e6"
+    },
+    {
+      "path": "public/studies/etapa-3/images/materia-e-agua-1440.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 270354,
+      "sha256": "66167dfb24c4bccaad4b634eb9ef6314ee4fdd72defc8397494b2760ed97c00a"
+    },
+    {
+      "path": "public/studies/etapa-3/images/materia-e-agua-720.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 91828,
+      "sha256": "2eca4e198e71ebe85d4bf6a45856fa70ee0823de53581506e6aae6ce380335f5"
+    },
+    {
+      "path": "public/studies/etapa-3/images/materia-e-agua-vertical.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 155622,
+      "sha256": "36b8b905f8772dc706fc6ecbba4e9e963664cd663197c554b00e0e3ab0733bd5"
+    },
+    {
+      "path": "public/studies/etapa-3/images/patio-final-1080.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 199478,
+      "sha256": "9fc60c4346a3b00e60f8d62c6f6021d43a63893c4616fc25d877b2c47cf5781d"
+    },
+    {
+      "path": "public/studies/etapa-3/images/patio-final-1440.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 315980,
+      "sha256": "7c6cfdae940cedc530e6617eceb918de04c1eb32ca1723ee620e2f1d1ad0c204"
+    },
+    {
+      "path": "public/studies/etapa-3/images/patio-final-720.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 95688,
+      "sha256": "e37cdbad3b40a316b704e1d33741d8a82a6fafb9937fde0eb47b91deb0782af7"
+    },
+    {
+      "path": "public/studies/etapa-3/images/patio-final-vertical.webp",
+      "role": "generated-asset-or-evidence",
+      "bytes": 182290,
+      "sha256": "eaf885e8003b8e156b81c72677db8071c66f879bfc6518b62c7bc11a060dbb63"
+    },
+    {
+      "path": "public/studies/etapa-3/videos/percurso-desktop.webm",
+      "role": "generated-asset-or-evidence",
+      "bytes": 13279799,
+      "sha256": "de10700c8331e40e813f741ee5acd66a39ca5c1b7ef7caf987fc7d64d9315bc2"
+    },
+    {
+      "path": "public/studies/etapa-3/videos/percurso-mobile.webm",
+      "role": "generated-asset-or-evidence",
+      "bytes": 4261452,
+      "sha256": "d683f0878285abb23125fd809b54a8a0ff15695a5f01ceab72f11dc050dfa3bf"
+    }
+  ],
+  "reused": [
+    {
+      "path": "src/studies/etapa-2/Story.astro",
+      "role": "unchanged",
+      "bytes": 2191,
+      "sha256": "db6f0e1d4e63aadb95c471d156e330383710e0f5803a19c377e792677ad1c729"
+    },
+    {
+      "path": "src/studies/etapa-2/Services.astro",
+      "role": "unchanged",
+      "bytes": 1564,
+      "sha256": "e4a8c882f6357346839183e72133dd8d77347a2e596a4fc7371d7dafbe8587ef"
+    },
+    {
+      "path": "src/studies/etapa-2/ServiceEntry.astro",
+      "role": "unchanged",
+      "bytes": 999,
+      "sha256": "f57f33c00bcd2267874addbc9d15cc39c081bab54044e3cc83fce5cf8c87bb3e"
+    },
+    {
+      "path": "src/studies/etapa-2/continuity.ts",
+      "role": "unchanged",
+      "bytes": 9126,
+      "sha256": "7c5718a1c681f51abdbf67dab8a95526f87d862ae8ce9a420a257ea4deab35c0"
+    },
+    {
+      "path": "src/studies/etapa-2/ContinuityRenderer.ts",
+      "role": "unchanged",
+      "bytes": 7480,
+      "sha256": "368820c8981fbee4c972013302d6d390d49f712fb02bcafcbf58f1858c42f166"
+    },
+    {
+      "path": "src/studies/etapa-2/scene.ts",
+      "role": "unchanged",
+      "bytes": 2448,
+      "sha256": "10e5dff49df82acf644ca38741e03f63fe473067620826152c437557bd8e6b35"
+    },
+    {
+      "path": "src/studies/etapa-2/shaders.ts",
+      "role": "unchanged",
+      "bytes": 1874,
+      "sha256": "e261ea40511ee4f5da664e8ffabefd2c03e88e49d8bad4f0db7dc9930c230d94"
+    },
+    {
+      "path": "src/studies/etapa-2/surface.css",
+      "role": "unchanged",
+      "bytes": 10018,
+      "sha256": "1c34c9818928d642817eb0735775e099651f213c57ddc059cc959827d5b8aab8"
+    },
+    {
+      "path": "src/studies/etapa-2/services.css",
+      "role": "unchanged",
+      "bytes": 6154,
+      "sha256": "adf916522032d834f2a9cfe3f927c66d41470e120f6b920a2e3a470284ed76ce"
+    },
+    {
+      "path": "src/studies/etapa-1/Quote.astro",
+      "role": "unchanged",
+      "bytes": 1467,
+      "sha256": "73eac37fea3817585459969ab3b42c952585d262f628bd3a3423f85fddd1ed0e"
+    },
+    {
+      "path": "src/scripts/quote.ts",
+      "role": "unchanged",
+      "bytes": 1741,
+      "sha256": "c911aa682152555ca550246931e554821cb0b36b927dbdbfe3c0007b4de13350"
+    },
+    {
+      "path": "src/data/content.ts",
+      "role": "unchanged",
+      "bytes": 1585,
+      "sha256": "0f534390a3bdc6091bce3519630590aae2a0d7201bb0aa5dd8c7a4789b1a0adb"
+    },
+    {
+      "path": "AGENTS.md",
+      "role": "unchanged",
+      "bytes": 7890,
+      "sha256": "afa4bd7b09649855a3694ffb69c1bc34d65d0ba375a16f2e4dbf8dfd4e3a16c7"
+    }
+  ],
+  "screenshots": 47,
+  "videos": 2,
+  "commits": false,
+  "push": false,
+  "deploy": false
+}

@@ -1,0 +1,9 @@
+---
+interface Props { image: string; alt: string; sizes?: string; portrait?: boolean; verticalAtAllSizes?: boolean; }
+const { image, alt, sizes = '(max-width: 699px) 100vw, 76vw', portrait = true, verticalAtAllSizes = false } = Astro.props;
+const base = '/studies/etapa-3/images/';
+---
+<picture>
+  {portrait && <source media={verticalAtAllSizes ? undefined : '(max-width: 699px)'} srcset={`${base}${image}-vertical.webp`} width="720" height="960" />}
+  <img src={`${base}${image}-1440.webp`} srcset={`${base}${image}-720.webp 720w, ${base}${image}-1080.webp 1080w, ${base}${image}-1440.webp 1440w`} sizes={sizes} width="1536" height="1024" alt={alt} loading="lazy" decoding="async" />
+</picture>
