@@ -1,0 +1,198 @@
+{
+  "desktop-hero": {
+    "width": 1200,
+    "height": 750
+  },
+  "desktop-passagem": {
+    "width": 1200,
+    "height": 750
+  },
+  "desktop-servicos": {
+    "width": 1200,
+    "height": 750
+  },
+  "desktop-ambiente-luz": {
+    "width": 1200,
+    "height": 968
+  },
+  "desktop-ambiente-jardim": {
+    "width": 1200,
+    "height": 968
+  },
+  "desktop-ambiente-noite": {
+    "width": 1200,
+    "height": 968
+  },
+  "desktop-materiais": {
+    "width": 1200,
+    "height": 783
+  },
+  "desktop-processo": {
+    "width": 1200,
+    "height": 903
+  },
+  "desktop-orcamento": {
+    "width": 1200,
+    "height": 542
+  },
+  "desktop-encerramento": {
+    "width": 1200,
+    "height": 565
+  },
+  "desktop-marca": {
+    "width": 1200,
+    "height": 547
+  },
+  "desktop-resumo": {
+    "width": 1200,
+    "height": 683
+  },
+  "desktop-completa": {
+    "width": 840,
+    "height": 4282
+  },
+  "desktop-fallback": {
+    "width": 1200,
+    "height": 750
+  },
+  "tablet-hero": {
+    "width": 820,
+    "height": 1180
+  },
+  "tablet-passagem": {
+    "width": 820,
+    "height": 1180
+  },
+  "tablet-servicos": {
+    "width": 820,
+    "height": 1180
+  },
+  "tablet-ambiente-luz": {
+    "width": 820,
+    "height": 998
+  },
+  "tablet-ambiente-jardim": {
+    "width": 820,
+    "height": 998
+  },
+  "tablet-ambiente-noite": {
+    "width": 820,
+    "height": 998
+  },
+  "tablet-materiais": {
+    "width": 820,
+    "height": 807
+  },
+  "tablet-processo": {
+    "width": 820,
+    "height": 1114
+  },
+  "tablet-orcamento": {
+    "width": 820,
+    "height": 677
+  },
+  "tablet-encerramento": {
+    "width": 820,
+    "height": 541
+  },
+  "tablet-marca": {
+    "width": 820,
+    "height": 507
+  },
+  "tablet-resumo": {
+    "width": 820,
+    "height": 868
+  },
+  "tablet-completa": {
+    "width": 820,
+    "height": 6872
+  },
+  "tablet-fallback": {
+    "width": 820,
+    "height": 1180
+  },
+  "mobile-hero": {
+    "width": 390,
+    "height": 844
+  },
+  "mobile-passagem": {
+    "width": 390,
+    "height": 844
+  },
+  "mobile-servicos": {
+    "width": 390,
+    "height": 844
+  },
+  "mobile-ambiente-luz": {
+    "width": 390,
+    "height": 1277
+  },
+  "mobile-ambiente-jardim": {
+    "width": 390,
+    "height": 1277
+  },
+  "mobile-ambiente-noite": {
+    "width": 390,
+    "height": 1277
+  },
+  "mobile-materiais": {
+    "width": 390,
+    "height": 1089
+  },
+  "mobile-processo": {
+    "width": 390,
+    "height": 1309
+  },
+  "mobile-orcamento": {
+    "width": 390,
+    "height": 850
+  },
+  "mobile-encerramento": {
+    "width": 390,
+    "height": 565
+  },
+  "mobile-marca": {
+    "width": 390,
+    "height": 460
+  },
+  "mobile-resumo": {
+    "width": 390,
+    "height": 1041
+  },
+  "mobile-completa": {
+    "width": 390,
+    "height": 7905
+  },
+  "mobile-fallback": {
+    "width": 390,
+    "height": 844
+  },
+  "small-ambientes": {
+    "width": 320,
+    "height": 1217
+  },
+  "small-encerramento": {
+    "width": 320,
+    "height": 987
+  },
+  "wide-ambientes": {
+    "width": 1200,
+    "height": 853
+  },
+  "wide-encerramento": {
+    "width": 1200,
+    "height": 907
+  },
+  "tablet-zoom-200": {
+    "width": 820,
+    "height": 1180
+  },
+  "video-desktop-sequencia": {
+    "width": 1200,
+    "height": 1500
+  },
+  "video-mobile-sequencia": {
+    "width": 975,
+    "height": 1688
+  }
+}

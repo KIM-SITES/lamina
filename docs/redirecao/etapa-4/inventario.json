@@ -1,0 +1,820 @@
+{
+  "date": "2026-11-11",
+  "created": [
+    {
+      "path": "src/studies/etapa-4/components/Atmospheres.astro",
+      "role": "new-source",
+      "bytes": 2521,
+      "sha256": "d98923fd31c129bc2a7f204f3aa99fb10080225130fc921f8710ce66fad64433"
+    },
+    {
+      "path": "src/studies/etapa-4/components/Closing.astro",
+      "role": "new-source",
+      "bytes": 1442,
+      "sha256": "d224e99a0b62fce361a0803e0efab0e9a3aa16d6c48dc26fcdad3f82c9262008"
+    },
+    {
+      "path": "src/studies/etapa-4/components/DocumentLayout.astro",
+      "role": "new-source",
+      "bytes": 2169,
+      "sha256": "c60b960936b64c50245b2fc05da5752e7192608410ec8cc910caa5c9fb8c9439"
+    },
+    {
+      "path": "src/studies/etapa-4/components/Process.astro",
+      "role": "new-source",
+      "bytes": 809,
+      "sha256": "65ca1c7b564226251fcc80cd1a68ad704a66c7a66f9a607ddecf2f9f6ff4e624"
+    },
+    {
+      "path": "src/studies/etapa-4/scripts/atmospheres.ts",
+      "role": "new-source",
+      "bytes": 6872,
+      "sha256": "6a609bb426165593903888fa6d5d3f0cdedc2a2a0744203c9641f34a194a1e5c"
+    },
+    {
+      "path": "src/studies/etapa-4/styles/commercial.css",
+      "role": "new-source",
+      "bytes": 2069,
+      "sha256": "2df8563f638d03e5f8c7cec55e94574ebe1fb3dbbd596c979f05c5a6f5ef6433"
+    },
+    {
+      "path": "src/studies/etapa-4/styles/gallery.css",
+      "role": "new-source",
+      "bytes": 1567,
+      "sha256": "28cf4fb94c2d818841d69748bdcb919dd99e8147572000b5a0130ccbe825af01"
+    },
+    {
+      "path": "src/studies/etapa-4/styles/materials.css",
+      "role": "new-source",
+      "bytes": 1867,
+      "sha256": "f73394b9976cd2c1db8ebd28127a485fe3f3c690e534dbd6ca37e0aa06e22cc9"
+    },
+    {
+      "path": "src/studies/etapa-4/styles/process.css",
+      "role": "new-source",
+      "bytes": 2919,
+      "sha256": "6eb072aae53f18b1c6440ac40ba73f9689adb71920b22e15171210a4e730d5d7"
+    },
+    {
+      "path": "src/studies/etapa-4/styles/services.css",
+      "role": "new-source",
+      "bytes": 1065,
+      "sha256": "3039cf47aa5b1e646037e7f78fce98592f9ced08a03e0b7749eb7be5d1f7417e"
+    },
+    {
+      "path": "src/pages/estudos/etapa-4/diagnostico.astro",
+      "role": "new-source",
+      "bytes": 370,
+      "sha256": "41167a00ef9f44426eb84a53e229dc047a3b8e35a87a001359cb6ab9037eab7e"
+    },
+    {
+      "path": "src/pages/estudos/etapa-4/relatorio.astro",
+      "role": "new-source",
+      "bytes": 386,
+      "sha256": "5f114497f89b26ca9340c8d52d5a3bdd98d706cf411462a3d77a29550fecd158"
+    },
+    {
+      "path": "src/pages/estudos/etapa-4/revisao.astro",
+      "role": "new-source",
+      "bytes": 9082,
+      "sha256": "0ae6fa13c33b988e534ee52827685da1e5361a7ec3e97a349ec4be8f5a0a9c22"
+    },
+    {
+      "path": "src/pages/estudos/etapa-4.astro",
+      "role": "new-source",
+      "bytes": 2657,
+      "sha256": "a33b74525efbe661b903d17e870ac4c5b5e5040091ead0bea0f418691ffef7a7"
+    },
+    {
+      "path": "scripts/studies/etapa-4/capture.mjs",
+      "role": "new-source",
+      "bytes": 9220,
+      "sha256": "d07cf2632794ea711ebb210fb2623826b139a782ebe5f40d881447191a456eac"
+    },
+    {
+      "path": "scripts/studies/etapa-4/compare.mjs",
+      "role": "new-source",
+      "bytes": 3391,
+      "sha256": "af6ca85cc3832a459340a069ee6d452206c409069d99b86d0baf1b48db869a4c"
+    },
+    {
+      "path": "scripts/studies/etapa-4/diagnose.mjs",
+      "role": "new-source",
+      "bytes": 4333,
+      "sha256": "efa733094e9550ff6e0a965d06d312f8d5ba01bf6dfeb036c356773ecb648b38"
+    },
+    {
+      "path": "scripts/studies/etapa-4/inspect.mjs",
+      "role": "new-source",
+      "bytes": 2330,
+      "sha256": "f1a43c2e6dfbc06555598c7059c5d96766b254ebe7b27a013fed679ab31981b1"
+    },
+    {
+      "path": "scripts/studies/etapa-4/measure.mjs",
+      "role": "new-source",
+      "bytes": 5012,
+      "sha256": "1c52825b8a360b626144b376f5d6b04b2aef29cbbb84095957de7a351df0949c"
+    },
+    {
+      "path": "scripts/studies/etapa-4/package-evidence.mjs",
+      "role": "new-source",
+      "bytes": 4039,
+      "sha256": "e98105904a474bf014eaa9e0e3aaa81970a539b5b9ef9cddef75dd8e3ad25de5"
+    },
+    {
+      "path": "scripts/studies/etapa-4/package.mjs",
+      "role": "new-source",
+      "bytes": 7443,
+      "sha256": "11b2852a5adddad6ee959d7d786677f09012723998f3859f03bff4d6823a6861"
+    },
+    {
+      "path": "scripts/studies/etapa-4/review.mjs",
+      "role": "new-source",
+      "bytes": 5877,
+      "sha256": "72868ecdf3342796ac7faa53c117beda1ed67ed850f394d653266115d68a2d82"
+    },
+    {
+      "path": "scripts/studies/etapa-4/verify-feedback.mjs",
+      "role": "new-source",
+      "bytes": 2124,
+      "sha256": "1435d29d0c252f0496cc0dce33cbb5bb26c076bf6ecf7ef3d1f514a373cb807d"
+    },
+    {
+      "path": "scripts/studies/etapa-4/verify.mjs",
+      "role": "new-source",
+      "bytes": 24035,
+      "sha256": "a4d5bb18f45c7ee966d901b356e6f395497937157111c50c0829d98cb8b39da5"
+    }
+  ],
+  "public": [
+    {
+      "path": "public/studies/etapa-4/comparacoes/desktop-ambientes-antes.webp",
+      "role": "evidence",
+      "bytes": 100086,
+      "sha256": "c5d3f31df1581df72d92914d1fd0d8a6a62f96c84eb217656e37472dc1ab792d"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/desktop-ambientes-depois.webp",
+      "role": "evidence",
+      "bytes": 111520,
+      "sha256": "5eab42da09f75cf9282b7177971912f37ac3306e6f09656b7131010fca7cdb11"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/desktop-closing-antes.webp",
+      "role": "evidence",
+      "bytes": 135558,
+      "sha256": "fe46ed5204134e1cb4949f903f75ff049e71c7063446724a45409a58f3dfe85c"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/desktop-closing-depois.webp",
+      "role": "evidence",
+      "bytes": 129784,
+      "sha256": "7ef83fe34bb702db9b797cfe1bca0fc6afb4dbf53234dc639058f2c04c7e7562"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/desktop-completa-antes.webp",
+      "role": "evidence",
+      "bytes": 482176,
+      "sha256": "66fb3302978ab7b1b7c19620a77166cdbc73831ef613ab2d480661c44aa1d0be"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/desktop-completa-depois.webp",
+      "role": "evidence",
+      "bytes": 489268,
+      "sha256": "b2673ce8f0592e9bb667eb9f55687c3601f87dcb095fa58998bdae39d483b326"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/desktop-materiais-antes.webp",
+      "role": "evidence",
+      "bytes": 112798,
+      "sha256": "f24d43e6327c805b05f2df89e8d8f38601de96d8cc53cb298379f1362813bc1b"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/desktop-materiais-depois.webp",
+      "role": "evidence",
+      "bytes": 132132,
+      "sha256": "81c4be03361d62d9097cd176eeba8b98bc6e7ae7d61cfb8a217bf16f2679cd87"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/desktop-orcamento-antes.webp",
+      "role": "evidence",
+      "bytes": 40996,
+      "sha256": "c61f2ba1321f6a57c5c44101adbcbaafc6f2a1293446cac2bd7291ac1c500e46"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/desktop-orcamento-depois.webp",
+      "role": "evidence",
+      "bytes": 43708,
+      "sha256": "5d9dd0080ce49391b69bbf110afb7ade33f739be478f663513e2fe7acc2b1db5"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/desktop-processo-antes.webp",
+      "role": "evidence",
+      "bytes": 58388,
+      "sha256": "6468b5398e261163e68fd8264e0141ee636370e2c2421f31a1f9aa8205871bf5"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/desktop-processo-depois.webp",
+      "role": "evidence",
+      "bytes": 73206,
+      "sha256": "893641866ea7e0736353fa90f6ddcc057aa378b0f468431b75f6b9765a866df8"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/desktop-servicos-antes.webp",
+      "role": "evidence",
+      "bytes": 113204,
+      "sha256": "b963da4dd2bb16fee599ad6c107349b922521f3c553df0f82c7940f83f304e84"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/desktop-servicos-depois.webp",
+      "role": "evidence",
+      "bytes": 113204,
+      "sha256": "b963da4dd2bb16fee599ad6c107349b922521f3c553df0f82c7940f83f304e84"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/dimensoes.json",
+      "role": "evidence",
+      "bytes": 3998,
+      "sha256": "a9c1e1c944939fabf37e06dcc378125c9ee4ec48111197a43ff6c313549260aa"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/mobile-ambientes-antes.webp",
+      "role": "evidence",
+      "bytes": 56450,
+      "sha256": "7e65debc5c71af982e5297b860ab0712206a428e031ab286f2278e8fbe7fb784"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/mobile-ambientes-depois.webp",
+      "role": "evidence",
+      "bytes": 65376,
+      "sha256": "4fd92f4e0b466645de1da550a0bad04d4889da371c142568c2a7a2d662749c0a"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/mobile-closing-antes.webp",
+      "role": "evidence",
+      "bytes": 51808,
+      "sha256": "8aac8f311980b4fd64071714f222a5cbd0a342cf2a324a8a1fc33adac52a64a3"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/mobile-closing-depois.webp",
+      "role": "evidence",
+      "bytes": 55690,
+      "sha256": "9895386991cd0bb3ef970ed1e5e4496e26d31e8f92c0fc00d227e2c8c8284446"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/mobile-completa-antes.webp",
+      "role": "evidence",
+      "bytes": 511270,
+      "sha256": "bcf4609a2c7b95f8df66a0c9895fe403118c85493a4cf48f38f408a02a458616"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/mobile-completa-depois.webp",
+      "role": "evidence",
+      "bytes": 461108,
+      "sha256": "b568b6834086b5e4981a06a19db2470807238cef7ce8bec311d988d4c54f4208"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/mobile-materiais-antes.webp",
+      "role": "evidence",
+      "bytes": 58304,
+      "sha256": "23beedcda8411d5e4fee6e3527fcd9b360bc37becb16a120f616fcd878408b4c"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/mobile-materiais-depois.webp",
+      "role": "evidence",
+      "bytes": 55454,
+      "sha256": "1b8f803e60c90b055c9ccdc69e9f8443721c90fa4ae2eadb320a46e265d46a6c"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/mobile-orcamento-antes.webp",
+      "role": "evidence",
+      "bytes": 28794,
+      "sha256": "12679be660c63ccb2bb93e4bf37c042ca82dfdf13872a4b6b4c1eb1eea81857c"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/mobile-orcamento-depois.webp",
+      "role": "evidence",
+      "bytes": 29198,
+      "sha256": "545563165adf4cd2f5c7e63eab55d375e0e0eb17e920c8eca9e8ade36ea5da26"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/mobile-processo-antes.webp",
+      "role": "evidence",
+      "bytes": 29940,
+      "sha256": "1d8921ce9956661d4a56458459808674e613ac8a4309e5d2fea6675f69a5e868"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/mobile-processo-depois.webp",
+      "role": "evidence",
+      "bytes": 33348,
+      "sha256": "c2e1d59b0f6998d46a449a60ef0836ea6c182ff1267be127304ea410c9c8f0cd"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/mobile-servicos-antes.webp",
+      "role": "evidence",
+      "bytes": 49148,
+      "sha256": "0e05addc2e8d7241511d3f9436ba0f0644604ef54effa6f42d11bf15fb73a86b"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/mobile-servicos-depois.webp",
+      "role": "evidence",
+      "bytes": 49554,
+      "sha256": "6eefc1bfbafa27d153379b35ad216f90e1d01da3ae3b7a5adaff6e429200c5d1"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/small-ambientes-antes.webp",
+      "role": "evidence",
+      "bytes": 32844,
+      "sha256": "f79ca52790e0735b7ad1ac253c0996a98eccda27582b2379988bbdecf84b9dff"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/small-ambientes-depois.webp",
+      "role": "evidence",
+      "bytes": 42804,
+      "sha256": "f155aaddc946c120e43c8b77471ca90b39dcff4fbcb84bd2feffcbc4e58ad6bf"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/small-closing-antes.webp",
+      "role": "evidence",
+      "bytes": 33682,
+      "sha256": "fed1228999d8384d3e0d2b8437110ba5c24ed80fae541b16242a4613a89871e7"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/small-closing-depois.webp",
+      "role": "evidence",
+      "bytes": 40252,
+      "sha256": "fb8cd1877047871a91f06807c878521eb5f4c948754ea9c482c56a9e7e622352"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/small-completa-antes.webp",
+      "role": "evidence",
+      "bytes": 414986,
+      "sha256": "ac29ad4f8bcb5236d69b3e61020a5d12b666feba1f0a08acd90d42cb63e354a0"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/small-completa-depois.webp",
+      "role": "evidence",
+      "bytes": 383358,
+      "sha256": "7c0011e605a008faefcc10ac37b9541ba0beaad518b5aaa17bf1db13e26de53b"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/small-materiais-antes.webp",
+      "role": "evidence",
+      "bytes": 39606,
+      "sha256": "f758810e14885c5fc6f54fe07b2a22c69a3b00c0fcb60160e551716980fb887f"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/small-materiais-depois.webp",
+      "role": "evidence",
+      "bytes": 41252,
+      "sha256": "ae6323124f1304f2ea2f902d3a9393c8f22dfc265b50a9e6a8fc0f36af3d6da3"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/small-orcamento-antes.webp",
+      "role": "evidence",
+      "bytes": 24432,
+      "sha256": "d668a7188993ba8989ce5c41c8efda0d287273c70a98c001cc7eb8591dccc90d"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/small-orcamento-depois.webp",
+      "role": "evidence",
+      "bytes": 21656,
+      "sha256": "69403b04368222ca4f621f092c7b0118c7101b7a07563d8eebcbada44431a298"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/small-processo-antes.webp",
+      "role": "evidence",
+      "bytes": 21958,
+      "sha256": "d8bfd579d9ed1ad505d4030c301f1bebe6b695449b624008eaebb2b1e60707bd"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/small-processo-depois.webp",
+      "role": "evidence",
+      "bytes": 28582,
+      "sha256": "6bd38db0d6cbfdc237f7daab2571e2ccb498ddbe99922d2a61be97a54fa16db3"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/small-servicos-antes.webp",
+      "role": "evidence",
+      "bytes": 36450,
+      "sha256": "b6800e583558eb2e8aec37b05f5efdcabd5ef5681ff83dbf86721973697bbeb9"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/small-servicos-depois.webp",
+      "role": "evidence",
+      "bytes": 36400,
+      "sha256": "b373335f8d3e976aa38187700fef9004f654f3e72beb95aa762d5bb678def8c3"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/tablet-ambientes-antes.webp",
+      "role": "evidence",
+      "bytes": 120492,
+      "sha256": "e3d82273ed5ad4ac5bf0de54376d688d7ce4903f3582ae6eae202a95758490c0"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/tablet-ambientes-depois.webp",
+      "role": "evidence",
+      "bytes": 126282,
+      "sha256": "f1cc889f40fb90e1236332b9a3a879bb1fc5d531172cf505b138807c39faa089"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/tablet-closing-antes.webp",
+      "role": "evidence",
+      "bytes": 101596,
+      "sha256": "1f27aff32376a4a9db8a56934420e8e66c56fe3b1278d84fc50b64aee42b02cc"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/tablet-closing-depois.webp",
+      "role": "evidence",
+      "bytes": 95672,
+      "sha256": "f2b5d02131b160c7ad5ea5078250ba1c9ffc2b9ce7e5d265096e3f727f9b0705"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/tablet-completa-antes.webp",
+      "role": "evidence",
+      "bytes": 650658,
+      "sha256": "ac7c3aac01744591f40a2f3a74a6a027b275a24f555486a53a56aa889f92553e"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/tablet-completa-depois.webp",
+      "role": "evidence",
+      "bytes": 671346,
+      "sha256": "6823736cf271b35e32c7328a0f05fdcb249d2cdf17aa6ca3fe9ba88690a2628f"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/tablet-materiais-antes.webp",
+      "role": "evidence",
+      "bytes": 130572,
+      "sha256": "e6cfd097ad57cd69627d6e7bf1258e50ed63ec1bc4faff0faf22ce3aa636d0c2"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/tablet-materiais-depois.webp",
+      "role": "evidence",
+      "bytes": 148524,
+      "sha256": "43bee7aa96c1fc6bb73c4520ba7d779fe141286c52a48dddc13224044627b0dd"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/tablet-orcamento-antes.webp",
+      "role": "evidence",
+      "bytes": 78020,
+      "sha256": "e3530d820858bc0f828500fbfdc1abd5b21764ad2dce2cf8fb0f51f770936e86"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/tablet-orcamento-depois.webp",
+      "role": "evidence",
+      "bytes": 80184,
+      "sha256": "1b08aceb5d030807f2572f1008a56a74daa33423b6a513af863b7663a30e39da"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/tablet-processo-antes.webp",
+      "role": "evidence",
+      "bytes": 74746,
+      "sha256": "c8a9408187018e091fe5e5a7baa71bc9b3e2bcaebfa0df4f35cae23aa39ddca6"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/tablet-processo-depois.webp",
+      "role": "evidence",
+      "bytes": 101304,
+      "sha256": "d6a0560272d9477b658cd4f08e51a44c6e2d160b7850a74e4e3bce83ebdc4152"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/tablet-servicos-antes.webp",
+      "role": "evidence",
+      "bytes": 96700,
+      "sha256": "f5e8eca0880990ae705554f499588349775044d98d8d0bebbb47377a7b3e6f15"
+    },
+    {
+      "path": "public/studies/etapa-4/comparacoes/tablet-servicos-depois.webp",
+      "role": "evidence",
+      "bytes": 100748,
+      "sha256": "296a2ff86a24e02446e8342a11804f83cbd9d149b5e6d3bbc42f253a1778992f"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/desktop-ambiente-jardim.webp",
+      "role": "evidence",
+      "bytes": 176256,
+      "sha256": "ed0b4a7286310964265982068bc12e876f146d3e22b099e8544bae51cb2304e4"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/desktop-ambiente-luz.webp",
+      "role": "evidence",
+      "bytes": 167304,
+      "sha256": "36d6b87b5d7d39e2a0c7b582fb1928c8e4f94e6f1c3429798fc40cef60aca16c"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/desktop-ambiente-noite.webp",
+      "role": "evidence",
+      "bytes": 137106,
+      "sha256": "056ec3f448719f6723b01b62b02572db66550cced3141a2987ecdc9df5a1f21a"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/desktop-completa.webp",
+      "role": "evidence",
+      "bytes": 448888,
+      "sha256": "f1ad6b6bac2da49c96ca7c9a8deac58c9be05cf62108d1d4e07add44137a97b5"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/desktop-encerramento.webp",
+      "role": "evidence",
+      "bytes": 116054,
+      "sha256": "8822567ca0619e7847ed73eb966fd413767a590cbd6260f48585a73a7c1e5fad"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/desktop-fallback.webp",
+      "role": "evidence",
+      "bytes": 116586,
+      "sha256": "a46d194c232f04ce804f3fe198ded0d5b0da058c60fc8729f1d0f8e165d3977c"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/desktop-hero.webp",
+      "role": "evidence",
+      "bytes": 124442,
+      "sha256": "fb035d1228bcde23e61965ec96ee7ac2ff32dfa5e61adc4485d7c5cd39991df1"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/desktop-marca.webp",
+      "role": "evidence",
+      "bytes": 16898,
+      "sha256": "9204a8adfe81462df69f9f67b2a094e2e48e341e3d5c6b8b7d1cae68132465c2"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/desktop-materiais.webp",
+      "role": "evidence",
+      "bytes": 134274,
+      "sha256": "f9818bdff2fc6f16a82ca4794d00632fe5665693b76c5ac18952e329141ec028"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/desktop-orcamento.webp",
+      "role": "evidence",
+      "bytes": 28366,
+      "sha256": "321ed5562f483b6cabc3378206f2fe8b926b8289087acd38d4ca393c927fadf8"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/desktop-passagem.webp",
+      "role": "evidence",
+      "bytes": 118986,
+      "sha256": "63e8b00261ccde844c7dcf4eb00690a2b9eb5b7fab190aa01971314ae8bb3a2d"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/desktop-processo.webp",
+      "role": "evidence",
+      "bytes": 57856,
+      "sha256": "b1576f118a16fee7c442151d22666dc83c11630947a834806377106cfede4e6e"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/desktop-resumo.webp",
+      "role": "evidence",
+      "bytes": 35124,
+      "sha256": "469f05b8f3b3fe38aa6651aced43f8ba10bd9be22fde2964a156a852fe662581"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/desktop-servicos.webp",
+      "role": "evidence",
+      "bytes": 116626,
+      "sha256": "f46532c7ee9826e0ab1305669f5bd50782dce624f44ac287ed5a2c0052edd922"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/dimensoes.json",
+      "role": "evidence",
+      "bytes": 3247,
+      "sha256": "6859456347a43aaf3e8b3bee94b8e39abdfc5ac056d06d1db6e3e3f4723d317c"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/mobile-ambiente-jardim.webp",
+      "role": "evidence",
+      "bytes": 84318,
+      "sha256": "583ba42fc39df9d70fdd70337ac0cf06e73527aa147f4e2fa071321ff82b0ee7"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/mobile-ambiente-luz.webp",
+      "role": "evidence",
+      "bytes": 86186,
+      "sha256": "02b07f5912b3100ad4d59230b0e449e37c222fd995f380d44112cab944920acb"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/mobile-ambiente-noite.webp",
+      "role": "evidence",
+      "bytes": 73200,
+      "sha256": "71675cb2ba3de805bf135f58717e3097d1358ec81de25b5319bf1836b703e76c"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/mobile-completa.webp",
+      "role": "evidence",
+      "bytes": 420232,
+      "sha256": "3c3b4fd38e90309dc855c8145bed517c4d83b173872a22b736397d0f2101759c"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/mobile-encerramento.webp",
+      "role": "evidence",
+      "bytes": 43376,
+      "sha256": "8db45a0a3e9c2bcff1c4c4cb5b69e90384c768cecbacf1c8391de29e7ec0dea3"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/mobile-fallback.webp",
+      "role": "evidence",
+      "bytes": 45376,
+      "sha256": "2a66a50115bf18b9edd18abeab7affa4d720e410d635003237533e832aa6bd04"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/mobile-hero.webp",
+      "role": "evidence",
+      "bytes": 46322,
+      "sha256": "ef0aef73a98b06bf33b0e0c20a46c18726c5380c6c2e904bfd058af55cf3f915"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/mobile-marca.webp",
+      "role": "evidence",
+      "bytes": 12012,
+      "sha256": "14188a6fd0a823c8ea77605496b37735f8758c7b3f37e6a6c185fa81ade5703f"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/mobile-materiais.webp",
+      "role": "evidence",
+      "bytes": 62536,
+      "sha256": "a38f4a4ba1db7f7c662ac590b28f95dbad30fdaf535f454ad5b6a2e2a7622e73"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/mobile-orcamento.webp",
+      "role": "evidence",
+      "bytes": 27052,
+      "sha256": "4428b46166327a1f9713a86b560ba1eb5da32c3e1f584a8d6b8a3379babd92bf"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/mobile-passagem.webp",
+      "role": "evidence",
+      "bytes": 43390,
+      "sha256": "d706595fb94b55dc7a8080ed75d3a159a23c644baf50e2b5b984f3efea6a6fee"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/mobile-processo.webp",
+      "role": "evidence",
+      "bytes": 58510,
+      "sha256": "8d43ee639951de5ff0e878da04f0fef7becc828e5053daf203f8684a463bb8a9"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/mobile-resumo.webp",
+      "role": "evidence",
+      "bytes": 34848,
+      "sha256": "d9443a4b3743f7a12281ce244ea6513a94dece3fba233f977db09db4debd1515"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/mobile-servicos.webp",
+      "role": "evidence",
+      "bytes": 49844,
+      "sha256": "59d0e50a5e006d61e5f0e234703c4d877f07aec41762c872ed45aafec92c03f7"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/small-ambientes.webp",
+      "role": "evidence",
+      "bytes": 68978,
+      "sha256": "7a0417121fec3acad89dbadb1322852394b3a16040f3ec72f07c3fb9eb105263"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/small-encerramento.webp",
+      "role": "evidence",
+      "bytes": 45058,
+      "sha256": "beba2138f533c8f89f270a993ebfeb6648c90c67890fba1e94763984393c7491"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/tablet-ambiente-jardim.webp",
+      "role": "evidence",
+      "bytes": 102594,
+      "sha256": "f915558671d5c9d261e029f1e7a2a3d643602b3a380d091f712ae18cfd3c5303"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/tablet-ambiente-luz.webp",
+      "role": "evidence",
+      "bytes": 98468,
+      "sha256": "ea91d60c22f290848b8d275da89a7b3012de890756728444f2a59e1a2a8eee94"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/tablet-ambiente-noite.webp",
+      "role": "evidence",
+      "bytes": 82342,
+      "sha256": "7c8309a11b7b47afa75d16752d5d8c7608fee2cf77f04978bf8fd43f0f2f5b1c"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/tablet-completa.webp",
+      "role": "evidence",
+      "bytes": 621822,
+      "sha256": "d2278840a465fdebc00c24c22e94476f25c43794734c1c60cbdd09cab11273cc"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/tablet-encerramento.webp",
+      "role": "evidence",
+      "bytes": 65628,
+      "sha256": "5a8f388633042e8b85f1120dafad604a0905746b7ae96d65205aed9138b8aee6"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/tablet-fallback.webp",
+      "role": "evidence",
+      "bytes": 112416,
+      "sha256": "ec354706a2c1804df31b152c335878e9792d52384d6279438f7da908e11c6d40"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/tablet-hero.webp",
+      "role": "evidence",
+      "bytes": 122536,
+      "sha256": "2c694baf92c7ccf4871f9e7d74c73890090fda9e3b274962d2b045e2548576ce"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/tablet-marca.webp",
+      "role": "evidence",
+      "bytes": 14986,
+      "sha256": "90260eb23c0482dbe5c8e479b22e5e7893b598f9e608fca2cd26ed4fa92184d6"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/tablet-materiais.webp",
+      "role": "evidence",
+      "bytes": 109620,
+      "sha256": "41aaa7fd09226af1ac3e14e3a5820c0c947e44efcdb21aa4182efd29841b8bc5"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/tablet-orcamento.webp",
+      "role": "evidence",
+      "bytes": 30846,
+      "sha256": "107c8a0f0af545b84505f15126e1f10a8402a959669e486a830f389b79ccf5c9"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/tablet-passagem.webp",
+      "role": "evidence",
+      "bytes": 86974,
+      "sha256": "c2eec2e4f0e698f0fa6d2283c1383cda3101e41b88f62d68dcb7d1f7584651d9"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/tablet-processo.webp",
+      "role": "evidence",
+      "bytes": 65426,
+      "sha256": "86977c0c31fe0822a9b6f4e8aae4ceae7e0767a7a976c3c479adff569f2915ea"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/tablet-resumo.webp",
+      "role": "evidence",
+      "bytes": 38520,
+      "sha256": "7fe614aacd0434d28308d1e66f5489cb0e2ef011129471693eebd46a9db4f4e3"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/tablet-servicos.webp",
+      "role": "evidence",
+      "bytes": 112224,
+      "sha256": "16b24413f647d0996f07e87a626a9c31457a6bb780448f93f65965def3ebbfba"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/tablet-zoom-200.webp",
+      "role": "evidence",
+      "bytes": 47050,
+      "sha256": "4f3cc7a7a1d22084c473474f79433442e7c1695d83a1c187f2092bd5279710c6"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/video-desktop-sequencia.webp",
+      "role": "evidence",
+      "bytes": 241524,
+      "sha256": "7d15b63e1c974aaa018e3cad911200b40a0a635c59d045beca0c1b8b728da0ea"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/video-mobile-sequencia.webp",
+      "role": "evidence",
+      "bytes": 216822,
+      "sha256": "71b4e1164cfe9b989619980da15cd54a644310de98266145e21f6e6220217ca3"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/wide-ambientes.webp",
+      "role": "evidence",
+      "bytes": 152396,
+      "sha256": "e44df54b3eb0632410a98ee16e5c0abbd734f5f8e098784b0863f7fd993e7bbe"
+    },
+    {
+      "path": "public/studies/etapa-4/evidencias/wide-encerramento.webp",
+      "role": "evidence",
+      "bytes": 113152,
+      "sha256": "f93b88ede5843f188d9a4757c42a2e0b618bcc6bd53c298448204147a95592b2"
+    },
+    {
+      "path": "public/studies/etapa-4/videos/percurso-desktop.webm",
+      "role": "evidence",
+      "bytes": 13604552,
+      "sha256": "3dc060fac3037731316eabf483043f3a38026565aa9852dbc3d94caaf631f9cd"
+    },
+    {
+      "path": "public/studies/etapa-4/videos/percurso-mobile.webm",
+      "role": "evidence",
+      "bytes": 4118186,
+      "sha256": "271e06d89350b17a8e5485066ca4c7e76910c129be7f288b99db2405f4677fc1"
+    }
+  ],
+  "preservation": {
+    "files": 1270,
+    "changed": [],
+    "gitIndexUnchanged": true,
+    "mainPageUnchanged": true,
+    "previousStageUnchanged": true
+  },
+  "evidence": {
+    "refinedScreenshots": 47,
+    "comparisonScreenshots": 56,
+    "videos": 2
+  },
+  "commits": false,
+  "push": false,
+  "deploy": false
+}

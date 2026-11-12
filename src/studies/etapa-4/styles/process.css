@@ -1,0 +1,33 @@
+/* R4: a broad editorial sequence, with one readable paragraph per moment. */
+.experience-refined .process { display: block; padding-block: var(--section-space); }
+.experience-refined .process-heading { position: static; display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr); gap: 8%; align-items: end; }
+.experience-refined .process-titles > p { font-size: 13px; margin-bottom: 24px; }
+.experience-refined .process-heading h2 { font-size: clamp(44px, 4.7vw, 82px); line-height: 1.06; }
+.experience-refined .process-context > p:first-child { font-size: 17px; line-height: 1.65; max-width: 370px; }
+.experience-refined .process-notice { margin-top: 16px; font-size: 12px; }
+.experience-refined .process-path { border: 0; border-block: 1px solid #567e96; margin-top: 48px; padding: 8px 0; }
+.experience-refined .process-path li { grid-template-columns: minmax(0, 1fr); gap: 0; padding: 28px 0; }
+.experience-refined .process-path li::before { display: none; }
+.experience-refined .process-path li:last-child { padding-bottom: 28px; }
+.experience-refined .process-path li > div { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1fr); gap: 8%; }
+.experience-refined .process-path h3 { font-size: clamp(32px, 3.1vw, 54px); line-height: 1.12; }
+.experience-refined .process-path p:last-child { font-size: 17px; line-height: 1.65; max-width: 600px; }
+.experience-refined .process-path strong { display: block; font-weight: 500; color: var(--light); margin-bottom: 8px; }
+.experience-refined .process-next { display: flex; justify-content: flex-end; margin-top: 24px; }
+.experience-refined .process-next a { min-height: 52px; display: flex; align-items: center; justify-content: space-between; gap: 48px; border-bottom: 1px solid var(--aqua); color: var(--sun); font-size: 14px; }
+.experience-refined .process-next a:hover { color: var(--light); }
+@container process (max-width: 699px) {
+  .experience-refined .process-heading { display: block; }
+  .experience-refined .process-heading h2 { font-size: clamp(36px, 10.5cqi, 54px); }
+  .experience-refined .process-titles > p { margin-bottom: 20px; }
+  .experience-refined .process-context { margin-top: 24px; }
+  .experience-refined .process-context > p:first-child { font-size: 16px; }
+  .experience-refined .process-path { margin-top: 32px; }
+  .experience-refined .process-path li { grid-template-columns: minmax(0, 1fr); padding-block: 24px; }
+  .experience-refined .process-path li > div { display: block; }
+  .experience-refined .process-path h3 { font-size: clamp(29px, 8.7cqi, 37px); margin-bottom: 16px; }
+  .experience-refined .process-path p:last-child { font-size: 16px; line-height: 1.6; }
+  .experience-refined .process-next { justify-content: stretch; margin-top: 20px; }
+  .experience-refined .process-next a { width: 100%; font-size: 13px; }
+}
+@media (max-width: 699px) { .experience-refined .process { padding-block: 48px; } }

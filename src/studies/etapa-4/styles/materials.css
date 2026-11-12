@@ -1,0 +1,25 @@
+/* R3 / R5: the photograph now bounds the solar field rather than floating inside it. */
+.experience-refined .materials { padding-top: 68px; padding-bottom: 64px; column-gap: 7%; grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); }
+.experience-refined .materials-photo { margin: -68px calc(-1 * var(--gutter)) -64px 0; }
+.experience-refined .materials-photo picture { min-height: 680px; height: 100%; }
+.experience-refined .materials-heading h2 { font-size: clamp(44px, 4.7vw, 82px); }
+.experience-refined .materials-heading > p:last-child { font-size: 17px; margin-top: 24px; }
+.experience-refined .material-notes { margin-top: 34px; }
+.experience-refined .material-notes details { border-color: #65755e; }
+.experience-refined .material-notes summary { min-height: 64px; font-size: 21px; }
+.experience-refined .material-note-content p { font-size: 16px; line-height: 1.65; }
+.experience-refined .material-link { margin-top: 24px; }
+@media (min-width: 700px) and (max-width: 1099px) {
+  .experience-refined .materials { padding-top: 56px; padding-bottom: 56px; column-gap: 6%; }
+  .experience-refined .materials-photo { margin-top: -56px; margin-bottom: -56px; }
+  .experience-refined .materials-photo picture { min-height: 640px; }
+}
+@container materials (max-width: 699px) {
+  .experience-refined .materials-heading h2 { font-size: clamp(36px, 11cqi, 54px); }
+  .experience-refined .materials-photo { margin: 28px calc(-1 * var(--gutter)) 0; width: calc(100% + var(--gutter)); }
+  .experience-refined .materials-photo picture { min-height: 0; height: auto; aspect-ratio: 5/4; }
+  .experience-refined .materials-photo img { object-position: 49% 43%; }
+  .experience-refined .material-notes { margin-top: 24px; }
+  .experience-refined .material-link { font-size: 13px; }
+}
+@media (max-width: 699px) { .experience-refined .materials { padding-block: 48px; } }

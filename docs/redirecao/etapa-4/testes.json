@@ -1,0 +1,805 @@
+{
+  "date": "2026-11-11",
+  "base": "http://127.0.0.1:4322",
+  "checks": [
+    {
+      "name": "Histórico, AGENTS, Skills, renderer e simulação preservados",
+      "passed": true,
+      "detail": {
+        "preservedFiles": 1270,
+        "changes": [],
+        "gitIndexUnchanged": true
+      }
+    },
+    {
+      "name": "chromium: continuidade, reversão, destino e repouso",
+      "passed": true,
+      "detail": {
+        "destinationError": 0,
+        "offscreenFrames": 6
+      }
+    },
+    {
+      "name": "chromium: galeria por teclado, foco e URL",
+      "passed": true,
+      "detail": {
+        "id": "jardim",
+        "outline": "solid"
+      }
+    },
+    {
+      "name": "chromium: interrupção e seleção rápida conservam a última escolha",
+      "passed": true,
+      "detail": {
+        "latestWins": true,
+        "preferenceInterrupts": true
+      }
+    },
+    {
+      "name": "chromium: formulário mantém pré-seleção e resumo sem rede ou persistência",
+      "passed": true,
+      "detail": {
+        "result": "Sua possibilidade, em resumo\nManutenção e tratamento para condomínio.\n\nSimulação demonstrativa. Nenhuma solicitação foi enviada.",
+        "persistence": {
+          "local": 0,
+          "session": 0,
+          "cookie": ""
+        },
+        "mutations": []
+      }
+    },
+    {
+      "name": "chromium: materiais nativos por teclado e links locais",
+      "passed": true,
+      "detail": {
+        "missing": []
+      }
+    },
+    {
+      "name": "320px: percurso completo, galeria e áreas de toque",
+      "passed": true,
+      "detail": {
+        "states": 8,
+        "overflow": 0,
+        "controlsUnder44": 0,
+        "galleryHeights": [
+          744.796875,
+          744.796875,
+          744.796875
+        ]
+      }
+    },
+    {
+      "name": "375px: percurso completo, galeria e áreas de toque",
+      "passed": true,
+      "detail": {
+        "states": 8,
+        "overflow": 0,
+        "controlsUnder44": 0,
+        "galleryHeights": [
+          807.5,
+          807.5,
+          807.5
+        ]
+      }
+    },
+    {
+      "name": "390px: percurso completo, galeria e áreas de toque",
+      "passed": true,
+      "detail": {
+        "states": 8,
+        "overflow": 0,
+        "controlsUnder44": 0,
+        "galleryHeights": [
+          824.59375,
+          824.59375,
+          824.59375
+        ]
+      }
+    },
+    {
+      "name": "430px: percurso completo, galeria e áreas de toque",
+      "passed": true,
+      "detail": {
+        "states": 8,
+        "overflow": 0,
+        "controlsUnder44": 0,
+        "galleryHeights": [
+          870.1875,
+          870.1875,
+          870.1875
+        ]
+      }
+    },
+    {
+      "name": "768px: percurso completo, galeria e áreas de toque",
+      "passed": true,
+      "detail": {
+        "states": 8,
+        "overflow": 0,
+        "controlsUnder44": 0,
+        "galleryHeights": [
+          600,
+          600,
+          600
+        ]
+      }
+    },
+    {
+      "name": "820px: percurso completo, galeria e áreas de toque",
+      "passed": true,
+      "detail": {
+        "states": 8,
+        "overflow": 0,
+        "controlsUnder44": 0,
+        "galleryHeights": [
+          600,
+          600,
+          600
+        ]
+      }
+    },
+    {
+      "name": "1024px: percurso completo, galeria e áreas de toque",
+      "passed": true,
+      "detail": {
+        "states": 8,
+        "overflow": 0,
+        "controlsUnder44": 0,
+        "galleryHeights": [
+          696.3125,
+          696.3125,
+          696.3125
+        ]
+      }
+    },
+    {
+      "name": "1280px: percurso completo, galeria e áreas de toque",
+      "passed": true,
+      "detail": {
+        "states": 8,
+        "overflow": 0,
+        "controlsUnder44": 0,
+        "galleryHeights": [
+          614.390625,
+          614.390625,
+          614.390625
+        ]
+      }
+    },
+    {
+      "name": "1440px: percurso completo, galeria e áreas de toque",
+      "passed": true,
+      "detail": {
+        "states": 8,
+        "overflow": 0,
+        "controlsUnder44": 0,
+        "galleryHeights": [
+          691.1875,
+          691.1875,
+          691.1875
+        ]
+      }
+    },
+    {
+      "name": "1920px: percurso completo, galeria e áreas de toque",
+      "passed": true,
+      "detail": {
+        "states": 8,
+        "overflow": 0,
+        "controlsUnder44": 0,
+        "galleryHeights": [
+          830,
+          830,
+          830
+        ]
+      }
+    },
+    {
+      "name": "mobile: axe A/AA no percurso e nas três atmosferas",
+      "passed": true,
+      "detail": {
+        "states": 9,
+        "violations": 0
+      }
+    },
+    {
+      "name": "tablet: axe A/AA no percurso e nas três atmosferas",
+      "passed": true,
+      "detail": {
+        "states": 9,
+        "violations": 0
+      }
+    },
+    {
+      "name": "desktop: axe A/AA no percurso e nas três atmosferas",
+      "passed": true,
+      "detail": {
+        "states": 9,
+        "violations": 0
+      }
+    },
+    {
+      "name": "Zoom 200%, reorientação e leitura ampliada",
+      "passed": true,
+      "detail": {
+        "cssZoom": 2,
+        "landscape": "1180x820",
+        "nativeBrowserZoom": false
+      }
+    },
+    {
+      "name": "Toque: seleção, navegação e resumo em 390px",
+      "passed": true,
+      "detail": {
+        "touch": true,
+        "simulated": true
+      }
+    },
+    {
+      "name": "Galeria: retorno visível em rede lenta e última escolha preservada",
+      "passed": true,
+      "detail": {
+        "visibleFeedback": true,
+        "previousScenePreserved": true,
+        "latestWins": true
+      }
+    },
+    {
+      "name": "Galeria: imagem indisponível preserva a cena e oferece alternativa",
+      "passed": true,
+      "detail": {
+        "failedSelectionPreservesScene": true,
+        "initialFailureHasFallback": true
+      }
+    },
+    {
+      "name": "Galeria: crossfade só na foto, margem estável e ausência de efeito no ponteiro",
+      "passed": true,
+      "detail": {
+        "targets": [
+          "atmosphere-photo"
+        ],
+        "hoverChanges": false
+      }
+    },
+    {
+      "name": "WebGL: baixa qualidade limita resolução e ausência de suporte usa fallback",
+      "passed": true,
+      "detail": {
+        "lowQuality": {
+          "quality": 0.6,
+          "pixels": 719316
+        },
+        "withoutWebGL": true
+      }
+    },
+    {
+      "name": "WebGL: perda e restauração de contexto preservam o pôster e recuperam o desenho",
+      "passed": true,
+      "detail": {
+        "posterDuringLoss": true,
+        "restored": true
+      }
+    },
+    {
+      "name": "chromium: movimento reduzido e fallback gráfico preservam conteúdo",
+      "passed": true,
+      "detail": {
+        "reduced": true,
+        "fallback": true
+      }
+    },
+    {
+      "name": "chromium: sem JavaScript todos os ambientes e conteúdo estão acessíveis",
+      "passed": true,
+      "detail": {
+        "visibleEnvironments": 3,
+        "quoteLimitation": true
+      }
+    },
+    {
+      "name": "firefox: continuidade, reversão, destino e repouso",
+      "passed": true,
+      "detail": {
+        "destinationError": 0,
+        "offscreenFrames": 9
+      }
+    },
+    {
+      "name": "firefox: galeria por teclado, foco e URL",
+      "passed": true,
+      "detail": {
+        "id": "jardim",
+        "outline": "solid"
+      }
+    },
+    {
+      "name": "firefox: interrupção e seleção rápida conservam a última escolha",
+      "passed": true,
+      "detail": {
+        "latestWins": true,
+        "preferenceInterrupts": true
+      }
+    },
+    {
+      "name": "firefox: formulário mantém pré-seleção e resumo sem rede ou persistência",
+      "passed": true,
+      "detail": {
+        "result": "Sua possibilidade, em resumo\nManutenção e tratamento para condomínio.\n\nSimulação demonstrativa. Nenhuma solicitação foi enviada.",
+        "persistence": {
+          "local": 0,
+          "session": 0,
+          "cookie": ""
+        },
+        "mutations": []
+      }
+    },
+    {
+      "name": "firefox: materiais nativos por teclado e links locais",
+      "passed": true,
+      "detail": {
+        "missing": []
+      }
+    },
+    {
+      "name": "firefox: movimento reduzido e fallback gráfico preservam conteúdo",
+      "passed": true,
+      "detail": {
+        "reduced": true,
+        "fallback": true
+      }
+    },
+    {
+      "name": "firefox: sem JavaScript todos os ambientes e conteúdo estão acessíveis",
+      "passed": true,
+      "detail": {
+        "visibleEnvironments": 3,
+        "quoteLimitation": true
+      }
+    },
+    {
+      "name": "webkit: continuidade, reversão, destino e repouso",
+      "passed": true,
+      "detail": {
+        "destinationError": 0,
+        "offscreenFrames": 6
+      }
+    },
+    {
+      "name": "webkit: galeria por teclado, foco e URL",
+      "passed": true,
+      "detail": {
+        "id": "jardim",
+        "outline": "solid"
+      }
+    },
+    {
+      "name": "webkit: interrupção e seleção rápida conservam a última escolha",
+      "passed": true,
+      "detail": {
+        "latestWins": true,
+        "preferenceInterrupts": true
+      }
+    },
+    {
+      "name": "webkit: formulário mantém pré-seleção e resumo sem rede ou persistência",
+      "passed": true,
+      "detail": {
+        "result": "Sua possibilidade, em resumo\nManutenção e tratamento para condomínio.\n\nSimulação demonstrativa. Nenhuma solicitação foi enviada.",
+        "persistence": {
+          "local": 0,
+          "session": 0,
+          "cookie": ""
+        },
+        "mutations": []
+      }
+    },
+    {
+      "name": "webkit: materiais nativos por teclado e links locais",
+      "passed": true,
+      "detail": {
+        "missing": []
+      }
+    },
+    {
+      "name": "webkit: movimento reduzido e fallback gráfico preservam conteúdo",
+      "passed": true,
+      "detail": {
+        "reduced": true,
+        "fallback": true
+      }
+    },
+    {
+      "name": "webkit: sem JavaScript todos os ambientes e conteúdo estão acessíveis",
+      "passed": true,
+      "detail": {
+        "visibleEnvironments": 3,
+        "quoteLimitation": true
+      }
+    },
+    {
+      "name": "Rotas novas, históricas e documentação respondem 200",
+      "passed": true,
+      "detail": [
+        {
+          "path": "/",
+          "status": 200
+        },
+        {
+          "path": "/estudos/",
+          "status": 200
+        },
+        {
+          "path": "/estudos/etapa-1/",
+          "status": 200
+        },
+        {
+          "path": "/estudos/etapa-2/",
+          "status": 200
+        },
+        {
+          "path": "/estudos/etapa-2/revisao/",
+          "status": 200
+        },
+        {
+          "path": "/estudos/etapa-3/",
+          "status": 200
+        },
+        {
+          "path": "/estudos/etapa-4/",
+          "status": 200
+        },
+        {
+          "path": "/estudos/etapa-4/revisao/",
+          "status": 200
+        },
+        {
+          "path": "/estudos/etapa-4/diagnostico/",
+          "status": 200
+        }
+      ]
+    }
+  ],
+  "browsers": [
+    {
+      "engine": "chromium",
+      "version": "158.0.8127.18"
+    },
+    {
+      "engine": "firefox",
+      "version": "159.0"
+    },
+    {
+      "engine": "webkit",
+      "version": "27.2"
+    }
+  ],
+  "errors": [],
+  "accessibility": [
+    {
+      "name": "mobile",
+      "width": 390,
+      "records": [
+        {
+          "state": ".hero",
+          "violations": []
+        },
+        {
+          "state": "#servicos",
+          "violations": []
+        },
+        {
+          "state": "#materiais",
+          "violations": []
+        },
+        {
+          "state": "#processo",
+          "violations": []
+        },
+        {
+          "state": "#orcamento",
+          "violations": []
+        },
+        {
+          "state": ".closing",
+          "violations": []
+        },
+        {
+          "state": "luz",
+          "violations": []
+        },
+        {
+          "state": "jardim",
+          "violations": []
+        },
+        {
+          "state": "noite",
+          "violations": []
+        }
+      ]
+    },
+    {
+      "name": "tablet",
+      "width": 820,
+      "records": [
+        {
+          "state": ".hero",
+          "violations": []
+        },
+        {
+          "state": "#servicos",
+          "violations": []
+        },
+        {
+          "state": "#materiais",
+          "violations": []
+        },
+        {
+          "state": "#processo",
+          "violations": []
+        },
+        {
+          "state": "#orcamento",
+          "violations": []
+        },
+        {
+          "state": ".closing",
+          "violations": []
+        },
+        {
+          "state": "luz",
+          "violations": []
+        },
+        {
+          "state": "jardim",
+          "violations": []
+        },
+        {
+          "state": "noite",
+          "violations": []
+        }
+      ]
+    },
+    {
+      "name": "desktop",
+      "width": 1440,
+      "records": [
+        {
+          "state": ".hero",
+          "violations": []
+        },
+        {
+          "state": "#servicos",
+          "violations": []
+        },
+        {
+          "state": "#materiais",
+          "violations": []
+        },
+        {
+          "state": "#processo",
+          "violations": []
+        },
+        {
+          "state": "#orcamento",
+          "violations": []
+        },
+        {
+          "state": ".closing",
+          "violations": []
+        },
+        {
+          "state": "luz",
+          "violations": []
+        },
+        {
+          "state": "jardim",
+          "violations": []
+        },
+        {
+          "state": "noite",
+          "violations": []
+        }
+      ]
+    }
+  ],
+  "layout": [
+    {
+      "width": 320,
+      "height": 844,
+      "states": [
+        ".hero",
+        "#servicos",
+        "#ambientes",
+        "#materiais",
+        "#processo",
+        "#orcamento",
+        ".closing",
+        ".closing-meta"
+      ],
+      "galleryHeights": [
+        744.796875,
+        744.796875,
+        744.796875
+      ]
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "states": [
+        ".hero",
+        "#servicos",
+        "#ambientes",
+        "#materiais",
+        "#processo",
+        "#orcamento",
+        ".closing",
+        ".closing-meta"
+      ],
+      "galleryHeights": [
+        807.5,
+        807.5,
+        807.5
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "states": [
+        ".hero",
+        "#servicos",
+        "#ambientes",
+        "#materiais",
+        "#processo",
+        "#orcamento",
+        ".closing",
+        ".closing-meta"
+      ],
+      "galleryHeights": [
+        824.59375,
+        824.59375,
+        824.59375
+      ]
+    },
+    {
+      "width": 430,
+      "height": 844,
+      "states": [
+        ".hero",
+        "#servicos",
+        "#ambientes",
+        "#materiais",
+        "#processo",
+        "#orcamento",
+        ".closing",
+        ".closing-meta"
+      ],
+      "galleryHeights": [
+        870.1875,
+        870.1875,
+        870.1875
+      ]
+    },
+    {
+      "width": 768,
+      "height": 1180,
+      "states": [
+        ".hero",
+        "#servicos",
+        "#ambientes",
+        "#materiais",
+        "#processo",
+        "#orcamento",
+        ".closing",
+        ".closing-meta"
+      ],
+      "galleryHeights": [
+        600,
+        600,
+        600
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "states": [
+        ".hero",
+        "#servicos",
+        "#ambientes",
+        "#materiais",
+        "#processo",
+        "#orcamento",
+        ".closing",
+        ".closing-meta"
+      ],
+      "galleryHeights": [
+        600,
+        600,
+        600
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 900,
+      "states": [
+        ".hero",
+        "#servicos",
+        "#ambientes",
+        "#materiais",
+        "#processo",
+        "#orcamento",
+        ".closing",
+        ".closing-meta"
+      ],
+      "galleryHeights": [
+        696.3125,
+        696.3125,
+        696.3125
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "states": [
+        ".hero",
+        "#servicos",
+        "#ambientes",
+        "#materiais",
+        "#processo",
+        "#orcamento",
+        ".closing",
+        ".closing-meta"
+      ],
+      "galleryHeights": [
+        614.390625,
+        614.390625,
+        614.390625
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "states": [
+        ".hero",
+        "#servicos",
+        "#ambientes",
+        "#materiais",
+        "#processo",
+        "#orcamento",
+        ".closing",
+        ".closing-meta"
+      ],
+      "galleryHeights": [
+        691.1875,
+        691.1875,
+        691.1875
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 900,
+      "states": [
+        ".hero",
+        "#servicos",
+        "#ambientes",
+        "#materiais",
+        "#processo",
+        "#orcamento",
+        ".closing",
+        ".closing-meta"
+      ],
+      "galleryHeights": [
+        830,
+        830,
+        830
+      ]
+    }
+  ],
+  "summary": {
+    "checks": 43,
+    "passed": 43,
+    "failed": 0,
+    "pageErrors": 0
+  }
+}

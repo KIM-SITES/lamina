@@ -1,0 +1,700 @@
+{
+  "date": "2026-11-11",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 900,
+      "antes": {
+        "pageHeight": 7612,
+        "sections": [
+          {
+            "id": "inicio",
+            "height": 900
+          },
+          {
+            "id": "servicos",
+            "height": 1333.09375
+          },
+          {
+            "id": "ambientes",
+            "height": 1223.703125
+          },
+          {
+            "id": "materiais",
+            "height": 1035.359375
+          },
+          {
+            "id": "processo",
+            "height": 1050.8125
+          },
+          {
+            "id": "orcamento",
+            "height": 714.1875
+          },
+          {
+            "id": "closing",
+            "height": 1354.6875
+          }
+        ],
+        "processFont": "15px"
+      },
+      "depois": {
+        "pageHeight": 7340,
+        "sections": [
+          {
+            "id": "inicio",
+            "height": 900
+          },
+          {
+            "id": "servicos",
+            "height": 1276.375
+          },
+          {
+            "id": "ambientes",
+            "height": 1160.8125
+          },
+          {
+            "id": "materiais",
+            "height": 939.4375
+          },
+          {
+            "id": "processo",
+            "height": 1082.640625
+          },
+          {
+            "id": "orcamento",
+            "height": 649.40625
+          },
+          {
+            "id": "closing",
+            "height": 1331.484375
+          }
+        ],
+        "processFont": "17px"
+      },
+      "reductionPixels": 272,
+      "reductionPercent": 3.57
+    },
+    {
+      "name": "tablet",
+      "width": 820,
+      "height": 1180,
+      "antes": {
+        "pageHeight": 7181,
+        "sections": [
+          {
+            "id": "inicio",
+            "height": 1180
+          },
+          {
+            "id": "servicos",
+            "height": 1109
+          },
+          {
+            "id": "ambientes",
+            "height": 1026.5625
+          },
+          {
+            "id": "materiais",
+            "height": 944
+          },
+          {
+            "id": "processo",
+            "height": 1100.625
+          },
+          {
+            "id": "orcamento",
+            "height": 714.59375
+          },
+          {
+            "id": "closing",
+            "height": 1105.859375
+          }
+        ],
+        "processFont": "15px"
+      },
+      "depois": {
+        "pageHeight": 6872,
+        "sections": [
+          {
+            "id": "inicio",
+            "height": 1180
+          },
+          {
+            "id": "servicos",
+            "height": 1054.78125
+          },
+          {
+            "id": "ambientes",
+            "height": 996.5625
+          },
+          {
+            "id": "materiais",
+            "height": 806.578125
+          },
+          {
+            "id": "processo",
+            "height": 1112.796875
+          },
+          {
+            "id": "orcamento",
+            "height": 675.59375
+          },
+          {
+            "id": "closing",
+            "height": 1045.859375
+          }
+        ],
+        "processFont": "17px"
+      },
+      "reductionPixels": 309,
+      "reductionPercent": 4.3
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "antes": {
+        "pageHeight": 8792,
+        "sections": [
+          {
+            "id": "inicio",
+            "height": 844
+          },
+          {
+            "id": "servicos",
+            "height": 1618.6875
+          },
+          {
+            "id": "ambientes",
+            "height": 1405.46875
+          },
+          {
+            "id": "materiais",
+            "height": 1276.515625
+          },
+          {
+            "id": "processo",
+            "height": 1378.75
+          },
+          {
+            "id": "orcamento",
+            "height": 947.1875
+          },
+          {
+            "id": "closing",
+            "height": 1320.90625
+          }
+        ],
+        "processFont": "15px"
+      },
+      "depois": {
+        "pageHeight": 7905,
+        "sections": [
+          {
+            "id": "inicio",
+            "height": 844
+          },
+          {
+            "id": "servicos",
+            "height": 1516.28125
+          },
+          {
+            "id": "ambientes",
+            "height": 1276.0625
+          },
+          {
+            "id": "materiais",
+            "height": 1088.25
+          },
+          {
+            "id": "processo",
+            "height": 1308.21875
+          },
+          {
+            "id": "orcamento",
+            "height": 849.1875
+          },
+          {
+            "id": "closing",
+            "height": 1023.34375
+          }
+        ],
+        "processFont": "16px"
+      },
+      "reductionPixels": 887,
+      "reductionPercent": 10.09
+    },
+    {
+      "name": "small",
+      "width": 320,
+      "height": 700,
+      "antes": {
+        "pageHeight": 8419,
+        "sections": [
+          {
+            "id": "inicio",
+            "height": 740
+          },
+          {
+            "id": "servicos",
+            "height": 1499.703125
+          },
+          {
+            "id": "ambientes",
+            "height": 1331.5
+          },
+          {
+            "id": "materiais",
+            "height": 1241.671875
+          },
+          {
+            "id": "processo",
+            "height": 1465.28125
+          },
+          {
+            "id": "orcamento",
+            "height": 947.1875
+          },
+          {
+            "id": "closing",
+            "height": 1193.34375
+          }
+        ],
+        "processFont": "15px"
+      },
+      "depois": {
+        "pageHeight": 7678,
+        "sections": [
+          {
+            "id": "inicio",
+            "height": 740
+          },
+          {
+            "id": "servicos",
+            "height": 1393.9375
+          },
+          {
+            "id": "ambientes",
+            "height": 1215.640625
+          },
+          {
+            "id": "materiais",
+            "height": 1112
+          },
+          {
+            "id": "processo",
+            "height": 1381.625
+          },
+          {
+            "id": "orcamento",
+            "height": 849.1875
+          },
+          {
+            "id": "closing",
+            "height": 985.703125
+          }
+        ],
+        "processFont": "16px"
+      },
+      "reductionPixels": 741,
+      "reductionPercent": 8.8
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "desktop-servicos-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/desktop-servicos-antes.png",
+      "width": 1440,
+      "height": 900,
+      "fullPage": false
+    },
+    {
+      "name": "desktop-ambientes-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/desktop-ambientes-antes.png",
+      "width": 1440,
+      "height": 900,
+      "fullPage": false
+    },
+    {
+      "name": "desktop-materiais-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/desktop-materiais-antes.png",
+      "width": 1440,
+      "height": 900,
+      "fullPage": false
+    },
+    {
+      "name": "desktop-processo-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/desktop-processo-antes.png",
+      "width": 1440,
+      "height": 900,
+      "fullPage": false
+    },
+    {
+      "name": "desktop-orcamento-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/desktop-orcamento-antes.png",
+      "width": 1440,
+      "height": 900,
+      "fullPage": false
+    },
+    {
+      "name": "desktop-closing-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/desktop-closing-antes.png",
+      "width": 1440,
+      "height": 900,
+      "fullPage": false
+    },
+    {
+      "name": "desktop-completa-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/desktop-completa-antes.png",
+      "width": 1440,
+      "height": 7612,
+      "fullPage": true
+    },
+    {
+      "name": "desktop-servicos-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/desktop-servicos-depois.png",
+      "width": 1440,
+      "height": 900,
+      "fullPage": false
+    },
+    {
+      "name": "desktop-ambientes-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/desktop-ambientes-depois.png",
+      "width": 1440,
+      "height": 900,
+      "fullPage": false
+    },
+    {
+      "name": "desktop-materiais-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/desktop-materiais-depois.png",
+      "width": 1440,
+      "height": 900,
+      "fullPage": false
+    },
+    {
+      "name": "desktop-processo-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/desktop-processo-depois.png",
+      "width": 1440,
+      "height": 900,
+      "fullPage": false
+    },
+    {
+      "name": "desktop-orcamento-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/desktop-orcamento-depois.png",
+      "width": 1440,
+      "height": 900,
+      "fullPage": false
+    },
+    {
+      "name": "desktop-closing-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/desktop-closing-depois.png",
+      "width": 1440,
+      "height": 900,
+      "fullPage": false
+    },
+    {
+      "name": "desktop-completa-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/desktop-completa-depois.png",
+      "width": 1440,
+      "height": 7340,
+      "fullPage": true
+    },
+    {
+      "name": "tablet-servicos-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/tablet-servicos-antes.png",
+      "width": 820,
+      "height": 1180,
+      "fullPage": false
+    },
+    {
+      "name": "tablet-ambientes-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/tablet-ambientes-antes.png",
+      "width": 820,
+      "height": 1180,
+      "fullPage": false
+    },
+    {
+      "name": "tablet-materiais-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/tablet-materiais-antes.png",
+      "width": 820,
+      "height": 1180,
+      "fullPage": false
+    },
+    {
+      "name": "tablet-processo-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/tablet-processo-antes.png",
+      "width": 820,
+      "height": 1180,
+      "fullPage": false
+    },
+    {
+      "name": "tablet-orcamento-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/tablet-orcamento-antes.png",
+      "width": 820,
+      "height": 1180,
+      "fullPage": false
+    },
+    {
+      "name": "tablet-closing-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/tablet-closing-antes.png",
+      "width": 820,
+      "height": 1180,
+      "fullPage": false
+    },
+    {
+      "name": "tablet-completa-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/tablet-completa-antes.png",
+      "width": 820,
+      "height": 7181,
+      "fullPage": true
+    },
+    {
+      "name": "tablet-servicos-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/tablet-servicos-depois.png",
+      "width": 820,
+      "height": 1180,
+      "fullPage": false
+    },
+    {
+      "name": "tablet-ambientes-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/tablet-ambientes-depois.png",
+      "width": 820,
+      "height": 1180,
+      "fullPage": false
+    },
+    {
+      "name": "tablet-materiais-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/tablet-materiais-depois.png",
+      "width": 820,
+      "height": 1180,
+      "fullPage": false
+    },
+    {
+      "name": "tablet-processo-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/tablet-processo-depois.png",
+      "width": 820,
+      "height": 1180,
+      "fullPage": false
+    },
+    {
+      "name": "tablet-orcamento-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/tablet-orcamento-depois.png",
+      "width": 820,
+      "height": 1180,
+      "fullPage": false
+    },
+    {
+      "name": "tablet-closing-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/tablet-closing-depois.png",
+      "width": 820,
+      "height": 1180,
+      "fullPage": false
+    },
+    {
+      "name": "tablet-completa-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/tablet-completa-depois.png",
+      "width": 820,
+      "height": 6872,
+      "fullPage": true
+    },
+    {
+      "name": "mobile-servicos-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/mobile-servicos-antes.png",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "name": "mobile-ambientes-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/mobile-ambientes-antes.png",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "name": "mobile-materiais-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/mobile-materiais-antes.png",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "name": "mobile-processo-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/mobile-processo-antes.png",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "name": "mobile-orcamento-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/mobile-orcamento-antes.png",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "name": "mobile-closing-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/mobile-closing-antes.png",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "name": "mobile-completa-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/mobile-completa-antes.png",
+      "width": 390,
+      "height": 8792,
+      "fullPage": true
+    },
+    {
+      "name": "mobile-servicos-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/mobile-servicos-depois.png",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "name": "mobile-ambientes-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/mobile-ambientes-depois.png",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "name": "mobile-materiais-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/mobile-materiais-depois.png",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "name": "mobile-processo-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/mobile-processo-depois.png",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "name": "mobile-orcamento-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/mobile-orcamento-depois.png",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "name": "mobile-closing-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/mobile-closing-depois.png",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "name": "mobile-completa-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/mobile-completa-depois.png",
+      "width": 390,
+      "height": 7905,
+      "fullPage": true
+    },
+    {
+      "name": "small-servicos-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/small-servicos-antes.png",
+      "width": 320,
+      "height": 700,
+      "fullPage": false
+    },
+    {
+      "name": "small-ambientes-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/small-ambientes-antes.png",
+      "width": 320,
+      "height": 700,
+      "fullPage": false
+    },
+    {
+      "name": "small-materiais-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/small-materiais-antes.png",
+      "width": 320,
+      "height": 700,
+      "fullPage": false
+    },
+    {
+      "name": "small-processo-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/small-processo-antes.png",
+      "width": 320,
+      "height": 700,
+      "fullPage": false
+    },
+    {
+      "name": "small-orcamento-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/small-orcamento-antes.png",
+      "width": 320,
+      "height": 700,
+      "fullPage": false
+    },
+    {
+      "name": "small-closing-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/small-closing-antes.png",
+      "width": 320,
+      "height": 700,
+      "fullPage": false
+    },
+    {
+      "name": "small-completa-antes",
+      "path": "docs/redirecao/etapa-4/comparacoes/small-completa-antes.png",
+      "width": 320,
+      "height": 8419,
+      "fullPage": true
+    },
+    {
+      "name": "small-servicos-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/small-servicos-depois.png",
+      "width": 320,
+      "height": 700,
+      "fullPage": false
+    },
+    {
+      "name": "small-ambientes-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/small-ambientes-depois.png",
+      "width": 320,
+      "height": 700,
+      "fullPage": false
+    },
+    {
+      "name": "small-materiais-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/small-materiais-depois.png",
+      "width": 320,
+      "height": 700,
+      "fullPage": false
+    },
+    {
+      "name": "small-processo-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/small-processo-depois.png",
+      "width": 320,
+      "height": 700,
+      "fullPage": false
+    },
+    {
+      "name": "small-orcamento-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/small-orcamento-depois.png",
+      "width": 320,
+      "height": 700,
+      "fullPage": false
+    },
+    {
+      "name": "small-closing-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/small-closing-depois.png",
+      "width": 320,
+      "height": 700,
+      "fullPage": false
+    },
+    {
+      "name": "small-completa-depois",
+      "path": "docs/redirecao/etapa-4/comparacoes/small-completa-depois.png",
+      "width": 320,
+      "height": 7678,
+      "fullPage": true
+    }
+  ],
+  "notes": "Capturas reais de ambas as rotas nesta execução. Limites com movimento ativo e mesma coordenada vertical; capturas integrais com movimento reduzido nativo. Não são prova de interação."
+}

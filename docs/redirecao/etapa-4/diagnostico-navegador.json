@@ -1,0 +1,342 @@
+{
+  "route": "/estudos/etapa-3/",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 900,
+      "pageHeight": 7612,
+      "sections": [
+        {
+          "id": "inicio",
+          "height": 900,
+          "top": 0
+        },
+        {
+          "id": "servicos",
+          "height": 1333.09375,
+          "top": 900
+        },
+        {
+          "id": "ambientes",
+          "height": 1223.703125,
+          "top": 2233.09375
+        },
+        {
+          "id": "materiais",
+          "height": 1035.359375,
+          "top": 3456.796875
+        },
+        {
+          "id": "processo",
+          "height": 1050.8125,
+          "top": 4492.15625
+        },
+        {
+          "id": "orcamento",
+          "height": 714.1875,
+          "top": 5542.96875
+        },
+        {
+          "id": "closing",
+          "height": 1354.6875,
+          "top": 6257.15625
+        }
+      ],
+      "galleryMargin": 691.1875,
+      "processFont": "15px",
+      "materialPicture": 833.765625,
+      "closingPicture": 700
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "pageHeight": 7181,
+      "sections": [
+        {
+          "id": "inicio",
+          "height": 1180,
+          "top": 0
+        },
+        {
+          "id": "servicos",
+          "height": 1109,
+          "top": 1180
+        },
+        {
+          "id": "ambientes",
+          "height": 1026.5625,
+          "top": 2289
+        },
+        {
+          "id": "materiais",
+          "height": 944,
+          "top": 3315.5625
+        },
+        {
+          "id": "processo",
+          "height": 1100.625,
+          "top": 4259.5625
+        },
+        {
+          "id": "orcamento",
+          "height": 714.59375,
+          "top": 5360.1875
+        },
+        {
+          "id": "closing",
+          "height": 1105.859375,
+          "top": 6074.78125
+        }
+      ],
+      "galleryMargin": 600,
+      "processFont": "15px",
+      "materialPicture": 800,
+      "closingPicture": 600
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "pageHeight": 8792,
+      "sections": [
+        {
+          "id": "inicio",
+          "height": 844,
+          "top": 0
+        },
+        {
+          "id": "servicos",
+          "height": 1618.6875,
+          "top": 844
+        },
+        {
+          "id": "ambientes",
+          "height": 1405.46875,
+          "top": 2462.6875
+        },
+        {
+          "id": "materiais",
+          "height": 1276.515625,
+          "top": 3868.15625
+        },
+        {
+          "id": "processo",
+          "height": 1378.75,
+          "top": 5144.671875
+        },
+        {
+          "id": "orcamento",
+          "height": 947.1875,
+          "top": 6523.421875
+        },
+        {
+          "id": "closing",
+          "height": 1320.90625,
+          "top": 7470.609375
+        }
+      ],
+      "galleryMargin": 380,
+      "processFont": "15px",
+      "materialPicture": 457.5,
+      "closingPicture": 457.5
+    },
+    {
+      "width": 320,
+      "height": 700,
+      "pageHeight": 8419,
+      "sections": [
+        {
+          "id": "inicio",
+          "height": 740,
+          "top": 0
+        },
+        {
+          "id": "servicos",
+          "height": 1499.703125,
+          "top": 740
+        },
+        {
+          "id": "ambientes",
+          "height": 1331.5,
+          "top": 2239.703125
+        },
+        {
+          "id": "materiais",
+          "height": 1241.671875,
+          "top": 3571.203125
+        },
+        {
+          "id": "processo",
+          "height": 1465.28125,
+          "top": 4812.875
+        },
+        {
+          "id": "orcamento",
+          "height": 947.1875,
+          "top": 6278.15625
+        },
+        {
+          "id": "closing",
+          "height": 1193.34375,
+          "top": 7225.34375
+        }
+      ],
+      "galleryMargin": 380,
+      "processFont": "15px",
+      "materialPicture": 375,
+      "closingPicture": 375
+    }
+  ],
+  "interactions": [
+    {
+      "name": "desktop",
+      "gallery": "jardim",
+      "disclosure": true,
+      "quote": "Sua possibilidade, em resumo\nManutenção e tratamento para residência.\n\nSimulação demonstrativa. Nenhuma solicitação foi enviada."
+    },
+    {
+      "name": "tablet",
+      "gallery": "jardim",
+      "disclosure": true,
+      "quote": "Sua possibilidade, em resumo\nManutenção e tratamento para residência.\n\nSimulação demonstrativa. Nenhuma solicitação foi enviada."
+    },
+    {
+      "name": "mobile",
+      "gallery": "jardim",
+      "disclosure": true,
+      "quote": "Sua possibilidade, em resumo\nManutenção e tratamento para residência.\n\nSimulação demonstrativa. Nenhuma solicitação foi enviada."
+    },
+    {
+      "name": "small",
+      "gallery": "jardim",
+      "disclosure": true,
+      "quote": "Sua possibilidade, em resumo\nManutenção e tratamento para residência.\n\nSimulação demonstrativa. Nenhuma solicitação foi enviada."
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "desktop",
+      "selector": "#servicos",
+      "path": "docs/redirecao/etapa-4/antes/desktop-servicos.png"
+    },
+    {
+      "name": "desktop",
+      "selector": "#ambientes",
+      "path": "docs/redirecao/etapa-4/antes/desktop-ambientes.png"
+    },
+    {
+      "name": "desktop",
+      "selector": "#materiais",
+      "path": "docs/redirecao/etapa-4/antes/desktop-materiais.png"
+    },
+    {
+      "name": "desktop",
+      "selector": "#processo",
+      "path": "docs/redirecao/etapa-4/antes/desktop-processo.png"
+    },
+    {
+      "name": "desktop",
+      "selector": "#orcamento",
+      "path": "docs/redirecao/etapa-4/antes/desktop-orcamento.png"
+    },
+    {
+      "name": "desktop",
+      "selector": ".closing",
+      "path": "docs/redirecao/etapa-4/antes/desktop-closing.png"
+    },
+    {
+      "name": "tablet",
+      "selector": "#servicos",
+      "path": "docs/redirecao/etapa-4/antes/tablet-servicos.png"
+    },
+    {
+      "name": "tablet",
+      "selector": "#ambientes",
+      "path": "docs/redirecao/etapa-4/antes/tablet-ambientes.png"
+    },
+    {
+      "name": "tablet",
+      "selector": "#materiais",
+      "path": "docs/redirecao/etapa-4/antes/tablet-materiais.png"
+    },
+    {
+      "name": "tablet",
+      "selector": "#processo",
+      "path": "docs/redirecao/etapa-4/antes/tablet-processo.png"
+    },
+    {
+      "name": "tablet",
+      "selector": "#orcamento",
+      "path": "docs/redirecao/etapa-4/antes/tablet-orcamento.png"
+    },
+    {
+      "name": "tablet",
+      "selector": ".closing",
+      "path": "docs/redirecao/etapa-4/antes/tablet-closing.png"
+    },
+    {
+      "name": "mobile",
+      "selector": "#servicos",
+      "path": "docs/redirecao/etapa-4/antes/mobile-servicos.png"
+    },
+    {
+      "name": "mobile",
+      "selector": "#ambientes",
+      "path": "docs/redirecao/etapa-4/antes/mobile-ambientes.png"
+    },
+    {
+      "name": "mobile",
+      "selector": "#materiais",
+      "path": "docs/redirecao/etapa-4/antes/mobile-materiais.png"
+    },
+    {
+      "name": "mobile",
+      "selector": "#processo",
+      "path": "docs/redirecao/etapa-4/antes/mobile-processo.png"
+    },
+    {
+      "name": "mobile",
+      "selector": "#orcamento",
+      "path": "docs/redirecao/etapa-4/antes/mobile-orcamento.png"
+    },
+    {
+      "name": "mobile",
+      "selector": ".closing",
+      "path": "docs/redirecao/etapa-4/antes/mobile-closing.png"
+    },
+    {
+      "name": "small",
+      "selector": "#servicos",
+      "path": "docs/redirecao/etapa-4/antes/small-servicos.png"
+    },
+    {
+      "name": "small",
+      "selector": "#ambientes",
+      "path": "docs/redirecao/etapa-4/antes/small-ambientes.png"
+    },
+    {
+      "name": "small",
+      "selector": "#materiais",
+      "path": "docs/redirecao/etapa-4/antes/small-materiais.png"
+    },
+    {
+      "name": "small",
+      "selector": "#processo",
+      "path": "docs/redirecao/etapa-4/antes/small-processo.png"
+    },
+    {
+      "name": "small",
+      "selector": "#orcamento",
+      "path": "docs/redirecao/etapa-4/antes/small-orcamento.png"
+    },
+    {
+      "name": "small",
+      "selector": ".closing",
+      "path": "docs/redirecao/etapa-4/antes/small-closing.png"
+    }
+  ],
+  "slowImage": {
+    "busy": "true",
+    "visibleStatus": "",
+    "selected": "luz"
+  }
+}

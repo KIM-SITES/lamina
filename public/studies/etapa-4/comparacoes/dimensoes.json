@@ -1,0 +1,226 @@
+{
+  "desktop-servicos-antes": {
+    "width": 1200,
+    "height": 750
+  },
+  "desktop-ambientes-antes": {
+    "width": 1200,
+    "height": 750
+  },
+  "desktop-materiais-antes": {
+    "width": 1200,
+    "height": 750
+  },
+  "desktop-processo-antes": {
+    "width": 1200,
+    "height": 750
+  },
+  "desktop-orcamento-antes": {
+    "width": 1200,
+    "height": 750
+  },
+  "desktop-closing-antes": {
+    "width": 1200,
+    "height": 750
+  },
+  "desktop-completa-antes": {
+    "width": 840,
+    "height": 4440
+  },
+  "desktop-servicos-depois": {
+    "width": 1200,
+    "height": 750
+  },
+  "desktop-ambientes-depois": {
+    "width": 1200,
+    "height": 750
+  },
+  "desktop-materiais-depois": {
+    "width": 1200,
+    "height": 750
+  },
+  "desktop-processo-depois": {
+    "width": 1200,
+    "height": 750
+  },
+  "desktop-orcamento-depois": {
+    "width": 1200,
+    "height": 750
+  },
+  "desktop-closing-depois": {
+    "width": 1200,
+    "height": 750
+  },
+  "desktop-completa-depois": {
+    "width": 840,
+    "height": 4282
+  },
+  "tablet-servicos-antes": {
+    "width": 820,
+    "height": 1180
+  },
+  "tablet-ambientes-antes": {
+    "width": 820,
+    "height": 1180
+  },
+  "tablet-materiais-antes": {
+    "width": 820,
+    "height": 1180
+  },
+  "tablet-processo-antes": {
+    "width": 820,
+    "height": 1180
+  },
+  "tablet-orcamento-antes": {
+    "width": 820,
+    "height": 1180
+  },
+  "tablet-closing-antes": {
+    "width": 820,
+    "height": 1180
+  },
+  "tablet-completa-antes": {
+    "width": 820,
+    "height": 7181
+  },
+  "tablet-servicos-depois": {
+    "width": 820,
+    "height": 1180
+  },
+  "tablet-ambientes-depois": {
+    "width": 820,
+    "height": 1180
+  },
+  "tablet-materiais-depois": {
+    "width": 820,
+    "height": 1180
+  },
+  "tablet-processo-depois": {
+    "width": 820,
+    "height": 1180
+  },
+  "tablet-orcamento-depois": {
+    "width": 820,
+    "height": 1180
+  },
+  "tablet-closing-depois": {
+    "width": 820,
+    "height": 1180
+  },
+  "tablet-completa-depois": {
+    "width": 820,
+    "height": 6872
+  },
+  "mobile-servicos-antes": {
+    "width": 390,
+    "height": 844
+  },
+  "mobile-ambientes-antes": {
+    "width": 390,
+    "height": 844
+  },
+  "mobile-materiais-antes": {
+    "width": 390,
+    "height": 844
+  },
+  "mobile-processo-antes": {
+    "width": 390,
+    "height": 844
+  },
+  "mobile-orcamento-antes": {
+    "width": 390,
+    "height": 844
+  },
+  "mobile-closing-antes": {
+    "width": 390,
+    "height": 844
+  },
+  "mobile-completa-antes": {
+    "width": 390,
+    "height": 8792
+  },
+  "mobile-servicos-depois": {
+    "width": 390,
+    "height": 844
+  },
+  "mobile-ambientes-depois": {
+    "width": 390,
+    "height": 844
+  },
+  "mobile-materiais-depois": {
+    "width": 390,
+    "height": 844
+  },
+  "mobile-processo-depois": {
+    "width": 390,
+    "height": 844
+  },
+  "mobile-orcamento-depois": {
+    "width": 390,
+    "height": 844
+  },
+  "mobile-closing-depois": {
+    "width": 390,
+    "height": 844
+  },
+  "mobile-completa-depois": {
+    "width": 390,
+    "height": 7905
+  },
+  "small-servicos-antes": {
+    "width": 320,
+    "height": 700
+  },
+  "small-ambientes-antes": {
+    "width": 320,
+    "height": 700
+  },
+  "small-materiais-antes": {
+    "width": 320,
+    "height": 700
+  },
+  "small-processo-antes": {
+    "width": 320,
+    "height": 700
+  },
+  "small-orcamento-antes": {
+    "width": 320,
+    "height": 700
+  },
+  "small-closing-antes": {
+    "width": 320,
+    "height": 700
+  },
+  "small-completa-antes": {
+    "width": 320,
+    "height": 8419
+  },
+  "small-servicos-depois": {
+    "width": 320,
+    "height": 700
+  },
+  "small-ambientes-depois": {
+    "width": 320,
+    "height": 700
+  },
+  "small-materiais-depois": {
+    "width": 320,
+    "height": 700
+  },
+  "small-processo-depois": {
+    "width": 320,
+    "height": 700
+  },
+  "small-orcamento-depois": {
+    "width": 320,
+    "height": 700
+  },
+  "small-closing-depois": {
+    "width": 320,
+    "height": 700
+  },
+  "small-completa-depois": {
+    "width": 320,
+    "height": 7678
+  }
+}

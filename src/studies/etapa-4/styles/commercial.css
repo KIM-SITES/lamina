@@ -1,0 +1,33 @@
+/* R6: carry the editorial grid into the form, then let the closing headline breathe naturally. */
+.experience-refined .quote { padding-block: var(--section-space); border-top: 1px solid #8eabd4; row-gap: 28px; }
+.experience-refined .quote-heading { position: static; }
+.experience-refined .quote-heading h2 { font-size: clamp(44px, 4.7vw, 82px); }
+.experience-refined .quote fieldset { margin-bottom: 26px; }
+.experience-refined .choice { min-height: 66px; }
+.experience-refined .quote-submit { gap: 20px; }
+.experience-refined .quote-result { scroll-margin-block: 24px; }
+.experience-refined .closing-copy { min-height: clamp(540px, 47vw, 680px); padding-block: 64px; }
+.experience-refined .closing-copy h2 { text-wrap: balance; font-size: clamp(42px, 4.7vw, 81px); line-height: 1.07; }
+.experience-refined .closing-copy > p { margin-bottom: 36px; }
+.experience-refined .closing-copy .button { margin-top: 36px; }
+@container quote (max-width: 699px) {
+  .experience-refined .quote-heading h2 { font-size: clamp(38px, 10.8cqi, 54px); }
+  .experience-refined .quote-form { margin-top: 0; }
+  .experience-refined .quote-submit .button { min-width: 0; }
+}
+@container closing (max-width: 699px) {
+  .experience-refined .closing-copy { min-height: 0; padding-top: 40px; padding-bottom: 36px; }
+  .experience-refined .closing-copy h2 { font-size: clamp(36px, 10.5cqi, 54px); max-width: 440px; }
+  .experience-refined .closing-copy > p { margin-bottom: 26px; }
+  .experience-refined .closing-copy .button { margin-top: 28px; }
+  .experience-refined .closing-photo picture { aspect-ratio: 4/3; }
+  .experience-refined .closing-photo img { object-position: 50% 66%; }
+}
+@media (max-width: 699px) {
+  .experience-refined .quote { padding-block: 48px; }
+  .experience-refined .quote-form { margin-top: 28px; }
+  .experience-refined .quote-heading > p:last-child { margin-top: 20px; }
+  .experience-refined .quote-heading > p:first-child { margin-bottom: 22px; }
+  .experience-refined .quote fieldset { margin-bottom: 24px; }
+  .experience-refined .choice { min-height: 64px; }
+}

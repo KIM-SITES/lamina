@@ -1,0 +1,42 @@
+{
+  "checks": [
+    {
+      "engine": "chromium",
+      "passed": true,
+      "detail": {
+        "live": "polite",
+        "insideBusy": false,
+        "text": "Carregando Jardim adentro…",
+        "visualVisible": true,
+        "visualHiddenToAT": true
+      }
+    },
+    {
+      "engine": "firefox",
+      "passed": true,
+      "detail": {
+        "live": "polite",
+        "insideBusy": false,
+        "text": "Carregando Jardim adentro…",
+        "visualVisible": true,
+        "visualHiddenToAT": true
+      }
+    },
+    {
+      "engine": "webkit",
+      "passed": true,
+      "detail": {
+        "live": "polite",
+        "insideBusy": false,
+        "text": "Carregando Jardim adentro…",
+        "visualVisible": true,
+        "visualHiddenToAT": true
+      }
+    }
+  ],
+  "summary": {
+    "checks": 3,
+    "passed": 3,
+    "failed": 0
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "checks": [
+    {
+      "name": "320px: enquadramento final, galeria estável e ausência de overflow",
+      "passed": true,
+      "galleryHeights": [
+        744.796875,
+        744.796875,
+        744.796875
+      ]
+    },
+    {
+      "name": "375px: enquadramento final, galeria estável e ausência de overflow",
+      "passed": true,
+      "galleryHeights": [
+        807.5,
+        807.5,
+        807.5
+      ]
+    },
+    {
+      "name": "390px: enquadramento final, galeria estável e ausência de overflow",
+      "passed": true,
+      "galleryHeights": [
+        824.59375,
+        824.59375,
+        824.59375
+      ]
+    },
+    {
+      "name": "390px: axe após refinamento fotográfico e da margem",
+      "passed": true,
+      "violations": 0
+    },
+    {
+      "name": "430px: enquadramento final, galeria estável e ausência de overflow",
+      "passed": true,
+      "galleryHeights": [
+        870.1875,
+        870.1875,
+        870.1875
+      ]
+    },
+    {
+      "name": "768px: enquadramento final, galeria estável e ausência de overflow",
+      "passed": true,
+      "galleryHeights": [
+        600,
+        600,
+        600
+      ]
+    },
+    {
+      "name": "820px: enquadramento final, galeria estável e ausência de overflow",
+      "passed": true,
+      "galleryHeights": [
+        600,
+        600,
+        600
+      ]
+    },
+    {
+      "name": "820px: axe após refinamento fotográfico e da margem",
+      "passed": true,
+      "violations": 0
+    },
+    {
+      "name": "1024px: enquadramento final, galeria estável e ausência de overflow",
+      "passed": true,
+      "galleryHeights": [
+        696.3125,
+        696.3125,
+        696.3125
+      ]
+    },
+    {
+      "name": "1280px: enquadramento final, galeria estável e ausência de overflow",
+      "passed": true,
+      "galleryHeights": [
+        614.390625,
+        614.390625,
+        614.390625
+      ]
+    },
+    {
+      "name": "1440px: enquadramento final, galeria estável e ausência de overflow",
+      "passed": true,
+      "galleryHeights": [
+        691.1875,
+        691.1875,
+        691.1875
+      ]
+    },
+    {
+      "name": "1440px: axe após refinamento fotográfico e da margem",
+      "passed": true,
+      "violations": 0
+    },
+    {
+      "name": "1920px: enquadramento final, galeria estável e ausência de overflow",
+      "passed": true,
+      "galleryHeights": [
+        830,
+        830,
+        830
+      ]
+    },
+    {
+      "name": "320px: imagens, overflow e axe da apresentação",
+      "passed": true,
+      "violations": 0
+    },
+    {
+      "name": "390px: imagens, overflow e axe da apresentação",
+      "passed": true,
+      "violations": 0
+    },
+    {
+      "name": "820px: imagens, overflow e axe da apresentação",
+      "passed": true,
+      "violations": 0
+    },
+    {
+      "name": "1440px: imagens, overflow e axe da apresentação",
+      "passed": true,
+      "violations": 0
+    },
+    {
+      "name": "Links e recursos da apresentação respondem 200",
+      "passed": true,
+      "count": 24
+    },
+    {
+      "name": "Duas gravações reproduzem no navegador",
+      "passed": true,
+      "videos": [
+        {
+          "duration": 28.32,
+          "time": 0.3679,
+          "width": 1440,
+          "height": 900
+        },
+        {
+          "duration": 29.12,
+          "time": 0.3645,
+          "width": 390,
+          "height": 844
+        }
+      ]
+    },
+    {
+      "name": "Vídeos públicos idênticos aos originais brutos",
+      "passed": true
+    },
+    {
+      "name": "diagnostico: navegação e axe em 320px",
+      "passed": true,
+      "violations": 0
+    },
+    {
+      "name": "diagnostico: navegação e axe em 1440px",
+      "passed": true,
+      "violations": 0
+    },
+    {
+      "name": "relatorio: navegação e axe em 320px",
+      "passed": true,
+      "violations": 0
+    },
+    {
+      "name": "relatorio: navegação e axe em 1440px",
+      "passed": true,
+      "violations": 0
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "checks": 24,
+    "passed": 24,
+    "failed": 0,
+    "errors": 0
+  }
+}

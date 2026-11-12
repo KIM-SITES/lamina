@@ -1,0 +1,934 @@
+{
+  "date": "2026-11-11",
+  "route": "http://127.0.0.1:4322/estudos/etapa-4/",
+  "screenshots": [
+    {
+      "name": "desktop-hero",
+      "path": "docs/redirecao/etapa-4/evidencias/desktop-hero.png",
+      "preview": "public/studies/etapa-4/evidencias/desktop-hero.webp",
+      "width": 1440,
+      "height": 900,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "c49d56ff15b6fbd0853574e873c3ace5d0c2ce366ddf47c35c83e298ad56b657"
+    },
+    {
+      "name": "desktop-passagem",
+      "path": "docs/redirecao/etapa-4/evidencias/desktop-passagem.png",
+      "preview": "public/studies/etapa-4/evidencias/desktop-passagem.webp",
+      "width": 1440,
+      "height": 900,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "04bb5b51f84ce2a2e7fefca732c4a02faeb57d0da88c8a8cea73c352c3a5a8d4"
+    },
+    {
+      "name": "desktop-servicos",
+      "path": "docs/redirecao/etapa-4/evidencias/desktop-servicos.png",
+      "preview": "public/studies/etapa-4/evidencias/desktop-servicos.webp",
+      "width": 1440,
+      "height": 900,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "1ba1ed129d51d0d77a5ebc4c15e318869804bcc03772cb1ee781d258f6e8f52d"
+    },
+    {
+      "name": "desktop-ambiente-luz",
+      "path": "docs/redirecao/etapa-4/evidencias/desktop-ambiente-luz.png",
+      "preview": "public/studies/etapa-4/evidencias/desktop-ambiente-luz.webp",
+      "width": 1440,
+      "height": 1162,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "339ea4dc379dbc2d29b78a4b73e5d59280ba694ee536ecb33e20c929e011d239"
+    },
+    {
+      "name": "desktop-ambiente-jardim",
+      "path": "docs/redirecao/etapa-4/evidencias/desktop-ambiente-jardim.png",
+      "preview": "public/studies/etapa-4/evidencias/desktop-ambiente-jardim.webp",
+      "width": 1440,
+      "height": 1162,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "6f5fe833dc56d6eea9220606eef426f0e6d6b15d7397852984023321308d6fc1"
+    },
+    {
+      "name": "desktop-ambiente-noite",
+      "path": "docs/redirecao/etapa-4/evidencias/desktop-ambiente-noite.png",
+      "preview": "public/studies/etapa-4/evidencias/desktop-ambiente-noite.webp",
+      "width": 1440,
+      "height": 1162,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "c81f7252902d3d9f27e3b6e1524d086b911a867fbaa2729717a102cbe836e15f"
+    },
+    {
+      "name": "desktop-materiais",
+      "path": "docs/redirecao/etapa-4/evidencias/desktop-materiais.png",
+      "preview": "public/studies/etapa-4/evidencias/desktop-materiais.webp",
+      "width": 1440,
+      "height": 940,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "7914ae7157ef3853c31c17608275d22bb8f125f611c92004423052e6e1899b74"
+    },
+    {
+      "name": "desktop-processo",
+      "path": "docs/redirecao/etapa-4/evidencias/desktop-processo.png",
+      "preview": "public/studies/etapa-4/evidencias/desktop-processo.webp",
+      "width": 1440,
+      "height": 1084,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "3f1b786108e1a6fe0713e4aa245b5a203a0866f3bc81959d257f6b0c702ca135"
+    },
+    {
+      "name": "desktop-orcamento",
+      "path": "docs/redirecao/etapa-4/evidencias/desktop-orcamento.png",
+      "preview": "public/studies/etapa-4/evidencias/desktop-orcamento.webp",
+      "width": 1440,
+      "height": 650,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "6fe7cfb3a85a1fe8732687bd2ac2fc7ec02447c7eef8c4cff4b7cd23e48c79e5"
+    },
+    {
+      "name": "desktop-encerramento",
+      "path": "docs/redirecao/etapa-4/evidencias/desktop-encerramento.png",
+      "preview": "public/studies/etapa-4/evidencias/desktop-encerramento.webp",
+      "width": 1440,
+      "height": 678,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "70c145afa88df728521f9a958d7d8edb0d1424d5f0cc09bc844392e0322e8d13"
+    },
+    {
+      "name": "desktop-marca",
+      "path": "docs/redirecao/etapa-4/evidencias/desktop-marca.png",
+      "preview": "public/studies/etapa-4/evidencias/desktop-marca.webp",
+      "width": 1440,
+      "height": 656,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "8d85e9add11b5e4a3a980c4b427917e89ff70f7cc1aae513c1419a725eff46d9"
+    },
+    {
+      "name": "desktop-resumo",
+      "path": "docs/redirecao/etapa-4/evidencias/desktop-resumo.png",
+      "preview": "public/studies/etapa-4/evidencias/desktop-resumo.webp",
+      "width": 1440,
+      "height": 820,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "72c031a7ea9bd032375a53362ea965ef293c554e44b4b7c81f51846c56fcb345"
+    },
+    {
+      "name": "desktop-completa",
+      "path": "docs/redirecao/etapa-4/evidencias/desktop-completa.png",
+      "preview": "public/studies/etapa-4/evidencias/desktop-completa.webp",
+      "width": 1440,
+      "height": 7340,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "fullPage": true,
+      "reducedMotion": true,
+      "sha256": "d6f01e7076f8f5337f27f34c6107491253acb9870d79d0f1c70ee9c318636f26"
+    },
+    {
+      "name": "desktop-fallback",
+      "path": "docs/redirecao/etapa-4/evidencias/desktop-fallback.png",
+      "preview": "public/studies/etapa-4/evidencias/desktop-fallback.webp",
+      "width": 1440,
+      "height": 900,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "373434747fd6ea634d00412723606bdaa8ff1df102a936fe3f3abf4ea4286b00"
+    },
+    {
+      "name": "tablet-hero",
+      "path": "docs/redirecao/etapa-4/evidencias/tablet-hero.png",
+      "preview": "public/studies/etapa-4/evidencias/tablet-hero.webp",
+      "width": 820,
+      "height": 1180,
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "ad328c920a8c7be9cd1be2e5b1df48484dbfdb81e24eb9077668428e182d7bc9"
+    },
+    {
+      "name": "tablet-passagem",
+      "path": "docs/redirecao/etapa-4/evidencias/tablet-passagem.png",
+      "preview": "public/studies/etapa-4/evidencias/tablet-passagem.webp",
+      "width": 820,
+      "height": 1180,
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "30eb083b59aa518d9317e415df8074ce749058fe61774074b5bde08562c51e9b"
+    },
+    {
+      "name": "tablet-servicos",
+      "path": "docs/redirecao/etapa-4/evidencias/tablet-servicos.png",
+      "preview": "public/studies/etapa-4/evidencias/tablet-servicos.webp",
+      "width": 820,
+      "height": 1180,
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "9f525a47214af3741ffeb0ad7c215ec56d3a5a5b88acb92e1bd907354e5c723a"
+    },
+    {
+      "name": "tablet-ambiente-luz",
+      "path": "docs/redirecao/etapa-4/evidencias/tablet-ambiente-luz.png",
+      "preview": "public/studies/etapa-4/evidencias/tablet-ambiente-luz.webp",
+      "width": 820,
+      "height": 998,
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "9298cc6d6d7b50e6def06bb513d1f5fe885b0060ddf23d0c8304b36571e98993"
+    },
+    {
+      "name": "tablet-ambiente-jardim",
+      "path": "docs/redirecao/etapa-4/evidencias/tablet-ambiente-jardim.png",
+      "preview": "public/studies/etapa-4/evidencias/tablet-ambiente-jardim.webp",
+      "width": 820,
+      "height": 998,
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "5469b466247b2c749f108c15376a4500162a587bb68df298074c4d75364309f2"
+    },
+    {
+      "name": "tablet-ambiente-noite",
+      "path": "docs/redirecao/etapa-4/evidencias/tablet-ambiente-noite.png",
+      "preview": "public/studies/etapa-4/evidencias/tablet-ambiente-noite.webp",
+      "width": 820,
+      "height": 998,
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "464d81273b25e7620953bce39e733a7d79cf3c840139eabc794061994f6656b2"
+    },
+    {
+      "name": "tablet-materiais",
+      "path": "docs/redirecao/etapa-4/evidencias/tablet-materiais.png",
+      "preview": "public/studies/etapa-4/evidencias/tablet-materiais.webp",
+      "width": 820,
+      "height": 807,
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "3b8a6e97f0b71f947c8f11ff9ca0b164cd3491b935aaa5ceb06ebe87ec30d8e7"
+    },
+    {
+      "name": "tablet-processo",
+      "path": "docs/redirecao/etapa-4/evidencias/tablet-processo.png",
+      "preview": "public/studies/etapa-4/evidencias/tablet-processo.webp",
+      "width": 820,
+      "height": 1114,
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "4a13c40e903247769ca2686022e56e116b5a413d7b3005d9f459a16e11dd301c"
+    },
+    {
+      "name": "tablet-orcamento",
+      "path": "docs/redirecao/etapa-4/evidencias/tablet-orcamento.png",
+      "preview": "public/studies/etapa-4/evidencias/tablet-orcamento.webp",
+      "width": 820,
+      "height": 677,
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "c3b6c8fe67a793da009eb47671e83481bb50382c4886fb2871ffe94b63ffa8f5"
+    },
+    {
+      "name": "tablet-encerramento",
+      "path": "docs/redirecao/etapa-4/evidencias/tablet-encerramento.png",
+      "preview": "public/studies/etapa-4/evidencias/tablet-encerramento.webp",
+      "width": 820,
+      "height": 541,
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "f66ca16458b880826b26102784728401dd3bae7a4515b8de2f397519ee8fcc9b"
+    },
+    {
+      "name": "tablet-marca",
+      "path": "docs/redirecao/etapa-4/evidencias/tablet-marca.png",
+      "preview": "public/studies/etapa-4/evidencias/tablet-marca.webp",
+      "width": 820,
+      "height": 507,
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "3f28c20da45db571f2e17d37485bda43a37f4e1161d7c38a35894daf1815666b"
+    },
+    {
+      "name": "tablet-resumo",
+      "path": "docs/redirecao/etapa-4/evidencias/tablet-resumo.png",
+      "preview": "public/studies/etapa-4/evidencias/tablet-resumo.webp",
+      "width": 820,
+      "height": 868,
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "29719c22ebb52eb446c034d9dcf210df005dd8b6168b0bfaf5417827eae1758e"
+    },
+    {
+      "name": "tablet-completa",
+      "path": "docs/redirecao/etapa-4/evidencias/tablet-completa.png",
+      "preview": "public/studies/etapa-4/evidencias/tablet-completa.webp",
+      "width": 820,
+      "height": 6872,
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "fullPage": true,
+      "reducedMotion": true,
+      "sha256": "472c7e00bb7ee5be9303b258ad850400c183fe9535e382c735f5200e6b879960"
+    },
+    {
+      "name": "tablet-fallback",
+      "path": "docs/redirecao/etapa-4/evidencias/tablet-fallback.png",
+      "preview": "public/studies/etapa-4/evidencias/tablet-fallback.webp",
+      "width": 820,
+      "height": 1180,
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "262c99ca1a66a74c32c320e06be5574943124d1fbdfbf62ce69e1e30a87985ad"
+    },
+    {
+      "name": "mobile-hero",
+      "path": "docs/redirecao/etapa-4/evidencias/mobile-hero.png",
+      "preview": "public/studies/etapa-4/evidencias/mobile-hero.webp",
+      "width": 390,
+      "height": 844,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "5a3e77b22d392c1f4f33611f8e0c68a604d3b6f829b71ba113237fe5d77519d5"
+    },
+    {
+      "name": "mobile-passagem",
+      "path": "docs/redirecao/etapa-4/evidencias/mobile-passagem.png",
+      "preview": "public/studies/etapa-4/evidencias/mobile-passagem.webp",
+      "width": 390,
+      "height": 844,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "679f0961dcd1aa5a9fed6d1102baabebc5e839ce3bf04207b8807dba5cd96401"
+    },
+    {
+      "name": "mobile-servicos",
+      "path": "docs/redirecao/etapa-4/evidencias/mobile-servicos.png",
+      "preview": "public/studies/etapa-4/evidencias/mobile-servicos.webp",
+      "width": 390,
+      "height": 844,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "000d8040ac7974a0b1667ca57d1490b3c7c82546ed447c7aa570b817887d0160"
+    },
+    {
+      "name": "mobile-ambiente-luz",
+      "path": "docs/redirecao/etapa-4/evidencias/mobile-ambiente-luz.png",
+      "preview": "public/studies/etapa-4/evidencias/mobile-ambiente-luz.webp",
+      "width": 390,
+      "height": 1277,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "d8d1f927c50af81ceee60992b896d08259b41f6fb20e6de090554d5a2f55d441"
+    },
+    {
+      "name": "mobile-ambiente-jardim",
+      "path": "docs/redirecao/etapa-4/evidencias/mobile-ambiente-jardim.png",
+      "preview": "public/studies/etapa-4/evidencias/mobile-ambiente-jardim.webp",
+      "width": 390,
+      "height": 1277,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "b456d3728d147463e350fe40db6086e7d76ee707b3416a4d1a9ff86f7b9f8b7a"
+    },
+    {
+      "name": "mobile-ambiente-noite",
+      "path": "docs/redirecao/etapa-4/evidencias/mobile-ambiente-noite.png",
+      "preview": "public/studies/etapa-4/evidencias/mobile-ambiente-noite.webp",
+      "width": 390,
+      "height": 1277,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "937fa7adf9f0302e4fbfa32d84a0ccd3bcbaa06582b9ef7872f6b0b643c7f006"
+    },
+    {
+      "name": "mobile-materiais",
+      "path": "docs/redirecao/etapa-4/evidencias/mobile-materiais.png",
+      "preview": "public/studies/etapa-4/evidencias/mobile-materiais.webp",
+      "width": 390,
+      "height": 1089,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "c94e6f1f4931e546ae0ba5748966332421a834a51e28e0ede94d85167a282427"
+    },
+    {
+      "name": "mobile-processo",
+      "path": "docs/redirecao/etapa-4/evidencias/mobile-processo.png",
+      "preview": "public/studies/etapa-4/evidencias/mobile-processo.webp",
+      "width": 390,
+      "height": 1309,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "acd52cc5c8f90b8d4cda150d4a8ce9f5153a4d502efec51aeedb8f0d33635d55"
+    },
+    {
+      "name": "mobile-orcamento",
+      "path": "docs/redirecao/etapa-4/evidencias/mobile-orcamento.png",
+      "preview": "public/studies/etapa-4/evidencias/mobile-orcamento.webp",
+      "width": 390,
+      "height": 850,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "f8f04f62f1480b4a0d178e55178e67096bd6fa7df99667d08d0e7e814f02e0c8"
+    },
+    {
+      "name": "mobile-encerramento",
+      "path": "docs/redirecao/etapa-4/evidencias/mobile-encerramento.png",
+      "preview": "public/studies/etapa-4/evidencias/mobile-encerramento.webp",
+      "width": 390,
+      "height": 565,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "3d40722dd5e6a84888a86fddd4ace7cbf3222afa01253c2666b9a750bc8d146a"
+    },
+    {
+      "name": "mobile-marca",
+      "path": "docs/redirecao/etapa-4/evidencias/mobile-marca.png",
+      "preview": "public/studies/etapa-4/evidencias/mobile-marca.webp",
+      "width": 390,
+      "height": 460,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "fe65a9c05049214a8252383e0dede559b3d46ef6c1e0ab75a561d38229908326"
+    },
+    {
+      "name": "mobile-resumo",
+      "path": "docs/redirecao/etapa-4/evidencias/mobile-resumo.png",
+      "preview": "public/studies/etapa-4/evidencias/mobile-resumo.webp",
+      "width": 390,
+      "height": 1041,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "5c3a7f83f2c5d240884388b05e05f3224e60d91e6a9ecce7efc495be22057488"
+    },
+    {
+      "name": "mobile-completa",
+      "path": "docs/redirecao/etapa-4/evidencias/mobile-completa.png",
+      "preview": "public/studies/etapa-4/evidencias/mobile-completa.webp",
+      "width": 390,
+      "height": 7905,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "fullPage": true,
+      "reducedMotion": true,
+      "sha256": "1ec75f8d71c8a4ad0298dea5f674bde4149a84076d6b40b48758b0954aa403a0"
+    },
+    {
+      "name": "mobile-fallback",
+      "path": "docs/redirecao/etapa-4/evidencias/mobile-fallback.png",
+      "preview": "public/studies/etapa-4/evidencias/mobile-fallback.webp",
+      "width": 390,
+      "height": 844,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "27f929300d867b98063e34eef25dbbec0d65440fd078b71f22310c22c2432466"
+    },
+    {
+      "name": "small-ambientes",
+      "path": "docs/redirecao/etapa-4/evidencias/small-ambientes.png",
+      "preview": "public/studies/etapa-4/evidencias/small-ambientes.webp",
+      "width": 320,
+      "height": 1217,
+      "viewport": {
+        "width": 320,
+        "height": 700
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "c599eaadea91f045265e8d39ad0f3955ca009edf95a8186011a343f5ea6f525a"
+    },
+    {
+      "name": "small-encerramento",
+      "path": "docs/redirecao/etapa-4/evidencias/small-encerramento.png",
+      "preview": "public/studies/etapa-4/evidencias/small-encerramento.webp",
+      "width": 320,
+      "height": 987,
+      "viewport": {
+        "width": 320,
+        "height": 700
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "7da615638958f3ace6e8a106b308ae5d0f3f9d90659d416f98b775e6ccb1f775"
+    },
+    {
+      "name": "wide-ambientes",
+      "path": "docs/redirecao/etapa-4/evidencias/wide-ambientes.png",
+      "preview": "public/studies/etapa-4/evidencias/wide-ambientes.webp",
+      "width": 1920,
+      "height": 1364,
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "42dd4a028c72eeaa48562fe91c1f5b9a3c52250d813c55b48110f93bc057449a"
+    },
+    {
+      "name": "wide-encerramento",
+      "path": "docs/redirecao/etapa-4/evidencias/wide-encerramento.png",
+      "preview": "public/studies/etapa-4/evidencias/wide-encerramento.webp",
+      "width": 1920,
+      "height": 1451,
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "35ffa864aa76c0d3fb744ed1df7c56db602659d62c2049e08356092aaab7912e"
+    },
+    {
+      "name": "tablet-zoom-200",
+      "path": "docs/redirecao/etapa-4/evidencias/tablet-zoom-200.png",
+      "preview": "public/studies/etapa-4/evidencias/tablet-zoom-200.webp",
+      "width": 820,
+      "height": 1180,
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "fullPage": false,
+      "reducedMotion": false,
+      "sha256": "fa427d56904b72641acc3e73e6efa037dc9aea6c9412c129d79ecc7752af11d4"
+    }
+  ],
+  "videos": [
+    {
+      "name": "desktop",
+      "path": "docs/redirecao/etapa-4/videos/percurso-desktop.webm",
+      "bytes": 13604552,
+      "width": 1440,
+      "height": 900,
+      "edited": false,
+      "sha256": "3dc060fac3037731316eabf483043f3a38026565aa9852dbc3d94caaf631f9cd",
+      "interaction": "Wheel nativo e cliques reais automatizados no Chromium.",
+      "durationSeconds": 28.32,
+      "sampledFrames": {
+        "count": 16,
+        "intervalSeconds": 2,
+        "path": "docs/redirecao/etapa-4/evidencias/video-desktop-sequencia.png",
+        "interpolated": false,
+        "files": [
+          "docs/redirecao/etapa-4/quadros-desktop/final-1794426764861-01.png",
+          "docs/redirecao/etapa-4/quadros-desktop/final-1794426764861-02.png",
+          "docs/redirecao/etapa-4/quadros-desktop/final-1794426764861-03.png",
+          "docs/redirecao/etapa-4/quadros-desktop/final-1794426764861-04.png",
+          "docs/redirecao/etapa-4/quadros-desktop/final-1794426764861-05.png",
+          "docs/redirecao/etapa-4/quadros-desktop/final-1794426764861-06.png",
+          "docs/redirecao/etapa-4/quadros-desktop/final-1794426764861-07.png",
+          "docs/redirecao/etapa-4/quadros-desktop/final-1794426764861-08.png",
+          "docs/redirecao/etapa-4/quadros-desktop/final-1794426764861-09.png",
+          "docs/redirecao/etapa-4/quadros-desktop/final-1794426764861-10.png",
+          "docs/redirecao/etapa-4/quadros-desktop/final-1794426764861-11.png",
+          "docs/redirecao/etapa-4/quadros-desktop/final-1794426764861-12.png",
+          "docs/redirecao/etapa-4/quadros-desktop/final-1794426764861-13.png",
+          "docs/redirecao/etapa-4/quadros-desktop/final-1794426764861-14.png",
+          "docs/redirecao/etapa-4/quadros-desktop/final-1794426764861-15.png",
+          "docs/redirecao/etapa-4/quadros-desktop/final-1794426764861-16.png"
+        ]
+      }
+    },
+    {
+      "name": "mobile",
+      "path": "docs/redirecao/etapa-4/videos/percurso-mobile.webm",
+      "bytes": 4118186,
+      "width": 390,
+      "height": 844,
+      "edited": false,
+      "sha256": "271e06d89350b17a8e5485066ca4c7e76910c129be7f288b99db2405f4677fc1",
+      "interaction": "Gestos de toque CDP e taps reais automatizados no Chromium.",
+      "durationSeconds": 29.12,
+      "sampledFrames": {
+        "count": 16,
+        "intervalSeconds": 2,
+        "path": "docs/redirecao/etapa-4/evidencias/video-mobile-sequencia.png",
+        "interpolated": false,
+        "files": [
+          "docs/redirecao/etapa-4/quadros-mobile/final-1794426767485-01.png",
+          "docs/redirecao/etapa-4/quadros-mobile/final-1794426767485-02.png",
+          "docs/redirecao/etapa-4/quadros-mobile/final-1794426767485-03.png",
+          "docs/redirecao/etapa-4/quadros-mobile/final-1794426767485-04.png",
+          "docs/redirecao/etapa-4/quadros-mobile/final-1794426767485-05.png",
+          "docs/redirecao/etapa-4/quadros-mobile/final-1794426767485-06.png",
+          "docs/redirecao/etapa-4/quadros-mobile/final-1794426767485-07.png",
+          "docs/redirecao/etapa-4/quadros-mobile/final-1794426767485-08.png",
+          "docs/redirecao/etapa-4/quadros-mobile/final-1794426767485-09.png",
+          "docs/redirecao/etapa-4/quadros-mobile/final-1794426767485-10.png",
+          "docs/redirecao/etapa-4/quadros-mobile/final-1794426767485-11.png",
+          "docs/redirecao/etapa-4/quadros-mobile/final-1794426767485-12.png",
+          "docs/redirecao/etapa-4/quadros-mobile/final-1794426767485-13.png",
+          "docs/redirecao/etapa-4/quadros-mobile/final-1794426767485-14.png",
+          "docs/redirecao/etapa-4/quadros-mobile/final-1794426767485-15.png",
+          "docs/redirecao/etapa-4/quadros-mobile/final-1794426767485-16.png"
+        ]
+      }
+    }
+  ],
+  "reviewImages": {
+    "desktop-hero": {
+      "width": 1200,
+      "height": 750
+    },
+    "desktop-passagem": {
+      "width": 1200,
+      "height": 750
+    },
+    "desktop-servicos": {
+      "width": 1200,
+      "height": 750
+    },
+    "desktop-ambiente-luz": {
+      "width": 1200,
+      "height": 968
+    },
+    "desktop-ambiente-jardim": {
+      "width": 1200,
+      "height": 968
+    },
+    "desktop-ambiente-noite": {
+      "width": 1200,
+      "height": 968
+    },
+    "desktop-materiais": {
+      "width": 1200,
+      "height": 783
+    },
+    "desktop-processo": {
+      "width": 1200,
+      "height": 903
+    },
+    "desktop-orcamento": {
+      "width": 1200,
+      "height": 542
+    },
+    "desktop-encerramento": {
+      "width": 1200,
+      "height": 565
+    },
+    "desktop-marca": {
+      "width": 1200,
+      "height": 547
+    },
+    "desktop-resumo": {
+      "width": 1200,
+      "height": 683
+    },
+    "desktop-completa": {
+      "width": 840,
+      "height": 4282
+    },
+    "desktop-fallback": {
+      "width": 1200,
+      "height": 750
+    },
+    "tablet-hero": {
+      "width": 820,
+      "height": 1180
+    },
+    "tablet-passagem": {
+      "width": 820,
+      "height": 1180
+    },
+    "tablet-servicos": {
+      "width": 820,
+      "height": 1180
+    },
+    "tablet-ambiente-luz": {
+      "width": 820,
+      "height": 998
+    },
+    "tablet-ambiente-jardim": {
+      "width": 820,
+      "height": 998
+    },
+    "tablet-ambiente-noite": {
+      "width": 820,
+      "height": 998
+    },
+    "tablet-materiais": {
+      "width": 820,
+      "height": 807
+    },
+    "tablet-processo": {
+      "width": 820,
+      "height": 1114
+    },
+    "tablet-orcamento": {
+      "width": 820,
+      "height": 677
+    },
+    "tablet-encerramento": {
+      "width": 820,
+      "height": 541
+    },
+    "tablet-marca": {
+      "width": 820,
+      "height": 507
+    },
+    "tablet-resumo": {
+      "width": 820,
+      "height": 868
+    },
+    "tablet-completa": {
+      "width": 820,
+      "height": 6872
+    },
+    "tablet-fallback": {
+      "width": 820,
+      "height": 1180
+    },
+    "mobile-hero": {
+      "width": 390,
+      "height": 844
+    },
+    "mobile-passagem": {
+      "width": 390,
+      "height": 844
+    },
+    "mobile-servicos": {
+      "width": 390,
+      "height": 844
+    },
+    "mobile-ambiente-luz": {
+      "width": 390,
+      "height": 1277
+    },
+    "mobile-ambiente-jardim": {
+      "width": 390,
+      "height": 1277
+    },
+    "mobile-ambiente-noite": {
+      "width": 390,
+      "height": 1277
+    },
+    "mobile-materiais": {
+      "width": 390,
+      "height": 1089
+    },
+    "mobile-processo": {
+      "width": 390,
+      "height": 1309
+    },
+    "mobile-orcamento": {
+      "width": 390,
+      "height": 850
+    },
+    "mobile-encerramento": {
+      "width": 390,
+      "height": 565
+    },
+    "mobile-marca": {
+      "width": 390,
+      "height": 460
+    },
+    "mobile-resumo": {
+      "width": 390,
+      "height": 1041
+    },
+    "mobile-completa": {
+      "width": 390,
+      "height": 7905
+    },
+    "mobile-fallback": {
+      "width": 390,
+      "height": 844
+    },
+    "small-ambientes": {
+      "width": 320,
+      "height": 1217
+    },
+    "small-encerramento": {
+      "width": 320,
+      "height": 987
+    },
+    "wide-ambientes": {
+      "width": 1200,
+      "height": 853
+    },
+    "wide-encerramento": {
+      "width": 1200,
+      "height": 907
+    },
+    "tablet-zoom-200": {
+      "width": 820,
+      "height": 1180
+    },
+    "video-desktop-sequencia": {
+      "width": 1200,
+      "height": 1500
+    },
+    "video-mobile-sequencia": {
+      "width": 975,
+      "height": 1688
+    }
+  }
+}

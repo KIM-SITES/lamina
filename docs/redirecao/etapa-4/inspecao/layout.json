@@ -1,0 +1,114 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1440,
+    "sections": [
+      {
+        "id": "ambientes",
+        "height": 1160.8125
+      },
+      {
+        "id": "materiais",
+        "height": 939.4375
+      },
+      {
+        "id": "processo",
+        "height": 1109.640625
+      },
+      {
+        "id": "orcamento",
+        "height": 649.40625
+      },
+      {
+        "id": "closing",
+        "height": 1331.484375
+      }
+    ],
+    "broken": []
+  },
+  {
+    "width": 820,
+    "height": 1180,
+    "scrollWidth": 820,
+    "sections": [
+      {
+        "id": "ambientes",
+        "height": 996.5625
+      },
+      {
+        "id": "materiais",
+        "height": 806.578125
+      },
+      {
+        "id": "processo",
+        "height": 1195.890625
+      },
+      {
+        "id": "orcamento",
+        "height": 675.59375
+      },
+      {
+        "id": "closing",
+        "height": 1045.859375
+      }
+    ],
+    "broken": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390,
+    "sections": [
+      {
+        "id": "ambientes",
+        "height": 1276.0625
+      },
+      {
+        "id": "materiais",
+        "height": 1088.25
+      },
+      {
+        "id": "processo",
+        "height": 1350.40625
+      },
+      {
+        "id": "orcamento",
+        "height": 849.1875
+      },
+      {
+        "id": "closing",
+        "height": 1023.34375
+      }
+    ],
+    "broken": []
+  },
+  {
+    "width": 320,
+    "height": 700,
+    "scrollWidth": 320,
+    "sections": [
+      {
+        "id": "ambientes",
+        "height": 1215.640625
+      },
+      {
+        "id": "materiais",
+        "height": 1112
+      },
+      {
+        "id": "processo",
+        "height": 1423.8125
+      },
+      {
+        "id": "orcamento",
+        "height": 849.1875
+      },
+      {
+        "id": "closing",
+        "height": 985.703125
+      }
+    ],
+    "broken": []
+  }
+]

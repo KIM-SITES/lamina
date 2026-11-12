@@ -1,0 +1,397 @@
+{
+  "date": "2026-11-11",
+  "url": "http://127.0.0.1:4322/estudos/etapa-4/",
+  "javascript": [
+    {
+      "path": "_astro/etapa-4.astro_astro_type_script_index_0_lang.vuABgR4r.js",
+      "bytes": 3537,
+      "gzip": 1570
+    },
+    {
+      "path": "_astro/continuity.BpIOOeOw.js",
+      "bytes": 6098,
+      "gzip": 2618
+    },
+    {
+      "path": "_astro/ContinuityRenderer.-yPcNWOH.js",
+      "bytes": 7055,
+      "gzip": 2841
+    },
+    {
+      "path": "_astro/Triangle.cRlXukj0.js",
+      "bytes": 51720,
+      "gzip": 14460
+    },
+    {
+      "path": "_astro/preload-helper.DygEbaNj.js",
+      "bytes": 1761,
+      "gzip": 880
+    },
+    {
+      "path": "_astro/gsap.C2W12wA9.js",
+      "bytes": 70358,
+      "gzip": 27340
+    },
+    {
+      "path": "_astro/ScrollTrigger.Dg2oAicK.js",
+      "bytes": 42839,
+      "gzip": 17444
+    },
+    {
+      "path": "_astro/quote.CaCKXksw.js",
+      "bytes": 2282,
+      "gzip": 1129
+    }
+  ],
+  "styles": [
+    {
+      "path": "/_astro/services.DwCzaJSd.css",
+      "bytes": 15177,
+      "gzip": 3825
+    },
+    {
+      "path": "/_astro/atmospheres.DKSb4Cqs.css",
+      "bytes": 18167,
+      "gzip": 3769
+    },
+    {
+      "path": "/_astro/etapa-4.DUqU6L3y.css",
+      "bytes": 8010,
+      "gzip": 1770
+    }
+  ],
+  "images": [
+    {
+      "name": "depois-do-sol-1080.webp",
+      "bytes": 147864
+    },
+    {
+      "name": "depois-do-sol-1440.webp",
+      "bytes": 246754
+    },
+    {
+      "name": "depois-do-sol-720.webp",
+      "bytes": 68886
+    },
+    {
+      "name": "depois-do-sol-vertical.webp",
+      "bytes": 111954
+    },
+    {
+      "name": "jardim-adentro-1080.webp",
+      "bytes": 213130
+    },
+    {
+      "name": "jardim-adentro-1440.webp",
+      "bytes": 341558
+    },
+    {
+      "name": "jardim-adentro-720.webp",
+      "bytes": 105566
+    },
+    {
+      "name": "jardim-adentro-vertical.webp",
+      "bytes": 173762
+    },
+    {
+      "name": "luz-aberta-1080.webp",
+      "bytes": 186512
+    },
+    {
+      "name": "luz-aberta-1440.webp",
+      "bytes": 297600
+    },
+    {
+      "name": "luz-aberta-720.webp",
+      "bytes": 89878
+    },
+    {
+      "name": "luz-aberta-vertical.webp",
+      "bytes": 167820
+    },
+    {
+      "name": "materia-e-agua-1080.webp",
+      "bytes": 176358
+    },
+    {
+      "name": "materia-e-agua-1440.webp",
+      "bytes": 270354
+    },
+    {
+      "name": "materia-e-agua-720.webp",
+      "bytes": 91828
+    },
+    {
+      "name": "materia-e-agua-vertical.webp",
+      "bytes": 155622
+    },
+    {
+      "name": "patio-final-1080.webp",
+      "bytes": 199478
+    },
+    {
+      "name": "patio-final-1440.webp",
+      "bytes": 315980
+    },
+    {
+      "name": "patio-final-720.webp",
+      "bytes": 95688
+    },
+    {
+      "name": "patio-final-vertical.webp",
+      "bytes": 182290
+    }
+  ],
+  "totals": {
+    "javascript": 185650,
+    "javascriptGzip": 68282,
+    "css": 41354,
+    "cssGzip": 9364,
+    "imageVariants": 20,
+    "imageVariantsBytes": 3638882
+  },
+  "loads": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "initial": {
+        "lcp": 688,
+        "cls": 0,
+        "resources": [
+          {
+            "name": "/fonts/syne.woff2",
+            "type": "link",
+            "transferSize": 34908,
+            "decodedBodySize": 34608
+          },
+          {
+            "name": "/fonts/instrument-sans.woff2",
+            "type": "link",
+            "transferSize": 30392,
+            "decodedBodySize": 30092
+          },
+          {
+            "name": "/_astro/services.DwCzaJSd.css",
+            "type": "link",
+            "transferSize": 4125,
+            "decodedBodySize": 15177
+          },
+          {
+            "name": "/_astro/atmospheres.DKSb4Cqs.css",
+            "type": "link",
+            "transferSize": 4069,
+            "decodedBodySize": 18167
+          },
+          {
+            "name": "/_astro/etapa-4.DUqU6L3y.css",
+            "type": "link",
+            "transferSize": 2070,
+            "decodedBodySize": 8010
+          },
+          {
+            "name": "/studies/etapa-1/superficie-desktop.webp",
+            "type": "img",
+            "transferSize": 364372,
+            "decodedBodySize": 364072
+          },
+          {
+            "name": "/_astro/etapa-4.astro_astro_type_script_index_0_lang.vuABgR4r.js",
+            "type": "script",
+            "transferSize": 1870,
+            "decodedBodySize": 3537
+          },
+          {
+            "name": "/_astro/continuity.BpIOOeOw.js",
+            "type": "script",
+            "transferSize": 2918,
+            "decodedBodySize": 6098
+          },
+          {
+            "name": "/_astro/quote.CaCKXksw.js",
+            "type": "script",
+            "transferSize": 1429,
+            "decodedBodySize": 2282
+          },
+          {
+            "name": "/_astro/preload-helper.DygEbaNj.js",
+            "type": "script",
+            "transferSize": 1180,
+            "decodedBodySize": 1761
+          },
+          {
+            "name": "/_astro/gsap.C2W12wA9.js",
+            "type": "script",
+            "transferSize": 27640,
+            "decodedBodySize": 70358
+          },
+          {
+            "name": "/_astro/ScrollTrigger.Dg2oAicK.js",
+            "type": "script",
+            "transferSize": 17744,
+            "decodedBodySize": 42839
+          },
+          {
+            "name": "/favicon.svg",
+            "type": "other",
+            "transferSize": 555,
+            "decodedBodySize": 255
+          },
+          {
+            "name": "/_astro/ContinuityRenderer.-yPcNWOH.js",
+            "type": "script",
+            "transferSize": 3141,
+            "decodedBodySize": 7055
+          },
+          {
+            "name": "/_astro/Triangle.cRlXukj0.js",
+            "type": "script",
+            "transferSize": 14760,
+            "decodedBodySize": 51720
+          }
+        ],
+        "hero": "http://127.0.0.1:4322/studies/etapa-1/superficie-desktop.webp"
+      },
+      "afterScroll": {
+        "cls": 0,
+        "resources": 18
+      }
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "initial": {
+        "lcp": 236,
+        "cls": 0,
+        "resources": [
+          {
+            "name": "/fonts/syne.woff2",
+            "type": "link",
+            "transferSize": 34908,
+            "decodedBodySize": 34608
+          },
+          {
+            "name": "/fonts/instrument-sans.woff2",
+            "type": "link",
+            "transferSize": 30392,
+            "decodedBodySize": 30092
+          },
+          {
+            "name": "/_astro/services.DwCzaJSd.css",
+            "type": "link",
+            "transferSize": 4125,
+            "decodedBodySize": 15177
+          },
+          {
+            "name": "/_astro/atmospheres.DKSb4Cqs.css",
+            "type": "link",
+            "transferSize": 4069,
+            "decodedBodySize": 18167
+          },
+          {
+            "name": "/_astro/etapa-4.DUqU6L3y.css",
+            "type": "link",
+            "transferSize": 2070,
+            "decodedBodySize": 8010
+          },
+          {
+            "name": "/studies/etapa-2/superficie-vertical.webp",
+            "type": "img",
+            "transferSize": 230558,
+            "decodedBodySize": 230258
+          },
+          {
+            "name": "/_astro/etapa-4.astro_astro_type_script_index_0_lang.vuABgR4r.js",
+            "type": "script",
+            "transferSize": 1870,
+            "decodedBodySize": 3537
+          },
+          {
+            "name": "/_astro/continuity.BpIOOeOw.js",
+            "type": "script",
+            "transferSize": 2918,
+            "decodedBodySize": 6098
+          },
+          {
+            "name": "/_astro/quote.CaCKXksw.js",
+            "type": "script",
+            "transferSize": 1429,
+            "decodedBodySize": 2282
+          },
+          {
+            "name": "/studies/etapa-1/superficie-desktop.webp",
+            "type": "img",
+            "transferSize": 364372,
+            "decodedBodySize": 364072
+          },
+          {
+            "name": "/_astro/preload-helper.DygEbaNj.js",
+            "type": "script",
+            "transferSize": 1180,
+            "decodedBodySize": 1761
+          },
+          {
+            "name": "/_astro/gsap.C2W12wA9.js",
+            "type": "script",
+            "transferSize": 27640,
+            "decodedBodySize": 70358
+          },
+          {
+            "name": "/_astro/ScrollTrigger.Dg2oAicK.js",
+            "type": "script",
+            "transferSize": 17744,
+            "decodedBodySize": 42839
+          },
+          {
+            "name": "/favicon.svg",
+            "type": "other",
+            "transferSize": 555,
+            "decodedBodySize": 255
+          },
+          {
+            "name": "/_astro/ContinuityRenderer.-yPcNWOH.js",
+            "type": "script",
+            "transferSize": 3141,
+            "decodedBodySize": 7055
+          },
+          {
+            "name": "/_astro/Triangle.cRlXukj0.js",
+            "type": "script",
+            "transferSize": 14760,
+            "decodedBodySize": 51720
+          }
+        ],
+        "hero": "http://127.0.0.1:4322/studies/etapa-2/superficie-vertical.webp"
+      },
+      "afterScroll": {
+        "cls": 0,
+        "resources": 19
+      }
+    }
+  ],
+  "raf": {
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce GTX 1650 (0x00001F82) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "samples": 90,
+    "median": 16.699999999254942,
+    "p95": 17,
+    "graphics": {
+      "mode": "webgl",
+      "frames": 88,
+      "active": true,
+      "quality": 1,
+      "width": 1440,
+      "height": 900,
+      "renderMs": 0.4909090910699557
+    }
+  },
+  "notes": [
+    "Build de produção local, sem throttling de CPU ou rede. Não são métricas de campo.",
+    "Soma gzip por módulo alcançável, incluindo imports dinâmicos. Imagens, fontes, cabeçalhos e galeria de evidências são contados separadamente.",
+    "Amostras rAF não medem FPS realmente apresentado nem tempo de GPU. Dispositivo móvel é emulado no computador."
+  ]
+}

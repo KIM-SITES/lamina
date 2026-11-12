@@ -1,0 +1,18 @@
+/* R2 / M1 / T1: contain motion in the photograph, and make delayed selections legible. */
+.experience-refined .atmospheres { padding-top: var(--section-space); }
+.experience-refined .atmospheres-heading { padding-bottom: 40px; }
+.experience-refined .atmosphere-bottom { min-height: 94px; padding-block: 20px; }
+.experience-refined .atmosphere-photo { position: relative; }
+.experience-refined .gallery-feedback { position: absolute; top: 16px; left: 16px; z-index: 5; max-width: calc(100% - 32px); padding: 12px 16px; background: var(--deep); color: var(--light); font-size: 14px; box-shadow: 0 0 0 1px var(--light); }
+.experience-refined [data-atmosphere-select][data-pending] { border-top-style: dashed; }
+.experience-refined .gallery-image-unavailable { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; padding: 28px; color: var(--light); background: var(--deep); font-size: 16px; }
+.experience-refined .image-unavailable picture { visibility: hidden; }
+@container atmospheres (max-width: 699px) {
+  .experience-refined .atmospheres-heading { padding-bottom: 24px; }
+  .experience-refined .atmospheres-heading > div { margin-top: 22px; }
+  .experience-refined .illustration-note { margin-top: 14px; }
+  .experience-refined .atmosphere-navigation { padding-bottom: 12px; }
+  .experience-refined .atmosphere-photo { aspect-ratio: auto; height: clamp(300px, 114cqi, 520px); }
+  .experience-refined .atmosphere-bottom { min-height: 96px; }
+}
+@media (max-width: 699px) { .experience-refined .atmospheres { padding-top: 48px; } }

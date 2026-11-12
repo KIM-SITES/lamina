@@ -1,0 +1,16 @@
+/* R1 / R2: a closer commercial rhythm; destination remains measured by the optical renderer. */
+.experience-refined { --section-space: clamp(64px, 5.55vw, 106px); }
+.experience-refined .services-offer { padding-top: 60px; padding-bottom: 72px; gap: 6vw; }
+.experience-refined .service-manutencao { margin-top: 40px; }
+.experience-refined .service-detail p { font-size: 16px; line-height: 1.65; }
+.experience-refined .service-primary .service-detail p { font-size: 16px; }
+.experience-refined .service-primary .service-detail a { font-size: 14px; }
+@container services (max-width: 699px) {
+  .experience-refined .services-stage { padding-top: 28px; }
+  .experience-refined .services-heading { margin-top: 28px; }
+  .experience-refined .services-project { margin-top: 32px; }
+  .experience-refined .services-offer { padding-top: 42px; padding-bottom: 48px; }
+  .experience-refined .service-manutencao { margin-top: 32px; padding-top: 28px; }
+  .experience-refined .service-detail { margin-top: 18px; }
+  .experience-refined .service-detail a { margin-top: 16px; }
+}
