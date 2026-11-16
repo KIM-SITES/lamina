@@ -2,63 +2,43 @@ export const vertex = /* glsl */ `
 attribute vec2 uv;
 attribute vec2 position;
 varying vec2 vUv;
-void main() {
-  vUv = uv;
-  gl_Position = vec4(position, 0.0, 1.0);
-}`;
-
+void main(){vUv=uv;gl_Position=vec4(position,0.,1.);}
+`;
+// Não há uniform, cálculo ou caminho de execução para ponteiro, toque ou hover.
 export const fragment = /* glsl */ `
 precision highp float;
 uniform sampler2D tScene;
-uniform sampler2D tDetail;
-uniform vec2 uResolution;
+uniform vec4 uCrop;
+uniform vec3 uWater;
 uniform vec2 uImageSize;
-uniform vec2 uDetailSize;
-uniform vec2 uPointer;
-uniform float uPosition;
 uniform float uProgress;
-uniform float uTime;
-uniform float uEnergy;
-uniform float uStrength;
-uniform float uWidth;
-uniform float uWave;
-uniform float uHighlight;
+uniform float uDebug;
 varying vec2 vUv;
 
-vec2 cover(vec2 uv, vec2 imageSize) {
-  float screenAspect = uResolution.x / uResolution.y;
-  float imageAspect = imageSize.x / imageSize.y;
-  vec2 ratio = vec2(min(screenAspect / imageAspect, 1.0), min(imageAspect / screenAspect, 1.0));
-  return (uv - 0.5) * ratio + 0.5;
+void main(){
+  vec2 imageUv=vec2(uCrop.x+vUv.x*uCrop.z,1.-uCrop.y-(1.-vUv.y)*uCrop.w);
+  vec2 topUv=vec2(imageUv.x,1.-imageUv.y);
+  float boundary=uWater.y+max(0.,topUv.x-uWater.x)*uWater.z;
+  // Margem conservadora: a pedra seca e o pavilhão jamais entram na refração.
+  float water=smoothstep(boundary+.008,boundary+.025,topUv.y);
+  float phase=uProgress*3.14159265;
+  float activity=sin(phase)*sin(phase);
+  float front=mix(uWater.y+.035,.98,smoothstep(.05,.95,uProgress));
+  float band=exp(-pow((topUv.y-front)/.16,2.));
+  float wave1=sin(topUv.x*24.+topUv.y*11.-uProgress*7.);
+  float wave2=sin(topUv.x*41.-topUv.y*19.+uProgress*4.2);
+  vec2 normal=vec2(cos(topUv.x*24.+topUv.y*11.-uProgress*7.)*.48, wave1*.6+wave2*.28);
+  vec2 offset=normal*water*band*activity*.0032;
+  // Todas as amostras também ficam no lado aquático da margem.
+  float safe=max(0.,topUv.y-boundary-.025);
+  offset.y=clamp(offset.y,-safe*.4,safe*.4);
+  vec3 color=texture2D(tScene,clamp(imageUv+vec2(offset.x,-offset.y),.001,.999)).rgb;
+  float glint=max(0.,wave1*.6+wave2*.4)*water*band*activity;
+  color+=vec3(.025,.043,.027)*glint;
+  if(uDebug>.5) color=mix(color,vec3(.97,.3,.12),water*.6);
+  // A borda inferior, sempre na água, perde a ondulação ao encontrar a moldura.
+  float edge=activity*.008*(.55+.45*sin(vUv.x*11.+uProgress*3.));
+  float alpha=smoothstep(edge,edge+.0015,vUv.y);
+  gl_FragColor=vec4(color,alpha);
 }
-float waves(vec2 p) {
-  return sin(p.x * 16.0 + p.y * 9.0 + uTime * .9) * .45
-    + sin(p.x * 28.0 - p.y * 13.0 - uTime * .61) * .28
-    + sin(p.x * 53.0 + p.y * 19.0 + uTime * .37) * .17;
-}
-void main() {
-  vec2 uv = vUv;
-  float moving = .20 + .80 * uEnergy;
-  float front = mix(-.24, 1.26, uProgress);
-  float center = mix(uPosition, front, smoothstep(.0, .34, uProgress));
-  float boundary = center + waves(vec2(uv.x, 0.0)) * uWave * moving;
-  float width = mix(uWidth, .48, smoothstep(.05, .95, uProgress));
-  float distanceToLine = uv.y - boundary;
-  float envelope = exp(-pow(distanceToLine / width, 2.0) * 4.0);
-  float wave = waves(uv);
-  float pointerDistance = length((uv - uPointer) * vec2(uResolution.x / uResolution.y, 1.0));
-  float ripple = sin(pointerDistance * 42.0 - uTime * 2.2) * exp(-pointerDistance * 7.0) * uEnergy;
-  vec2 bend = vec2(wave * .32 + ripple * .5, sin(distanceToLine / width * 3.4) + wave * .38);
-  vec2 refracted = clamp(uv + bend * envelope * uStrength * (.7 + moving * .3), .001, .999);
-  vec2 sceneUv = cover(refracted, uImageSize);
-  // Mantém a mesma câmera e o mesmo recorte do <picture>, sem salto na inicialização.
-  vec3 scene = texture2D(tScene, sceneUv).rgb;
-  vec3 detail = texture2D(tDetail, cover(refracted, uDetailSize)).rgb;
-  // A água revela o detalhe a partir da lâmina; evita dupla exposição global.
-  float dissolve = 1.0 - smoothstep(front - .045, front + .045, uv.y + waves(uv) * .006);
-  vec3 color = mix(scene, detail, dissolve);
-  float crest = exp(-pow((distanceToLine + width * .26) / (width * .16), 2.0));
-  color += vec3(.60, .79, .69) * crest * uHighlight * (.45 + .55 * moving);
-  color *= 1.0 - envelope * .035;
-  gl_FragColor = vec4(color, 1.0);
-}`;
+`;

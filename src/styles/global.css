@@ -1,4 +1,8 @@
-@import "./base.css";
-@import "./surface.css";
-@import "./sections.css";
-@import "./responsive.css";
+@import './base.css';
+@import './surface.css';
+@import './services.css';
+@import './gallery.css';
+@import './materials.css';
+@import './process.css';
+@import './quote.css';
+@import './closing.css';

@@ -1,161 +1,84 @@
-import { readdir, stat, readFile, writeFile } from "node:fs/promises";
-import { gzipSync } from "node:zlib";
-import { launch, baseURL } from "./browser.mjs";
-
-async function files(directory, extension = "") {
-  const result = [];
-  for (const name of await readdir(directory)) {
-    const path = `${directory}/${name}`;
-    const info = await stat(path);
-    if (info.isDirectory()) result.push(...(await files(path, extension)));
-    else if (name.endsWith(extension)) {
-      const content = await readFile(path);
-      result.push({
-        path,
-        bytes: content.length,
-        gzip: gzipSync(content).length,
-      });
-    }
-  }
-  return result;
+import { readFile, readdir } from 'node:fs/promises';
+import { gzipSync } from 'node:zlib';
+import { resolve, relative } from 'node:path';
+import { launch } from './browser.mjs';
+const base = process.env.BASE_URL || 'http://127.0.0.1:4322';
+const html = await readFile('dist/index.html', 'utf8');
+const visited = new Set();
+async function module(path) {
+    path = resolve(path);
+    if (visited.has(path))
+        return;
+    visited.add(path);
+    const source = await readFile(path, 'utf8');
+    for (const match of source.matchAll(/["'\x60](?:\.\/|_astro\/)?([\w.-]+\.js)["'\x60]/g))
+        await module(resolve(path, '..', match[1]));
 }
-const scripts = await files("dist", ".js");
-const css = await files("dist", ".css");
-const images = await files("public/images");
-const fonts = await files("public/fonts");
-const report = {
-  environment: { os: process.platform, node: process.version, baseURL },
-  assets: {
-    scripts,
-    javascriptGzip: scripts.reduce((sum, file) => sum + file.gzip, 0),
-    css,
-    images,
-    fonts,
-    fontsBytes: fonts.reduce((sum, file) => sum + file.bytes, 0),
-  },
-  runs: [],
-  graphics: null,
-  limitations: [
-    "Laboratório local em Windows, não mede experiência de visitantes.",
-    "Viewport móvel e CPU/rede emulados não substituem aparelho físico.",
-    "Custo de renderer é CPU JavaScript, não tempo efetivo da GPU.",
-    "Amostra de rAF mede agendamento, não garante quadros apresentados na tela.",
-    "Gravação e screenshots introduzem custo extra e avisos ReadPixels.",
-  ],
-};
+for (const match of html.matchAll(/<script[^>]+src="(\/_astro\/[^"?]+\.js)"/g))
+    await module(`dist${match[1]}`);
+const javascript = await Promise.all([...visited].map(async (path) => { const data = await readFile(path); return { path: relative(resolve('dist'), path).replaceAll('\\', '/'), bytes: data.length, gzip: gzipSync(data).length }; }));
+const styles = [];
+for (const match of html.matchAll(/<link[^>]+href="(\/_astro\/[^"?]+\.css)"/g)) {
+    const data = await readFile(`dist${match[1]}`);
+    styles.push({ path: match[1], bytes: data.length, gzip: gzipSync(data).length });
+}
+const images = [];
+for (const name of await readdir('public/images')) {
+    const buffer = await readFile(`public/images/${name}`);
+    images.push({ name, bytes: buffer.length });
+}
+const totals = { javascript: javascript.reduce((n, f) => n + f.bytes, 0), javascriptGzip: javascript.reduce((n, f) => n + f.gzip, 0), css: styles.reduce((n, f) => n + f.bytes, 0), cssGzip: styles.reduce((n, f) => n + f.gzip, 0), imageVariants: images.length, imageVariantsBytes: images.reduce((n, f) => n + f.bytes, 0) };
+const report = { date: new Date().toISOString(), url: base + '/', javascript, styles, images, totals, loads: [], raf: {}, notes: ['Build de produção local, sem throttling de CPU ou rede. Não são métricas de campo.', 'Soma gzip por módulo alcançável, incluindo imports dinâmicos. Imagens, fontes, cabeçalhos e galeria de evidências são contados separadamente.', 'Amostras rAF não medem FPS realmente apresentado nem tempo de GPU. Dispositivo móvel é emulado no computador.'] };
 const browser = await launch();
-report.environment.browser = browser.version();
-for (let run = 0; run < 3; run++) {
-  const context = await browser.newContext({
-    viewport: { width: 390, height: 844 },
-    deviceScaleFactor: 2,
-    hasTouch: true,
-    isMobile: true,
-  });
-  const page = await context.newPage();
-  const cdp = await context.newCDPSession(page);
-  await cdp.send("Network.enable");
-  await cdp.send("Network.setCacheDisabled", { cacheDisabled: true });
-  await cdp.send("Network.emulateNetworkConditions", {
-    offline: false,
-    latency: 150,
-    downloadThroughput: 200 * 1024,
-    uploadThroughput: 90 * 1024,
-  });
-  await cdp.send("Emulation.setCPUThrottlingRate", { rate: 4 });
-  await page.addInitScript(() => {
-    window.__metrics = { lcp: 0, cls: 0, longTasks: 0 };
-    new PerformanceObserver((list) => {
-      for (const entry of list.getEntries())
-        window.__metrics.lcp = entry.startTime;
-    }).observe({ type: "largest-contentful-paint", buffered: true });
-    new PerformanceObserver((list) => {
-      for (const entry of list.getEntries())
-        if (!entry.hadRecentInput) window.__metrics.cls += entry.value;
-    }).observe({ type: "layout-shift", buffered: true });
-    new PerformanceObserver((list) => {
-      window.__metrics.longTasks += list.getEntries().length;
-    }).observe({ type: "longtask", buffered: true });
-  });
-  await page.goto(baseURL);
-  await page.waitForTimeout(5500);
-  const metrics = await page.evaluate(() => ({
-    ...window.__metrics,
-    fcp: performance.getEntriesByName("first-contentful-paint")[0]?.startTime,
-    navigation: performance.getEntriesByType("navigation").map((item) => ({
-      domContentLoaded: item.domContentLoadedEventEnd,
-      load: item.loadEventEnd,
-      bytes: item.transferSize,
-    })),
-    resources: performance.getEntriesByType("resource").map((item) => ({
-      name: item.name.split("/").pop(),
-      bytes: item.transferSize,
-      duration: item.duration,
-    })),
-    diagnostics: window.__lamina?.surface,
-  }));
-  report.runs.push(metrics);
-  await context.close();
-  console.log(
-    `Medição móvel ${run + 1}: LCP ${Math.round(metrics.lcp)} ms, CLS ${metrics.cls}`,
-  );
-}
-const context = await browser.newContext({
-  viewport: { width: 1440, height: 900 },
-});
-const page = await context.newPage();
-await page.goto(baseURL);
-await page.waitForTimeout(1500);
-report.graphics = await page.evaluate(async () => {
-  const gl = document.querySelector("canvas")?.getContext("webgl2");
-  const debug = gl?.getExtension("WEBGL_debug_renderer_info");
-  const adapter = debug
-    ? gl.getParameter(debug.UNMASKED_RENDERER_WEBGL)
-    : "indisponível";
-  const samples = [];
-  let previous = 0;
-  const start = performance.now();
-  await new Promise((resolve) => {
-    function step(now) {
-      if (previous) samples.push(now - previous);
-      previous = now;
-      const progress = Math.min(1, (now - start) / 2000);
-      scrollTo({
-        top: Math.sin(progress * Math.PI) * 500,
-        behavior: "instant",
-      });
-      if (progress < 1) requestAnimationFrame(step);
-      else resolve();
+try {
+    for (const [name, width, height] of [['desktop', 1440, 900], ['mobile', 390, 844]]) {
+        const context = await browser.newContext({ viewport: { width, height }, deviceScaleFactor: 1, isMobile: name === 'mobile', hasTouch: name === 'mobile' });
+        const page = await context.newPage();
+        await page.addInitScript(() => {
+            window.__laminaPerf = { lcp: 0, cls: 0 };
+            new PerformanceObserver(list => {
+                for (const e of list.getEntries())
+                    window.__laminaPerf.lcp = e.startTime;
+            }).observe({ type: 'largest-contentful-paint', buffered: true });
+            new PerformanceObserver(list => {
+                for (const e of list.getEntries())
+                    if (!e.hadRecentInput)
+                        window.__laminaPerf.cls += e.value;
+            }).observe({ type: 'layout-shift', buffered: true });
+        });
+        await page.goto(report.url);
+        await page.evaluate(() => document.fonts.ready);
+        await page.waitForFunction(() => window.__laminaContinuity?.graphics.mode === 'webgl');
+        await page.waitForTimeout(1000);
+        const initial = await page.evaluate(() => ({ lcp: window.__laminaPerf.lcp, cls: window.__laminaPerf.cls, resources: performance.getEntriesByType('resource').map(e => ({ name: new URL(e.name).pathname, type: e.initiatorType, transferSize: e.transferSize, decodedBodySize: e.decodedBodySize })), hero: document.querySelector('[data-scene-source]').currentSrc }));
+        for (const selector of ['#ambientes', '#materiais', '#processo', '#orcamento', '.closing']) {
+            await page.locator(selector).evaluate(e => scrollTo(0, scrollY + e.getBoundingClientRect().top));
+            await page.waitForTimeout(200);
+        }
+        const final = await page.evaluate(() => ({ cls: window.__laminaPerf.cls, resources: performance.getEntriesByType('resource').length }));
+        report.loads.push({ name, viewport: { width, height }, initial, afterScroll: final });
+        await context.close();
     }
-    requestAnimationFrame(step);
-  });
-  samples.sort((a, b) => a - b);
-  const at = (quantile) =>
-    samples[
-      Math.min(samples.length - 1, Math.floor(samples.length * quantile))
-    ];
-  return {
-    adapter,
-    samples: samples.length,
-    rafIntervalMedian: at(0.5),
-    rafIntervalP95: at(0.95),
-    diagnostics: window.__lamina?.surface,
-  };
-});
-await context.close();
-await browser.close();
-await writeFile(
-  "docs/evidencias/performance.json",
-  JSON.stringify(report, null, 2),
-);
-console.log(
-  JSON.stringify(
-    {
-      javascriptGzip: report.assets.javascriptGzip,
-      fontsBytes: report.assets.fontsBytes,
-      graphics: report.graphics,
-    },
-    null,
-    2,
-  ),
-);
+    const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+    await page.goto(report.url);
+    await page.waitForFunction(() => window.__laminaContinuity?.graphics.mode === 'webgl');
+    report.raf = await page.evaluate(async () => {
+        const canvas = document.querySelector('canvas'), gl = canvas.getContext('webgl2') || canvas.getContext('webgl'), extension = gl.getExtension('WEBGL_debug_renderer_info');
+        const intervals = [];
+        const h = document.querySelector('.hero').offsetHeight;
+        let previous = performance.now();
+        for (let i = 0; i < 90; i++) {
+            await new Promise(requestAnimationFrame);
+            const now = performance.now();
+            intervals.push(now - previous);
+            previous = now;
+            scrollTo(0, h * .95 * i / 89);
+        }
+        intervals.sort((a, b) => a - b);
+        return { gpu: extension ? gl.getParameter(extension.UNMASKED_RENDERER_WEBGL) : gl.getParameter(gl.RENDERER), samples: intervals.length, median: intervals[45], p95: intervals[85], graphics: window.__laminaContinuity.graphics };
+    });
+}
+finally {
+    await browser.close();
+}
+console.log(JSON.stringify({ totals, loads: report.loads.map(l => ({ name: l.name, lcp: l.initial.lcp, cls: l.afterScroll.cls })), raf: report.raf }, null, 2));

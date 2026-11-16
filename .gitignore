@@ -7,4 +7,3 @@ playwright-report/
 .env
 .env.*
 !.env.example
-docs/evidencias/.browser-profile/

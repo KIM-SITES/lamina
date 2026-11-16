@@ -7,7 +7,7 @@ export default defineConfig({
     build: { sourcemap: false },
     server: {
       watch: {
-        ignored: ['**/.cache/**', '**/docs/evidencias/**', '**/playwright-report/**', '**/test-results/**', '**/dist/**'],
+        ignored: ['**/.cache/**', '**/playwright-report/**', '**/test-results/**', '**/dist/**'],
       },
     },
   },

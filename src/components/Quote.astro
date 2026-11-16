@@ -1,22 +1,13 @@
 ---
 import { services, propertyTypes } from '../data/content';
 ---
-<section class="quote section-shell" id="orcamento" aria-labelledby="quote-title">
-  <div class="quote-intro">
-    <p class="section-label">Orçamento demonstrativo</p>
-    <h2 id="quote-title">O seu espaço.<br />O próximo mergulho.</h2>
-    <p>Qual possibilidade você gostaria de explorar?</p>
-    <p class="quote-disclaimer">Esta é uma simulação local. Sem dados pessoais, sem envio e sem compromisso.</p>
-  </div>
+<section class="quote wrap" id="orcamento" aria-labelledby="quote-title">
+  <div class="quote-heading"><p>Orçamento demonstrativo</p><h2 id="quote-title">Planeje o<br />próximo passo.</h2><p>Comece pelo que você imagina para o seu espaço.</p></div>
   <form class="quote-form" data-quote-form>
-    <fieldset disabled><legend>Qual serviço você procura?</legend><div class="choice-list">
-      {services.map(service => <label class="choice"><input type="radio" name="servico" value={service.id} required /><span>{service.title}</span><span class="choice-indicator" aria-hidden="true"></span></label>)}
-    </div></fieldset>
-    <fieldset disabled><legend>Para qual tipo de imóvel?</legend><div class="property-choices">
-      {propertyTypes.map(property => <label class="property-choice"><input type="radio" name="imovel" value={property} required /><span>{property}</span></label>)}
-    </div></fieldset>
-    <button class="button button--dark" type="submit" hidden data-quote-submit>Ver resumo <span aria-hidden="true">↗</span></button>
-    <p class="noscript-note" data-quote-noscript>A simulação exige JavaScript. Você pode conhecer todos os serviços e ambientes nesta página. Nenhuma informação será enviada.</p>
-    <div class="quote-result" data-quote-result role="status" aria-live="polite" aria-atomic="true"></div>
+    <fieldset disabled><legend>Qual serviço você procura?</legend><div class="choices">{services.map(service => <label class="choice"><input type="radio" name="servico" value={service.id} required /><span>{service.title}</span><span class="choice-arrow" aria-hidden="true">↗</span></label>)}</div></fieldset>
+    <fieldset disabled><legend>Para qual tipo de imóvel?</legend><div class="properties">{propertyTypes.map(property => <label><input type="radio" name="imovel" value={property} required /><span>{property}</span></label>)}</div></fieldset>
+    <div class="quote-submit"><p>Simulação local, sem valores ou dados pessoais.<br />Nenhuma solicitação será enviada.</p><button type="submit" class="button button-dark" hidden data-quote-submit>Ver resumo <span aria-hidden="true">↗</span></button></div>
+    <p data-quote-noscript>A simulação exige JavaScript. Todos os serviços e ambientes continuam disponíveis; nenhuma informação será enviada.</p>
+    <div class="quote-result" role="status" aria-live="polite" aria-atomic="true" data-quote-result></div>
   </form>
 </section>

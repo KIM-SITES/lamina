@@ -1,0 +1,10 @@
+---
+import type { services } from '../data/content';
+interface Props { service: typeof services[number]; primary?: boolean }
+const { service, primary=false } = Astro.props;
+---
+<article class:list={['service',`service-${service.id}`,{'service-primary':primary}]} aria-labelledby={`service-${service.id}`}>
+  <h3 id={`service-${service.id}`}>{service.title}</h3>
+  <div class="service-detail"><p>{service.description}</p><a tabindex="0" data-select-service={service.id} href="#orcamento">{service.action} <span aria-hidden="true">↗</span></a></div>
+  <slot />
+</article>
